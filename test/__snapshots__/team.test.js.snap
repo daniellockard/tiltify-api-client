@@ -193,7 +193,7 @@ For the kids!",
     "website": "zeldathon.net",
     "youtube": "SuperMCGamer",
   },
-  "totalAmountRaised": 1130,
+  "totalAmountRaised": Any<Number>,
   "url": "https://tiltify.com/+zeldathon-community",
 }
 `;

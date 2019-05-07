@@ -15,7 +15,9 @@ describe('teams tests -', () => {
 
   test('correct Tiltify team returned', done => {
     function callback (data) {
-      expect(data).toMatchSnapshot()
+      expect(data).toMatchSnapshot({
+          totalAmountRaised: expect.any(Number)
+      })
       done()
     }
     this.client.Team.get('459', callback)
