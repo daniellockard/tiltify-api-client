@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`campaign tests - correct Tiltify campaign challenges returned 1`] = `
+Array [
+  Object {
+    "active": true,
+    "amount": 9999999,
+    "campaignId": 19414,
+    "createdAt": 1557261689000,
+    "endsAt": 1570078800000,
+    "id": 5114,
+    "name": "test challenge",
+    "totalAmountRaised": 0,
+    "type": "Challenge",
+    "updatedAt": 1557261709000,
+  },
+]
+`;
+
+exports[`campaign tests - correct Tiltify campaign donations returned 1`] = `
+Array [
+  Object {
+    "amount": 20,
+    "comment": null,
+    "completedAt": 1557252071000,
+    "id": 1073850,
+    "name": "Anonymous",
+    "sustained": false,
+    "updatedAt": 1557252071000,
+  },
+  Object {
+    "amount": 52.97,
+    "comment": "Hey everyone, here's a post-marathon donation, with a convenient 97 cents added to the end to make it a nice number. I'm not sure who's going to read this, but just now that I, along with many, many others, appreciate all the things that you do to make our lives better. Thank you. Thank you so much.",
+    "completedAt": 1557248176000,
+    "id": 1073721,
+    "name": "brewsky93",
+    "sustained": false,
+    "updatedAt": 1557248176000,
+  },
+  Object {
+    "amount": 20,
+    "comment": null,
+    "completedAt": 1557205007000,
+    "id": 1072674,
+    "name": "rinrinringabell",
+    "sustained": false,
+    "updatedAt": 1557205007000,
+  },
+  Object {
+    "amount": 5,
+    "comment": "Very last second, but wanted to make sure to donate, even if it's a little. Wasn't able to watch the whole stream because of work, but had fun with what I did manage to catch. You guys are great.",
+    "completedAt": 1557204927000,
+    "id": 1072670,
+    "name": "UnderdogHero",
+    "sustained": false,
+    "updatedAt": 1557204927000,
+  },
+  Object {
+    "amount": 20,
+    "comment": null,
+    "completedAt": 1557204889000,
+    "id": 1072667,
+    "name": "YoungWinds",
+    "sustained": false,
+    "updatedAt": 1557204889000,
+  },
+  Object {
+    "amount": 5,
+    "comment": "GO TO SLEEP",
+    "completedAt": 1557204782000,
+    "id": 1072666,
+    "name": "Jon's hate",
+    "sustained": false,
+    "updatedAt": 1557204782000,
+  },
+  Object {
+    "amount": 10,
+    "comment": "#LetJonSleep",
+    "completedAt": 1557204758000,
+    "id": 1072665,
+    "name": "darkliger",
+    "sustained": false,
+    "updatedAt": 1557204758000,
+  },
+  Object {
+    "amount": 1,
+    "comment": "I'm Irwiny0 BTW",
+    "completedAt": 1557204723000,
+    "id": 1072664,
+    "name": "Let Mom Jon Sleep",
+    "sustained": false,
+    "updatedAt": 1557204723000,
+  },
+  Object {
+    "amount": 5,
+    "comment": "Hi guys! I just want to say thank you for making this weekend a wonderful weekend and I've started from Chugga's Mario Sunshine lets play and it's been a wonderful adventure since then! Here's a 5 for heading for Jon's wonderful nap and for Colosseum 3!",
+    "completedAt": 1557204716000,
+    "id": 1072663,
+    "name": "Fauxmire",
+    "sustained": false,
+    "updatedAt": 1557204716000,
+  },
+  Object {
+    "amount": 10,
+    "comment": "Thank you all for the 4 days of entertainment. I'm afraid I've missed most of it, but what I did see was a good time. ",
+    "completedAt": 1557204669000,
+    "id": 1072661,
+    "name": "Nathan",
+    "sustained": false,
+    "updatedAt": 1557204669000,
+  },
+]
+`;
+
+exports[`campaign tests - correct Tiltify campaign polls returned 1`] = `
+Array [
+  Object {
+    "active": false,
+    "campaignId": 19414,
+    "createdAt": 1557261675000,
+    "id": 1815,
+    "name": "test poll",
+    "options": Array [
+      Object {
+        "createdAt": 1557261675000,
+        "id": 6104,
+        "name": "a",
+        "pollId": 1815,
+        "totalAmountRaised": 0,
+        "type": "PollOption",
+        "updatedAt": 1557261675000,
+      },
+      Object {
+        "createdAt": 1557261675000,
+        "id": 6105,
+        "name": "b",
+        "pollId": 1815,
+        "totalAmountRaised": 0,
+        "type": "PollOption",
+        "updatedAt": 1557261675000,
+      },
+      Object {
+        "createdAt": 1557261675000,
+        "id": 6106,
+        "name": "c",
+        "pollId": 1815,
+        "totalAmountRaised": 0,
+        "type": "PollOption",
+        "updatedAt": 1557261675000,
+      },
+      Object {
+        "createdAt": 1557261675000,
+        "id": 6107,
+        "name": "d",
+        "pollId": 1815,
+        "totalAmountRaised": 0,
+        "type": "PollOption",
+        "updatedAt": 1557261675000,
+      },
+    ],
+    "type": "Poll",
+    "updatedAt": 1557261675000,
+  },
+]
+`;
+
+exports[`campaign tests - correct Tiltify campaign returned 1`] = `
+Object {
+  "amountRaised": 178159,
+  "avatar": Object {
+    "alt": "",
+    "height": 200,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/cause/avatar/65/image001.png",
+    "width": 200,
+  },
+  "causeId": 65,
+  "description": "Tune in through May 6th as The Runaway Guys and friends raise money for the charity Direct Relief. Every day will feature races, crazy incentives, and live musical performances.
+",
+  "endsAt": 1557187200000,
+  "fundraiserGoalAmount": 100000,
+  "id": 27286,
+  "livestream": Object {
+    "channel": "ProtonJon",
+    "type": "twitch",
+  },
+  "name": "The Runaway Guys Colosseum 2019",
+  "originalFundraiserGoal": 100000,
+  "regionId": null,
+  "slug": "trgc2",
+  "startsAt": 1556323200000,
+  "status": "published",
+  "supportable": false,
+  "supportingAmountRaised": 0,
+  "totalAmountRaised": 178159,
+  "type": "Event",
+  "user": Object {
+    "avatar": Object {
+      "alt": "",
+      "height": 200,
+      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/3634/thumb_Avatar-Apr2016.png",
+      "width": 200,
+    },
+    "id": 3634,
+    "slug": "supermcgamer",
+    "url": "https://tiltify.com/@supermcgamer",
+    "username": "SuperMCgamer",
+  },
+}
+`;
+
+exports[`campaign tests - correct Tiltify campaign rewards returned 1`] = `
+Array [
+  Object {
+    "activatedAt": 1557261661000,
+    "active": true,
+    "alwaysActive": true,
+    "amount": 9999999.99,
+    "campaignId": 19414,
+    "createdAt": 1557261654000,
+    "currency": "USD",
+    "custom": Object {
+      "custom_question": Object {
+        "enabled": "false",
+      },
+      "shipping_address": Object {
+        "enabled": "false",
+      },
+    },
+    "deactivatedAt": null,
+    "description": "test",
+    "endsAt": 0,
+    "fairMarketValue": null,
+    "id": 19088,
+    "image": Object {
+      "alt": "test",
+      "height": 600,
+      "src": "/assets/default-reward-6c82a449532284e1ac03c82fe43b76afa0d153a098f54e4ab0243a61abc5c1b2.png",
+      "width": 600,
+    },
+    "kind": "physical",
+    "name": "test",
+    "quantity": 1,
+    "remaining": 1,
+    "retiredAt": null,
+    "shippingAddressRequired": "false",
+    "shippingNote": null,
+    "startsAt": 0,
+    "type": "Reward",
+    "updatedAt": 1557261654000,
+  },
+]
+`;
+
+exports[`campaign tests - correct Tiltify campaign schedule returned 1`] = `
+Array [
+  Object {
+    "campaignId": 19414,
+    "description": null,
+    "endsAt": null,
+    "id": 18717,
+    "name": "test",
+    "startsAt": 1557205200000,
+  },
+]
+`;
+
+exports[`campaign tests - correct Tiltify campaign supporting campaigns returned 1`] = `Array []`;

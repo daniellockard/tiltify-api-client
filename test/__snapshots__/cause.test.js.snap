@@ -1,0 +1,782 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cause tests - correct Tiltify cause fundraising events returned 1`] = `
+Object {
+  "avatar": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/avatar/45/st-jude-beauty-campaign-avatar-1496354618856.jpg",
+    "width": 64,
+  },
+  "banner": Object {
+    "alt": "",
+    "height": 530,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/banner/45/st-jude-beauty-campaign-banner-1496354403947.jpg",
+    "width": 1440,
+  },
+  "causeId": 35,
+  "contactEmail": "",
+  "description": "This June, our friends in the online beauty space are helping to spread awareness and raise funds for St. Jude Children's Research Hospital. ",
+  "endsAt": "2018-06-30",
+  "fundraiserGoalAmount": 100000,
+  "id": 45,
+  "image": Object {
+    "alt": "",
+    "height": 360,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/image/45/st-jude-beauty-campaign-image-1496355056473.jpg",
+    "width": 640,
+  },
+  "logo": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/logo/45/st-jude-beauty-campaign-logo-1496354612691.png",
+    "width": 100,
+  },
+  "message": "",
+  "name": "St. Jude Beauty Campaign",
+  "parent": Object {
+    "id": 44,
+    "name": "St. Jude Beauty Campaign",
+    "slug": "st-jude-beauty-campaign",
+  },
+  "settings": Object {
+    "colors": Object {
+      "highlight": "#ee3226",
+    },
+    "headerTitle": "Support the Kids of St. Jude",
+    "registrationFields": Object {
+      "address": Object {
+        "enabled": false,
+        "position": 0,
+        "required": false,
+      },
+      "phoneNumber": Object {
+        "enabled": false,
+        "position": 5,
+        "required": false,
+      },
+      "serviceHours": Object {
+        "enabled": false,
+        "position": 2,
+        "required": false,
+      },
+      "shirtSize": Object {
+        "enabled": false,
+        "position": 1,
+        "required": false,
+      },
+    },
+    "visibilityOptions": Object {
+      "donate": Object {
+        "visible": true,
+      },
+      "donorLeaderboard": Object {
+        "type": "ALL",
+        "visible": true,
+      },
+      "endsAt": Object {
+        "visible": true,
+      },
+      "fundraiserGoalAmount": Object {
+        "type": "BOTH",
+        "visible": true,
+      },
+      "individualLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": false,
+      },
+      "preventDonationsBeforeStart": Object {
+        "visible": false,
+      },
+      "regions": Object {
+        "visible": true,
+      },
+      "registration": Object {
+        "visible": false,
+      },
+      "startsAt": Object {
+        "visible": true,
+      },
+      "sustainedGiving": Object {
+        "visible": false,
+      },
+      "sustainedGivingStats": Object {
+        "visible": false,
+      },
+      "teamLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": false,
+      },
+    },
+  },
+  "shortDescription": "Donate to support the kids of St. Jude!",
+  "slug": "st-jude-beauty-campaign",
+  "startsAt": "2017-06-01",
+  "status": "published",
+  "totalAmountRaised": Any<Number>,
+  "type": "FundraisingEvent",
+  "video": null,
+}
+`;
+
+exports[`cause tests - correct Tiltify cause fundraising events returned 2`] = `
+Object {
+  "avatar": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/avatar/50/st-jude-polls-avatar-1500330665175.jpg",
+    "width": 64,
+  },
+  "banner": Object {
+    "alt": "",
+    "height": 530,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/banner/50/st-jude-polls-banner-1500330658223.jpg",
+    "width": 1440,
+  },
+  "causeId": 35,
+  "contactEmail": "Daniel.Anglin@stjude.org",
+  "description": "Show your fun side and help the kids of St. Jude. Poll your friends, family and co-workers to choose how you'll help end childhood cancer. For each vote, they'll make a donation to St. Jude.
+ 
+1. **[Sign up.](https://stjude.tiltify.com/st-jude-polls/start/type)**
+2. Start a new poll under INCENTIVES>POLLS
+3. Outline your poll. (Shave your head, dye your hair, dress in costume, etc!)
+4. Share and ask your friends to vote.
+5. Once all votes are in, do your thing & post a picture or a video.",
+  "endsAt": "2018-06-30",
+  "fundraiserGoalAmount": 0,
+  "id": 50,
+  "image": null,
+  "logo": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/logo/50/st-jude-polls-logo-1500330646480.png",
+    "width": 100,
+  },
+  "message": "Thanks for creating your own St. Jude Poll! Now it’s time to get some votes! Share the poll with your friends, family, co-workers and everyone else!
+ 
+Remember – the more votes you get, the more you’re helping St. Jude continue to find cures for childhood cancer and other life-threatening diseases!",
+  "name": "St. Jude Polls",
+  "parent": Object {
+    "id": 48,
+    "name": "St. Jude Polls",
+    "slug": "st-jude-polls",
+  },
+  "settings": Object {
+    "colors": Object {
+      "background": "#ffffff",
+      "highlight": "#ee3226",
+    },
+    "headerIntro": "Help decide how to help end childhood cancer. Vote or create your own poll today!",
+    "headerTitle": "St. Jude Polls",
+    "registrationFields": Object {
+      "address": Object {
+        "enabled": false,
+        "position": 0,
+        "required": false,
+      },
+      "phoneNumber": Object {
+        "enabled": false,
+        "position": 5,
+        "required": false,
+      },
+      "serviceHours": Object {
+        "enabled": false,
+        "position": 2,
+        "required": false,
+      },
+      "shirtSize": Object {
+        "enabled": false,
+        "position": 1,
+        "required": false,
+      },
+    },
+    "visibilityOptions": Object {
+      "donate": Object {
+        "visible": false,
+      },
+      "donorLeaderboard": Object {
+        "type": "ALL",
+        "visible": true,
+      },
+      "endsAt": Object {
+        "visible": false,
+      },
+      "fundraiserGoalAmount": Object {
+        "type": "BOTH",
+        "visible": false,
+      },
+      "individualLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+      "preventDonationsBeforeStart": Object {
+        "visible": false,
+      },
+      "regions": Object {
+        "visible": true,
+      },
+      "registration": Object {
+        "visible": true,
+      },
+      "startsAt": Object {
+        "visible": false,
+      },
+      "sustainedGiving": Object {
+        "visible": false,
+      },
+      "sustainedGivingStats": Object {
+        "visible": false,
+      },
+      "teamLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+    },
+  },
+  "shortDescription": "Help me decide how to help end childhood cancer. Vote in my poll now!",
+  "slug": "st-jude-polls",
+  "startsAt": "2017-07-17",
+  "status": "published",
+  "totalAmountRaised": Any<Number>,
+  "type": "FundraisingEvent",
+  "video": "https://www.youtube.com/watch?v=oHrb_EppWag",
+}
+`;
+
+exports[`cause tests - correct Tiltify cause fundraising events returned 3`] = `
+Object {
+  "avatar": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/avatar/51/smash-the-record-2017-avatar-1500488827790.jpg",
+    "width": 64,
+  },
+  "banner": Object {
+    "alt": "",
+    "height": 530,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/banner/51/smash-the-record-2017-banner-1500489120985.jpg",
+    "width": 1440,
+  },
+  "causeId": 35,
+  "contactEmail": null,
+  "description": "Smash The Record is a yearly Super Smash Bros. & Speedrunning charity event benefitting St. Jude Children's Research Hospital. Since 2014, STR has raised over $115,000 for St. Jude!
+
+Create your own campaign!
+
+The top three (3) individual organizations or influencers who raise the most money for STR 2017 before September 11th, 2017 will have their branding associated with STR 2017 (emotes/sprites included in event logo, event streams, and other areas as well)! 
+
+Good luck with your campaign!",
+  "endsAt": "2017-09-24",
+  "fundraiserGoalAmount": 100000,
+  "id": 51,
+  "image": null,
+  "logo": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/logo/51/smash-the-record-2017-logo-1500488833845.png",
+    "width": 100,
+  },
+  "message": "",
+  "name": "Smash the Record 2017",
+  "parent": Object {
+    "id": 22,
+    "name": "Smash the Record",
+    "slug": "smash-the-record",
+  },
+  "settings": Object {
+    "headerIntro": "Help others and earn awesome rewards along the way! #STR2017",
+    "headerTitle": "Smash the Record 2017",
+    "registrationFields": Object {
+      "address": Object {
+        "enabled": false,
+        "position": 0,
+        "required": false,
+      },
+      "phoneNumber": Object {
+        "enabled": false,
+        "position": 5,
+        "required": false,
+      },
+      "serviceHours": Object {
+        "enabled": false,
+        "position": 2,
+        "required": false,
+      },
+      "shirtSize": Object {
+        "enabled": false,
+        "position": 1,
+        "required": false,
+      },
+    },
+    "visibilityOptions": Object {
+      "donate": Object {
+        "visible": true,
+      },
+      "donorLeaderboard": Object {
+        "type": "ALL",
+        "visible": true,
+      },
+      "endsAt": Object {
+        "visible": true,
+      },
+      "fundraiserGoalAmount": Object {
+        "type": "BOTH",
+        "visible": true,
+      },
+      "individualLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+      "preventDonationsBeforeStart": Object {
+        "visible": false,
+      },
+      "regions": Object {
+        "visible": true,
+      },
+      "registration": Object {
+        "visible": true,
+      },
+      "startsAt": Object {
+        "visible": true,
+      },
+      "sustainedGiving": Object {
+        "visible": false,
+      },
+      "sustainedGivingStats": Object {
+        "visible": false,
+      },
+      "teamLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+    },
+  },
+  "shortDescription": null,
+  "slug": "smash-the-record-2017",
+  "startsAt": "2017-08-07",
+  "status": "published",
+  "totalAmountRaised": Any<Number>,
+  "type": "FundraisingEvent",
+  "video": "https://www.youtube.com/watch?v=8Tr4ToXqLxE",
+}
+`;
+
+exports[`cause tests - correct Tiltify cause fundraising events returned 4`] = `
+Object {
+  "avatar": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/avatar/117/guardiancon-avatar-1542749564357.jpg",
+    "width": 64,
+  },
+  "banner": Object {
+    "alt": "",
+    "height": 530,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/banner/117/guardiancon-banner-1542900446347.jpg",
+    "width": 1440,
+  },
+  "causeId": 35,
+  "contactEmail": "jason.heitman@stjude.org",
+  "description": "GuardianCon is a community based, charity event. A large community of like-hearted gamers coming together to make the world a better place. Grown at the roots in the Destiny community, we have grown and continue to grow the community, in hopes of creating a larger charitable footprint for years to come.",
+  "endsAt": "2019-11-21",
+  "fundraiserGoalAmount": 3000000,
+  "id": 117,
+  "image": null,
+  "logo": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/logo/117/guardiancon-logo-1542749551717.png",
+    "width": 100,
+  },
+  "message": "Thank you for fundraising for GuardianCon! We're aiming to raise $3,000,000 for the kids of St. Jude, and need all the help we can get.",
+  "name": "GuardianCon",
+  "parent": Object {
+    "id": 43,
+    "name": "GuardianCon",
+    "slug": "guardiancon",
+  },
+  "settings": Object {
+    "colors": Object {
+      "background": "#1d0f42",
+      "highlight": "#36edfc",
+    },
+    "headerIntro": "A community event to benefit the kids of St. Jude.",
+    "headerTitle": "GuardianCon 2019",
+    "registrationFields": Object {
+      "address": Object {
+        "enabled": true,
+        "position": 0,
+        "required": true,
+      },
+      "phoneNumber": Object {
+        "enabled": true,
+        "position": 5,
+        "required": true,
+      },
+      "serviceHours": Object {
+        "enabled": false,
+        "position": 2,
+        "required": false,
+      },
+      "shirtSize": Object {
+        "enabled": true,
+        "position": 1,
+        "required": false,
+      },
+    },
+    "visibilityOptions": Object {
+      "donate": Object {
+        "visible": true,
+      },
+      "donorLeaderboard": Object {
+        "type": "ALL",
+        "visible": true,
+      },
+      "endsAt": Object {
+        "visible": true,
+      },
+      "fundraiserGoalAmount": Object {
+        "type": "BOTH",
+        "visible": true,
+      },
+      "individualLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+      "preventDonationsBeforeStart": Object {
+        "visible": false,
+      },
+      "regions": Object {
+        "visible": true,
+      },
+      "registration": Object {
+        "visible": true,
+      },
+      "startsAt": Object {
+        "visible": true,
+      },
+      "sustainedGiving": Object {
+        "visible": true,
+      },
+      "sustainedGivingStats": Object {
+        "visible": false,
+      },
+      "teamLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+    },
+  },
+  "shortDescription": "GuardianCon is a community based, charity event. A large community of like-hearted gamers coming together to make the world a better place.",
+  "slug": "guardiancon",
+  "startsAt": "2018-11-22",
+  "status": "published",
+  "totalAmountRaised": Any<Number>,
+  "type": "FundraisingEvent",
+  "video": "https://www.youtube.com/watch?v=dQ-W_2C6qMg",
+}
+`;
+
+exports[`cause tests - correct Tiltify cause fundraising events returned 5`] = `
+Object {
+  "avatar": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/avatar/136/playlive-avatar-1553962049542.jpg",
+    "width": 64,
+  },
+  "banner": Object {
+    "alt": "",
+    "height": 530,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/banner/136/playlive-banner-1553961594251.jpg",
+    "width": 1440,
+  },
+  "causeId": 35,
+  "contactEmail": "playlive@stjude.org",
+  "description": "Sign up to create your own campaign and start fundraising. Play and stream your favorite video games to raise donations and unlock exclusive loot.
+
+### Play For More Than Bragging Rights
+
+St. Jude has helped push the childhood cancer survival rate from less than 20% when we opened to 80% today. We won’t stop until no child dies from cancer.
+
+### [Click here to find out more!](https://goo.gl/eYovUq)",
+  "endsAt": "2020-03-31",
+  "fundraiserGoalAmount": 2000000,
+  "id": 136,
+  "image": Object {
+    "alt": "",
+    "height": 360,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/image/136/playlive-image-1553961729635.jpg",
+    "width": 640,
+  },
+  "logo": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/logo/136/playlive-logo-1553961912243.png",
+    "width": 100,
+  },
+  "message": "### Welcome to the 2019 St. Jude PLAY LIVE Prize Season!
+
+Fundraising kicks off on Friday, April 26. Right now set up your fundraising page & start spreading the word! 
+
+[Click here](https://goo.gl/RKwlV2) to find out about this year’s prizes from our sponsors!
+
+Don’t forget that you can integrate your Tiltify account with Stream Labs or StreamJar to get access to stream overlays. [Find out more here](http://bit.ly/2dIhfqc).
+
+Follow @stjudeplaylive for more tips and info!",
+  "name": "St. Jude PLAY LIVE",
+  "parent": Object {
+    "id": 39,
+    "name": "St. Jude PLAY LIVE",
+    "slug": "playlive",
+  },
+  "settings": Object {
+    "colors": Object {
+      "background": "#000000",
+      "highlight": "#bf0d3e",
+    },
+    "headerIntro": "Start a campaign, play games, raise funds, win prizes and help kids battling childhood cancer.",
+    "headerTitle": "St. Jude PLAY LIVE",
+    "registrationFields": Object {
+      "address": Object {
+        "enabled": true,
+        "position": 0,
+        "required": true,
+      },
+      "phoneNumber": Object {
+        "enabled": true,
+        "position": 5,
+        "required": true,
+      },
+      "serviceHours": Object {
+        "enabled": false,
+        "position": 2,
+        "required": false,
+      },
+      "shirtSize": Object {
+        "enabled": true,
+        "position": 1,
+        "required": true,
+      },
+    },
+    "visibilityOptions": Object {
+      "donate": Object {
+        "visible": true,
+      },
+      "donorLeaderboard": Object {
+        "visible": true,
+      },
+      "endsAt": Object {
+        "visible": true,
+      },
+      "fundraiserGoalAmount": Object {
+        "type": "BOTH",
+        "visible": true,
+      },
+      "individualLeaderboard": Object {
+        "heat": true,
+        "type": "ALL",
+        "visible": true,
+      },
+      "preventDonationsBeforeStart": Object {
+        "visible": false,
+      },
+      "regions": Object {
+        "visible": true,
+      },
+      "registration": Object {
+        "visible": true,
+      },
+      "startsAt": Object {
+        "visible": true,
+      },
+      "sustainedGiving": Object {
+        "visible": true,
+      },
+      "sustainedGivingStats": Object {
+        "visible": false,
+      },
+      "teamLeaderboard": Object {
+        "heat": true,
+        "type": "ALL",
+        "visible": true,
+      },
+    },
+  },
+  "shortDescription": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
+  "slug": "playlive",
+  "startsAt": "2019-04-01",
+  "status": "published",
+  "totalAmountRaised": Any<Number>,
+  "type": "FundraisingEvent",
+  "video": "https://www.youtube.com/watch?v=kSqVRLA75co",
+}
+`;
+
+exports[`cause tests - correct Tiltify cause leaderboards returned 1`] = `Object {}`;
+
+exports[`cause tests - correct Tiltify cause permissions returned 1`] = `
+Object {
+  "activated": true,
+  "adminApiEnabled": true,
+  "adminBrandingColors": false,
+  "adminBrandingDetails": false,
+  "adminBrandingEnabled": true,
+  "adminBrandingImages": false,
+  "adminEnabled": true,
+  "adminFinanceEnabled": true,
+  "adminGeneralEnabled": true,
+  "adminIntegrationsEnabled": true,
+  "adminVisibilityEnabled": true,
+  "causeLeaderboard": true,
+  "customizedDonationForm": true,
+  "dashboardChart": true,
+  "dashboardEnabled": true,
+  "fundraisingEventRewards": false,
+  "fundraisingEventsEnabled": true,
+  "fundraisingEventsGeneralColors": true,
+  "fundraisingEventsGeneralDetails": true,
+  "fundraisingEventsGeneralEnabled": true,
+  "fundraisingEventsGeneralImages": false,
+  "fundraisingEventsIncentives": true,
+  "fundraisingEventsLeaderboard": true,
+  "fundraisingEventsMultipleActive": true,
+  "fundraisingEventsRegistrationEnabled": true,
+  "fundraisingEventsReporting": false,
+  "fundraisingEventsReportingCampaigns": false,
+  "fundraisingEventsReportingDonations": false,
+  "fundraisingEventsReportingFundraisers": false,
+  "fundraisingEventsSchedule": true,
+  "fundraisingEventsUnlimitedActive": true,
+  "fundraisingEventsVisibilityDetails": true,
+  "fundraisingEventsVisibilityEnabled": true,
+  "fundraisingEventsVisibilityLeaderboards": true,
+  "globalRewardsEnabled": true,
+  "heatindexLeaderboards": true,
+  "managementEnabled": true,
+  "monthlyGivingRewards": true,
+  "paypalMarketplace": false,
+  "regions": false,
+  "reportingCampaigns": true,
+  "reportingChart": true,
+  "reportingDonations": true,
+  "reportingEnabled": true,
+  "reportingFundraisers": true,
+  "reportingGlobalRewards": true,
+  "reportingSustainedGiving": true,
+  "sustainedGivingEnabled": true,
+}
+`;
+
+exports[`cause tests - correct Tiltify cause returned 1`] = `
+Object {
+  "about": "* St. Jude Children's Research Hospital is leading the way the
+world understands, treats and defeats childhood cancer and other
+life-threatening diseases.  
+* Your support helps ensure that families never receive a bill
+from St. Jude for treatment, travel, housing or food -- because all a family
+should worry about is helping their child live.  
+* St. Jude has helped push the childhood cancer survival rate
+from less than 20% when we opened to 80% today. We won't stop until no child
+dies from cancer.",
+  "address": Object {
+    "addressLine1": "262 DANNY THOMAS PL MSC 512",
+    "addressLine2": "",
+    "city": "MEMPHIS",
+    "country": "US",
+    "postalCode": "38105-3678",
+    "region": "TN",
+  },
+  "amazonPayConnected": true,
+  "avatar": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/cause/avatar/35/st-jude-children-s-research-hospital-avatar-1491406230184.png",
+    "width": 64,
+  },
+  "banner": Object {
+    "alt": "",
+    "height": 530,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/cause/banner/35/st-jude-children-s-research-hospital-banner-1491406190935.jpg",
+    "width": 1440,
+  },
+  "contactEmail": "playlive@stjude.org",
+  "edd": true,
+  "id": 35,
+  "image": Object {
+    "alt": "",
+    "height": 360,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/cause/image/35/media_graphic.png",
+    "width": 640,
+  },
+  "legalName": "ST JUDE CHILDRENS RESEARCH HOSPITAL INC",
+  "logo": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/cause/logo/35/st-jude-children-s-research-hospital-logo-1491406225517.jpg",
+    "width": 100,
+  },
+  "mailchimpConnected": false,
+  "name": "St. Jude Children's Research Hospital ",
+  "paypalCurrencyCode": "USD",
+  "paypalEmail": "playlive@stjude.org",
+  "paypalMarketplaceConnected": false,
+  "paypalMarketplaceEnabled": false,
+  "phoneNumber": "",
+  "planTier": 4,
+  "settings": Object {
+    "colors": Object {
+      "background": "#fff",
+      "highlight": "#ce2f40",
+    },
+    "findOutMoreLink": "https://stjude.org/get-involved/at-play/video-game-charity-event.html#getstarted",
+    "footerCopyright": "© Copyright 2017. St. Jude Children's Research Hospital, a not-for-profit, section 501 (c)(3) corporation. 
+St. Jude Children's Research Hospital/ ALSAC, 501 St. Jude Place, Memphis, TN 38105 USA",
+    "footerLinks": Object {
+      "coppa": "http://fundraising.stjude.org/site/PageServer?pagename=COPPA",
+      "privacyPolicy": null,
+      "termsAndConditions": null,
+    },
+    "headerIntro": "Start a fundraising campaign to help us end childhood cancer.",
+    "headerTitle": "St. Jude Children's Research Hospital",
+    "loading": false,
+    "social": null,
+  },
+  "slug": "st-jude-children-s-research-hospital",
+  "social": Object {
+    "facebook": "stjude",
+    "instagram": "stjude",
+    "twitter": "stjudeplaylive",
+    "youtube": "",
+  },
+  "status": "published",
+  "stripeConnected": true,
+  "type": "Cause",
+  "video": "https://www.youtube.com/watch?v=yqUDZKEltC0",
+}
+`;
+
+exports[`cause tests - correct Tiltify cause visibility options returned 1`] = `
+Object {
+  "donate": Object {
+    "visible": true,
+  },
+  "individualLeaderboard": Object {
+    "visible": true,
+  },
+  "regions": Object {
+    "visible": false,
+  },
+  "teamLeaderboard": Object {
+    "visible": true,
+  },
+}
+`;

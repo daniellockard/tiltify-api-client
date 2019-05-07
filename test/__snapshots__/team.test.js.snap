@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`teams tests - correct Tiltify team campaign returned 1`] = `
+Object {
+  "amountRaised": 0,
+  "avatar": Object {
+    "alt": "",
+    "height": 200,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/event/thumbnail/27490/df382276-0ee0-4687-b09d-ea22ed1939f1.jpeg",
+    "width": 200,
+  },
+  "causeId": 35,
+  "description": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
+  "endsAt": 1585612800000,
+  "fundraiserGoalAmount": 5000,
+  "fundraisingEventId": 136,
+  "id": 27490,
+  "livestream": Object {
+    "channel": "lizerdoo",
+    "type": "twitch",
+  },
+  "name": "ZthonPlayLive2019",
+  "originalFundraiserGoal": 5000,
+  "regionId": null,
+  "slug": "zthonplaylive2019",
+  "startsAt": 1556496000000,
+  "status": "published",
+  "supportable": true,
+  "supportingAmountRaised": 853,
+  "team": Object {
+    "avatar": Object {
+      "alt": "",
+      "height": 200,
+      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/459/thumb_Z.jpg",
+      "width": 200,
+    },
+    "id": 459,
+    "name": "Zeldathon Community",
+    "slug": "zeldathon-community",
+    "url": "https://tiltify.com/+zeldathon-community",
+  },
+  "teamId": 459,
+  "totalAmountRaised": 853,
+  "type": "Event",
+  "user": Object {
+    "avatar": Object {
+      "alt": "",
+      "height": 200,
+      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/6810/thumb_ALizerdooTTP.png",
+      "width": 200,
+    },
+    "id": 6810,
+    "slug": "lizerdoo",
+    "url": "https://tiltify.com/@lizerdoo",
+    "username": "Lizerdoo",
+  },
+}
+`;
+
+exports[`teams tests - correct Tiltify team campaigns returned 1`] = `
+Array [
+  Object {
+    "amountRaised": 0,
+    "avatar": Object {
+      "alt": "",
+      "height": 200,
+      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/event/thumbnail/27490/df382276-0ee0-4687-b09d-ea22ed1939f1.jpeg",
+      "width": 200,
+    },
+    "causeId": 35,
+    "description": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
+    "endsAt": 1585612800000,
+    "fundraiserGoalAmount": 5000,
+    "fundraisingEventId": 136,
+    "id": 27490,
+    "livestream": Object {
+      "channel": "lizerdoo",
+      "type": "twitch",
+    },
+    "name": "ZthonPlayLive2019",
+    "originalFundraiserGoal": 5000,
+    "regionId": null,
+    "slug": "zthonplaylive2019",
+    "startsAt": 1556496000000,
+    "status": "published",
+    "supportable": true,
+    "supportingAmountRaised": 853,
+    "team": Object {
+      "avatar": Object {
+        "alt": "",
+        "height": 200,
+        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/459/thumb_Z.jpg",
+        "width": 200,
+      },
+      "id": 459,
+      "name": "Zeldathon Community",
+      "slug": "zeldathon-community",
+      "url": "https://tiltify.com/+zeldathon-community",
+    },
+    "teamId": 459,
+    "totalAmountRaised": 853,
+    "type": "Event",
+    "user": Object {
+      "avatar": Object {
+        "alt": "",
+        "height": 200,
+        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/6810/thumb_ALizerdooTTP.png",
+        "width": 200,
+      },
+      "id": 6810,
+      "slug": "lizerdoo",
+      "url": "https://tiltify.com/@lizerdoo",
+      "username": "Lizerdoo",
+    },
+  },
+  Object {
+    "amountRaised": 225,
+    "avatar": Object {
+      "alt": "",
+      "height": 200,
+      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/event/thumbnail/13067/Z.jpg",
+      "width": 200,
+    },
+    "causeId": 35,
+    "description": "Play video games and create a fundraising campaign to help kids battling cancer.",
+    "endsAt": 1554076800000,
+    "fundraiserGoalAmount": 5000,
+    "fundraisingEventId": 81,
+    "id": 13067,
+    "livestream": Object {
+      "channel": "Lizerdoo",
+      "type": "twitch",
+    },
+    "name": "Zeldathon Community PLAYLIVE 2018",
+    "originalFundraiserGoal": 5000,
+    "regionId": null,
+    "slug": "zeldathon-community-playlive-2018",
+    "startsAt": 1522627200000,
+    "status": "retired",
+    "supportable": true,
+    "supportingAmountRaised": 52,
+    "team": Object {
+      "avatar": Object {
+        "alt": "",
+        "height": 200,
+        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/459/thumb_Z.jpg",
+        "width": 200,
+      },
+      "id": 459,
+      "name": "Zeldathon Community",
+      "slug": "zeldathon-community",
+      "url": "https://tiltify.com/+zeldathon-community",
+    },
+    "teamId": 459,
+    "totalAmountRaised": 277,
+    "type": "Event",
+    "user": Object {
+      "avatar": Object {
+        "alt": "",
+        "height": 200,
+        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/6810/thumb_ALizerdooTTP.png",
+        "width": 200,
+      },
+      "id": 6810,
+      "slug": "lizerdoo",
+      "url": "https://tiltify.com/@lizerdoo",
+      "username": "Lizerdoo",
+    },
+  },
+]
+`;
+
+exports[`teams tests - correct Tiltify team returned 1`] = `
+Object {
+  "about": "Zeldathon loves St Jude, and has raised over $500,000 with our marathons supporting them so far. Join us as we venture forth!
+For the kids!",
+  "avatar": Object {
+    "alt": "",
+    "height": 200,
+    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/459/thumb_Z.jpg",
+    "width": 200,
+  },
+  "id": 459,
+  "inviteOnly": false,
+  "name": "Zeldathon Community",
+  "slug": "zeldathon-community",
+  "social": Object {
+    "discord": null,
+    "facebook": "Zeldathon",
+    "mixer": null,
+    "twitch": "SuperMCGamer",
+    "twitter": "@Zeldathons",
+    "website": "zeldathon.net",
+    "youtube": "SuperMCGamer",
+  },
+  "totalAmountRaised": 1130,
+  "url": "https://tiltify.com/+zeldathon-community",
+}
+`;
