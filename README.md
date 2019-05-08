@@ -1,6 +1,11 @@
 # tiltify-api
 
-use it by doing something like
+## To install
+* `npm i --save @danielhlockard/tiltify-api`
+
+## To use
+
+You can use this library like this:
 
 ```javascript
 const TiltifyClient = require("@danielhlockard/tiltify-api")
@@ -12,10 +17,10 @@ client.Campaigns.get("27286", function (data) {
 })
 ```
 
-functions are passed a callback when the data is returned.
+Functions are passed a callback to be called when the data is returned.
 
-The above will print the data about Campaign with ID 27286.
+The above example will print the data about Campaign with ID 27286.
 
-Only use client.Campaigns.getDonations to do analysis on the donations. Pulling all the donations from a large campaign can take a while.
+Only use client.Campaigns.getDonations(id) to do analysis on the donations. Pulling all the donations from a large campaign can take a while. Tiltify requests that you get 100 at a time, max.
 
-Use client.Campaigns.getRecentDonations("27286") to get the most recent 10. this saves on bandwidth and processing time.
+Use client.Campaigns.getRecentDonations(id) to get the most recent 10. This saves on bandwidth and processing time.
