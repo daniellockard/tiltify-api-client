@@ -25,7 +25,12 @@ describe('teams tests -', () => {
 
   test('correct Tiltify team campaigns returned', done => {
     function callback (data) {
-      expect(data).toMatchSnapshot()
+      data.forEach(element => {
+        expect(element).toMatchSnapshot({
+          totalAmountRaised: expect.any(Number),
+          supportingAmountRaised: expect.any(Number)
+        })
+      });
       done()
     }
     this.client.Team.getCampaigns('459', callback)
