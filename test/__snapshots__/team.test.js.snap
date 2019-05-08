@@ -26,7 +26,7 @@ Object {
   "startsAt": 1556496000000,
   "status": "published",
   "supportable": true,
-  "supportingAmountRaised": 853,
+  "supportingAmountRaised": Any<Number>,
   "team": Object {
     "avatar": Object {
       "alt": "",
@@ -40,7 +40,7 @@ Object {
     "url": "https://tiltify.com/+zeldathon-community",
   },
   "teamId": 459,
-  "totalAmountRaised": 853,
+  "totalAmountRaised": Any<Number>,
   "type": "Event",
   "user": Object {
     "avatar": Object {
@@ -84,7 +84,7 @@ Array [
     "startsAt": 1556496000000,
     "status": "published",
     "supportable": true,
-    "supportingAmountRaised": 853,
+    "supportingAmountRaised": 950.04,
     "team": Object {
       "avatar": Object {
         "alt": "",
@@ -98,7 +98,7 @@ Array [
       "url": "https://tiltify.com/+zeldathon-community",
     },
     "teamId": 459,
-    "totalAmountRaised": 853,
+    "totalAmountRaised": 950.04,
     "type": "Event",
     "user": Object {
       "avatar": Object {

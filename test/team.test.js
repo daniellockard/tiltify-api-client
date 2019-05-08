@@ -33,7 +33,10 @@ describe('teams tests -', () => {
 
   test('correct Tiltify team campaign returned', done => {
     function callback (data) {
-      expect(data).toMatchSnapshot()
+      expect(data).toMatchSnapshot({
+        totalAmountRaised: expect.any(Number),
+        supportingAmountRaised: expect.any(Number)
+      })
       done()
     }
     this.client.Team.getCampaign('459', '27490', callback)

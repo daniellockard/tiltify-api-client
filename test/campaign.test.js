@@ -6,10 +6,21 @@ describe('campaign tests -', () => {
 
   test('correct Tiltify campaign returned', done => {
     function callback (data) {
-      expect(data).toMatchSnapshot()
+      expect(data).toMatchSnapshot({
+        amountRaised: expect.any(Number),
+        totalAmountRaised: expect.any(Number)
+      })
       done()
     }
     this.client.Campaigns.get('27286', callback)
+  })
+
+  test('correct Tiltify campaign recent donations returned', done => {
+    function callback (data) {
+      expect(data).toMatchSnapshot()
+      done()
+    }
+    this.client.Campaigns.getRecentDonations('27286', callback)
   })
 
   test('correct Tiltify campaign donations returned', done => {
@@ -17,8 +28,8 @@ describe('campaign tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.Campaigns.getRecentDonations('27286', callback)
-  })
+    this.client.Campaigns.getDonations('27286', callback)
+  }, 100000)
 
   test('correct Tiltify campaign rewards returned', done => {
     function callback (data) {
