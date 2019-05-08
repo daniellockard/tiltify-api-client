@@ -1,7 +1,7 @@
 # tiltify-api
 
 ## To install
-* `npm i --save @danielhlockard/tiltify-api`
+* ```npm i --save @danielhlockard/tiltify-api```
 
 ## To use
 
