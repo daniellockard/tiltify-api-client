@@ -1,4 +1,4 @@
-const request = require('request-promise');
+const request = require('request-promise')
 const Campaign = require('./lib/campaign')
 const Cause = require('./lib/cause')
 const FundraisingEvent = require('./lib/fundraisingEvents')
@@ -16,7 +16,7 @@ class TiltifyClient {
     this.accumulatedData = []
   }
 
-  async _doRequest(path) {
+  async _doRequest (path) {
     const url = `https://tiltify.com/api/v3/${path}`
     const options = {
       url: url,
@@ -24,7 +24,7 @@ class TiltifyClient {
         'Authorization': `Bearer ${this.apiKey}`
       }
     }
-    let payload = await request(options);
+    let payload = await request(options)
     return payload
   }
 
@@ -34,8 +34,8 @@ class TiltifyClient {
     while (keepGoing) {
       let response = await this._doRequest(path)
       const parsedBody = JSON.parse(response)
-      if (parsedBody.links !== undefined && parsedBody.links.prev !== undefined ) {
-        path = parsedBody.links.prev.replace("/api/v3/", "")
+      if (parsedBody.links !== undefined && parsedBody.links.prev !== undefined) {
+        path = parsedBody.links.prev.replace('/api/v3/', '')
       } else {
         keepGoing = false
         callback(parsedBody.data)
@@ -43,19 +43,16 @@ class TiltifyClient {
       }
       await results.push(parsedBody.data)
       if (parsedBody.data.length == 0) {
-        keepGoing = false;
+        keepGoing = false
         let concatResults = []
         results.forEach(block => {
           block.forEach(element => {
             concatResults.push(element)
-          });
-        });
-        callback(concatResults);
+          })
+        })
+        callback(concatResults)
       }
-
     }
   }
-  
- 
 }
 module.exports = TiltifyClient
