@@ -11,7 +11,7 @@ describe('fundraising event tests -', () => {
       })
       done()
     }
-    this.client.FundraisingEvent.get('136', callback)
+    this.client.FundraisingEvents.get('136', callback)
   })
 
   test.skip('correct Tiltify fundraising event donations returned', done => {
@@ -19,7 +19,7 @@ describe('fundraising event tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.FundraisingEvent.getDonations('136', callback)
+    this.client.FundraisingEvents.getDonations('136', callback)
   })
 
   test('correct Tiltify fundraising event incentives returned', done => {
@@ -27,7 +27,7 @@ describe('fundraising event tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.FundraisingEvent.getIncentives('136', callback)
+    this.client.FundraisingEvents.getIncentives('136', callback)
   })
 
   test('correct Tiltify fundraising event leaderboards returned', done => {
@@ -39,7 +39,7 @@ describe('fundraising event tests -', () => {
       })
       done()
     }
-    this.client.FundraisingEvent.getLeaderboards('136', callback)
+    this.client.FundraisingEvents.getLeaderboards('136', callback)
   })
 
   test.skip('correct Tiltify fundraising event registrations returned', done => {
@@ -55,7 +55,7 @@ describe('fundraising event tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.FundraisingEvent.getRegistrationFields('136', callback)
+    this.client.FundraisingEvents.getRegistrationFields('136', callback)
   })
 
   test.skip('correct Tiltify fundraising event visibility options returned', done => {
@@ -63,6 +63,6 @@ describe('fundraising event tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.FundraisingEvent.getVisibilityOptions('136', callback)
+    this.client.FundraisingEvents.getVisibilityOptions('136', callback)
   })
 })

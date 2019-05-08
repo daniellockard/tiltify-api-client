@@ -29,7 +29,7 @@ describe('campaign tests -', () => {
       done()
     }
     this.client.Campaigns.getDonations('27286', callback)
-  }, 100000)
+  }, 1000000)
 
   test('correct Tiltify campaign rewards returned', done => {
     function callback (data) {

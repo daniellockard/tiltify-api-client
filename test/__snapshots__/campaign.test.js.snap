@@ -20,6 +20,15 @@ Array [
 exports[`campaign tests - correct Tiltify campaign donations returned 1`] = `
 Array [
   Object {
+    "amount": 10,
+    "comment": null,
+    "completedAt": 1557334501000,
+    "id": 1076949,
+    "name": "Lilly",
+    "sustained": false,
+    "updatedAt": 1557334501000,
+  },
+  Object {
     "amount": 50,
     "comment": "Sweet I can still donate to Direct Relief! Doing this now because I missed the whole event do to work. Also it seems fitting given the Screen Name I use. Hope everything went well, and Best Wishes on the move for Jon and Lucah.",
     "completedAt": 1557273619000,
@@ -944,15 +953,6 @@ LET THE FUNNY STEVE PIKMIN MAN SPRAY THE MAN WHO LIKES MY.....BROTHER? COUSIN? "
     "completedAt": 1557203317000,
     "id": 1072542,
     "name": "Wario of Wario Ware Inc.",
-    "sustained": false,
-    "updatedAt": 1557203317000,
-  },
-  Object {
-    "amount": 10,
-    "comment": "West couch? What about benches? Thanks for the fun times this year, wish I could donate more. ",
-    "completedAt": 1557203317000,
-    "id": 1072538,
-    "name": "BigKlingy",
     "sustained": false,
     "updatedAt": 1557203317000,
   },
@@ -48881,7 +48881,7 @@ Object {
   "causeId": 65,
   "description": "Tune in through May 6th as The Runaway Guys and friends raise money for the charity Direct Relief. Every day will feature races, crazy incentives, and live musical performances.
 ",
-  "endsAt": 1557187200000,
+  "endsAt": 1558137600000,
   "fundraiserGoalAmount": 100000,
   "id": 27286,
   "livestream": Object {

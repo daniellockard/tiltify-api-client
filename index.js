@@ -85,7 +85,7 @@ class TiltifyClient {
         parsedBody.links !== undefined &&
         parsedBody.links.prev !== undefined
       ) {
-        path = parsedBody.links.prev.replace("/api/v3/", "");
+        path = parsedBody.links.prev.replace("/api/v3/", "").replace("count=100", "count=500");
       } else {
         keepGoing = false;
         callback(parsedBody.data);
