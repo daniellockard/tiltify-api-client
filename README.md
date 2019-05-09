@@ -1,17 +1,17 @@
-# tiltify-api
+# tiltify-api-client
 
 ## Docs
-[@danielhlockard/tiltify-api docs](https://daniellockard.github.io/tiltify-api/)
+[tiltify-api-client docs](https://daniellockard.github.io/tiltify-api-client/)
 
 ## To install
-* `npm i --save @danielhlockard/tiltify-api`
+* `npm i --save tiltify-api-client`
 
 ## To use
 
 You can use this library like this:
 
 ```javascript
-const TiltifyClient = require("@danielhlockard/tiltify-api")
+const TiltifyClient = require("tiltify-api-client")
 
 client = new TiltifyClient(process.env.TILTIFY_ACCESS_TOKEN)
 
