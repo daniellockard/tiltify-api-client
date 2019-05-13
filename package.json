@@ -1,6 +1,6 @@
 {
   "name": "tiltify-api-client",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A client for getting data from Tiltify",
   "main": "index.js",
   "scripts": {
