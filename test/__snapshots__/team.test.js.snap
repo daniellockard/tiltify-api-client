@@ -6,7 +6,7 @@ Object {
   "avatar": Object {
     "alt": "",
     "height": 200,
-    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/event/thumbnail/27490/df382276-0ee0-4687-b09d-ea22ed1939f1.jpeg",
+    "src": "https://assets.tiltify.com/uploads/event/thumbnail/27490/df382276-0ee0-4687-b09d-ea22ed1939f1.jpeg",
     "width": 200,
   },
   "causeId": 35,
@@ -31,7 +31,7 @@ Object {
     "avatar": Object {
       "alt": "",
       "height": 200,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/459/thumb_Z.jpg",
+      "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/thumb_Z.jpg",
       "width": 200,
     },
     "id": 459,
@@ -46,7 +46,7 @@ Object {
     "avatar": Object {
       "alt": "",
       "height": 200,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/6810/thumb_ALizerdooTTP.png",
+      "src": "https://assets.tiltify.com/uploads/user/thumbnail/6810/thumb_ALizerdooTTP.png",
       "width": 200,
     },
     "id": 6810,
@@ -63,7 +63,7 @@ Object {
   "avatar": Object {
     "alt": "",
     "height": 200,
-    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/event/thumbnail/27490/df382276-0ee0-4687-b09d-ea22ed1939f1.jpeg",
+    "src": "https://assets.tiltify.com/uploads/event/thumbnail/27490/df382276-0ee0-4687-b09d-ea22ed1939f1.jpeg",
     "width": 200,
   },
   "causeId": 35,
@@ -88,7 +88,7 @@ Object {
     "avatar": Object {
       "alt": "",
       "height": 200,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/459/thumb_Z.jpg",
+      "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/thumb_Z.jpg",
       "width": 200,
     },
     "id": 459,
@@ -103,7 +103,7 @@ Object {
     "avatar": Object {
       "alt": "",
       "height": 200,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/6810/thumb_ALizerdooTTP.png",
+      "src": "https://assets.tiltify.com/uploads/user/thumbnail/6810/thumb_ALizerdooTTP.png",
       "width": 200,
     },
     "id": 6810,
@@ -120,7 +120,7 @@ Object {
   "avatar": Object {
     "alt": "",
     "height": 200,
-    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/event/thumbnail/13067/Z.jpg",
+    "src": "https://assets.tiltify.com/uploads/event/thumbnail/13067/Z.jpg",
     "width": 200,
   },
   "causeId": 35,
@@ -145,7 +145,7 @@ Object {
     "avatar": Object {
       "alt": "",
       "height": 200,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/459/thumb_Z.jpg",
+      "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/thumb_Z.jpg",
       "width": 200,
     },
     "id": 459,
@@ -160,7 +160,7 @@ Object {
     "avatar": Object {
       "alt": "",
       "height": 200,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/6810/thumb_ALizerdooTTP.png",
+      "src": "https://assets.tiltify.com/uploads/user/thumbnail/6810/thumb_ALizerdooTTP.png",
       "width": 200,
     },
     "id": 6810,
@@ -178,7 +178,7 @@ For the kids!",
   "avatar": Object {
     "alt": "",
     "height": 200,
-    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/459/thumb_Z.jpg",
+    "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/thumb_Z.jpg",
     "width": 200,
   },
   "id": 459,

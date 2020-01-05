@@ -10,7 +10,7 @@ Array [
     "image": Object {
       "alt": "",
       "height": 800,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event_incentive/image/274/playlive-incentive-1553961414406.jpg",
+      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/274/playlive-incentive-1553961414406.jpg",
       "width": 800,
     },
     "title": "St. Jude PLAY LIVE Vertagear Chair",
@@ -23,7 +23,7 @@ Array [
     "image": Object {
       "alt": "",
       "height": 800,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event_incentive/image/273/playlive-incentive-1553961246435.jpg",
+      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/273/playlive-incentive-1553961246435.jpg",
       "width": 800,
     },
     "title": "St. Jude PLAY LIVE SteelSeries Arctis Pro",
@@ -36,7 +36,7 @@ Array [
     "image": Object {
       "alt": "",
       "height": 800,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event_incentive/image/272/playlive-st-jude-play-live-black-backpack-1555612396367.jpg",
+      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/272/playlive-st-jude-play-live-black-backpack-1555612396367.jpg",
       "width": 800,
     },
     "title": "St. Jude PLAY LIVE Black Backpack",
@@ -49,7 +49,7 @@ Array [
     "image": Object {
       "alt": "",
       "height": 800,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event_incentive/image/271/playlive-incentive-1553961124674.jpg",
+      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/271/playlive-incentive-1553961124674.jpg",
       "width": 800,
     },
     "title": "St. Jude PLAY LIVE Twitch Purple Hoodie",
@@ -62,7 +62,7 @@ Array [
     "image": Object {
       "alt": "",
       "height": 800,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event_incentive/image/270/playlive-incentive-1553961059555.jpg",
+      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/270/playlive-incentive-1553961059555.jpg",
       "width": 800,
     },
     "title": "St. Jude PLAY LIVE Steel Tumbler",
@@ -75,7 +75,7 @@ Array [
     "image": Object {
       "alt": "",
       "height": 800,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event_incentive/image/269/playlive-incentive-1553960979213.jpg",
+      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/269/playlive-incentive-1553960979213.jpg",
       "width": 800,
     },
     "title": "St. Jude PLAY LIVE XXL Mousepad",
@@ -88,7 +88,7 @@ Array [
     "image": Object {
       "alt": "",
       "height": 800,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event_incentive/image/268/playlive-incentive-1553960921575.jpg",
+      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/268/playlive-incentive-1553960921575.jpg",
       "width": 800,
     },
     "title": "St. Jude PLAY LIVE 2019 T-Shirt",
@@ -101,7 +101,7 @@ Array [
     "image": Object {
       "alt": "",
       "height": 800,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event_incentive/image/267/playlive-st-jude-play-live-booster-pack-1555612307681.jpg",
+      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/267/playlive-st-jude-play-live-booster-pack-1555612307681.jpg",
       "width": 800,
     },
     "title": "St. Jude PLAY LIVE Booster Pack",
@@ -122,13 +122,13 @@ Object {
   "avatar": Object {
     "alt": "",
     "height": 64,
-    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/avatar/136/playlive-avatar-1553962049542.jpg",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/136/playlive-avatar-1553962049542.jpg",
     "width": 64,
   },
   "banner": Object {
     "alt": "",
     "height": 530,
-    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/banner/136/playlive-banner-1553961594251.jpg",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/136/playlive-banner-1553961594251.jpg",
     "width": 1440,
   },
   "causeId": 35,
@@ -146,13 +146,13 @@ St. Jude has helped push the childhood cancer survival rate from less than 20% w
   "image": Object {
     "alt": "",
     "height": 360,
-    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/image/136/playlive-image-1553961729635.jpg",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/136/playlive-image-1553961729635.jpg",
     "width": 640,
   },
   "logo": Object {
     "alt": "",
     "height": 64,
-    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/fundraising_event/logo/136/playlive-logo-1553961912243.png",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/logo/136/playlive-logo-1553961912243.png",
     "width": 100,
   },
   "message": "### Welcome to the 2019 St. Jude PLAY LIVE Prize Season!
@@ -181,6 +181,11 @@ Follow @stjudeplaylive for more tips and info!",
       "address": Object {
         "enabled": true,
         "position": 0,
+        "required": true,
+      },
+      "dateOfBirth": Object {
+        "enabled": true,
+        "position": 6,
         "required": true,
       },
       "phoneNumber": Object {

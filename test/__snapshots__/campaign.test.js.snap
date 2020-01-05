@@ -50559,7 +50559,7 @@ Signed,
 exports[`campaign tests - correct Tiltify campaign polls returned 1`] = `
 Array [
   Object {
-    "active": false,
+    "active": true,
     "campaignId": 19414,
     "createdAt": 1557261675000,
     "id": 1815,
@@ -50603,7 +50603,7 @@ Array [
       },
     ],
     "type": "Poll",
-    "updatedAt": 1557261675000,
+    "updatedAt": 1562874365000,
   },
 ]
 `;
@@ -50713,7 +50713,7 @@ Object {
   "avatar": Object {
     "alt": "",
     "height": 200,
-    "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/cause/avatar/65/image001.png",
+    "src": "https://assets.tiltify.com/uploads/cause/avatar/65/image001.png",
     "width": 200,
   },
   "causeId": 65,
@@ -50731,7 +50731,7 @@ Object {
   "regionId": null,
   "slug": "trgc2",
   "startsAt": 1556323200000,
-  "status": "published",
+  "status": "retired",
   "supportable": false,
   "supportingAmountRaised": 0,
   "totalAmountRaised": Any<Number>,
@@ -50740,7 +50740,7 @@ Object {
     "avatar": Object {
       "alt": "",
       "height": 200,
-      "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/3634/thumb_Avatar-Apr2016.png",
+      "src": "https://assets.tiltify.com/uploads/user/thumbnail/3634/thumb_Avatar-Apr2016.png",
       "width": 200,
     },
     "id": 3634,
