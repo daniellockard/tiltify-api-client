@@ -15,7 +15,7 @@ jobs:
       - run: npm ci
       - run: npm test
         env:
-          TILTIFY_API_TOKEN: ${{secrets.TILTIFY_API_TOKEN}}
+          TILTIFY_API_TOKEN: ${{secrets.TILTIFY_ACCESS_TOKEN}}
 
   publish-npm:
     needs: build
