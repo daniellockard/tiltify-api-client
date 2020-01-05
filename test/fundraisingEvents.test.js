@@ -30,7 +30,7 @@ describe('fundraising event tests -', () => {
     this.client.FundraisingEvents.getIncentives('136', callback)
   })
 
-  test('correct Tiltify fundraising event leaderboards returned', done => {
+  test.skip('correct Tiltify fundraising event leaderboards returned', done => {
     function callback (data) {
       expect(data).toMatchSnapshot({
         individual: expect.any(Array),
