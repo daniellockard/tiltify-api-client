@@ -1,6 +1,6 @@
 {
   "name": "tiltify-api-client",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A client for getting data from Tiltify",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,9 @@
     "docs": "jsdoc index.js lib/*.js README.md -d ./docs/"
   },
   "homepage": "https://daniellockard.github.io/tiltify-api-client/",
-  "bugs": { "url" : "https://github.com/daniellockard/tiltify-api-client/issues"},
+  "bugs": {
+    "url": "https://github.com/daniellockard/tiltify-api-client/issues"
+  },
   "files": [
     "lib/",
     "index.js"
@@ -19,9 +21,9 @@
   "license": "Apache-2.0",
   "dependencies": {
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise": "^4.2.5"
   },
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.9.0"
   }
 }
