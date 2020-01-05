@@ -24,4 +24,4 @@ jobs:
         npm test
       env:
         CI: true
-        TILTIFY_ACCESS_TOKEN: ${{ secret.TILTIFY_ACCESS_TOKEN }}
+        TILTIFY_ACCESS_TOKEN: ${{ secrets.TILTIFY_ACCESS_TOKEN }}
