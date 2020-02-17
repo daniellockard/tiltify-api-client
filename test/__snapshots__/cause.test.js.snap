@@ -889,17 +889,17 @@ exports[`cause tests - correct Tiltify cause leaderboards returned 1`] = `
 Object {
   "individual": Array [
     Object {
-      "amountRaised": 5381529.97,
+      "amountRaised": 5381329.97,
       "name": "GuardianCon",
       "url": "/@guardiancon/profile",
     },
     Object {
-      "amountRaised": 3533946.74,
+      "amountRaised": 3533896.74,
       "name": "DrLupo",
       "url": "/@drlupo/profile",
     },
     Object {
-      "amountRaised": 1331523.04,
+      "amountRaised": 1331513.04,
       "name": "Game Theorists",
       "url": "/@game-theorists/profile",
     },
@@ -919,7 +919,7 @@ Object {
       "url": "/@dawko/profile",
     },
     Object {
-      "amountRaised": 160590.69,
+      "amountRaised": 160560.69,
       "name": "Bloodyfaster",
       "url": "/@bloodyfaster/profile",
     },
@@ -944,7 +944,7 @@ Object {
       "url": "/@jacksepticeye/profile",
     },
     Object {
-      "amountRaised": 107218.66,
+      "amountRaised": 107219.66,
       "name": "TheSpeedGamers",
       "url": "/@thespeedgamers/profile",
     },
@@ -979,7 +979,7 @@ Object {
       "url": "/@lowco/profile",
     },
     Object {
-      "amountRaised": 73437.59,
+      "amountRaised": 73537.59,
       "name": "rxysurfchic",
       "url": "/@rxysurfchic/profile",
     },
@@ -1016,7 +1016,7 @@ Object {
   ],
   "team": Array [
     Object {
-      "amountRaised": 344077.54,
+      "amountRaised": 344047.54,
       "name": "Team Catalyst",
       "url": "/+team-catalyst",
     },
@@ -1081,7 +1081,7 @@ Object {
       "url": "/+main-menu-x-gamestop",
     },
     Object {
-      "amountRaised": 63707.61,
+      "amountRaised": 63654.24,
       "name": "The Hunt 2019",
       "url": "/+the-hunt-2019",
     },
@@ -1091,7 +1091,7 @@ Object {
       "url": "/+team-kitty",
     },
     Object {
-      "amountRaised": 55988.66,
+      "amountRaised": 56013.66,
       "name": "TSG",
       "url": "/+tsg",
     },
@@ -1106,7 +1106,7 @@ Object {
       "url": "/+alienware-and-friends",
     },
     Object {
-      "amountRaised": 49198.52,
+      "amountRaised": 49501.52,
       "name": "Perky Pugs",
       "url": "/+perky-pugs",
     },
@@ -1116,7 +1116,7 @@ Object {
       "url": "/+4dakeedz",
     },
     Object {
-      "amountRaised": 46161.14,
+      "amountRaised": 46141.14,
       "name": "Team Ever After",
       "url": "/+team-ever-after",
     },
@@ -1156,7 +1156,7 @@ Object {
       "url": "/+project-kindness",
     },
     Object {
-      "amountRaised": 31301,
+      "amountRaised": 31321,
       "name": "Team Bone-In",
       "url": "/+team-bone-in",
     },
@@ -1321,7 +1321,7 @@ Object {
       "url": "/+content-creators-united",
     },
     Object {
-      "amountRaised": 14665.33,
+      "amountRaised": 14785.99,
       "name": "90's Club for St. Jude ",
       "url": "/+90-s-club-for-st-jude",
     },
@@ -1341,7 +1341,7 @@ Object {
       "url": "/+super-rare",
     },
     Object {
-      "amountRaised": 13210.7,
+      "amountRaised": 13370.7,
       "name": "STAR is for the Children 2019",
       "url": "/+star-is-for-the-children-2019",
     },
@@ -1896,6 +1896,11 @@ Object {
       "url": "/+gamers-for-children-s-health",
     },
     Object {
+      "amountRaised": 1115,
+      "name": "RetroBlockParty",
+      "url": "/+retroblockparty",
+    },
+    Object {
       "amountRaised": 1100,
       "name": "Hobbit Day",
       "url": "/+hobbit-day",
@@ -2196,6 +2201,11 @@ Object {
       "url": "/+silent-knights",
     },
     Object {
+      "amountRaised": 290,
+      "name": "Cypher's Nat 20's",
+      "url": "/+cypher-s-nat-20-s",
+    },
+    Object {
       "amountRaised": 275,
       "name": "LAG Squad",
       "url": "/+lag-squad",
@@ -2221,6 +2231,11 @@ Object {
       "url": "/+gamers-for-life",
     },
     Object {
+      "amountRaised": 230,
+      "name": "Never Say Dice",
+      "url": "/+never-say-dice",
+    },
+    Object {
       "amountRaised": 210,
       "name": "Erox Gaming Ltd",
       "url": "/+erox-gaming-ltd",
@@ -2229,6 +2244,11 @@ Object {
       "amountRaised": 210,
       "name": "The Bearcat Fund",
       "url": "/+the-bearcat-fund",
+    },
+    Object {
+      "amountRaised": 200.25,
+      "name": "Vyrok Gaming",
+      "url": "/+vyrok-gaming",
     },
     Object {
       "amountRaised": 200,
@@ -2371,14 +2391,14 @@ Object {
       "url": "/+charged-for-charity",
     },
     Object {
-      "amountRaised": 70.25,
-      "name": "Vyrok Gaming",
-      "url": "/+vyrok-gaming",
-    },
-    Object {
       "amountRaised": 70,
       "name": "Sandbox 4 Charity",
       "url": "/+sandbox-4-charity",
+    },
+    Object {
+      "amountRaised": 68,
+      "name": "Gaming Broadcasters",
+      "url": "/+gaming-broadcasters",
     },
     Object {
       "amountRaised": 65,
@@ -2522,11 +2542,6 @@ Object {
     },
     Object {
       "amountRaised": 10,
-      "name": "Gaming Broadcasters",
-      "url": "/+gaming-broadcasters",
-    },
-    Object {
-      "amountRaised": 10,
       "name": "Team Ten Toes for St Jude",
       "url": "/+team-ten-toes-for-st-jude",
     },
@@ -2544,6 +2559,11 @@ Object {
       "amountRaised": 5,
       "name": "Hopeless Guardians",
       "url": "/+hopeless-guardians",
+    },
+    Object {
+      "amountRaised": 5,
+      "name": "#LetsCureCancer",
+      "url": "/+letscurecancer",
     },
     Object {
       "amountRaised": 5,

@@ -50726,6 +50726,7 @@ Object {
     "channel": "ProtonJon",
     "type": "twitch",
   },
+  "metadata": Object {},
   "name": "The Runaway Guys Colosseum 2019",
   "originalFundraiserGoal": 100000,
   "regionId": null,
