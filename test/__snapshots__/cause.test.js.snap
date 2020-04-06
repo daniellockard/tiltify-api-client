@@ -618,147 +618,6 @@ Object {
   "avatar": Object {
     "alt": "",
     "height": 64,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/136/playlive-avatar-1553962049542.jpg",
-    "width": 64,
-  },
-  "banner": Object {
-    "alt": "",
-    "height": 530,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/136/playlive-banner-1553961594251.jpg",
-    "width": 1440,
-  },
-  "causeId": 35,
-  "contactEmail": "playlive@stjude.org",
-  "description": "Sign up to create your own campaign and start fundraising. Play and stream your favorite video games to raise donations and unlock exclusive loot.
-
-### Play For More Than Bragging Rights
-
-St. Jude has helped push the childhood cancer survival rate from less than 20% when we opened to 80% today. We won’t stop until no child dies from cancer.
-
-### [Click here to find out more!](https://goo.gl/eYovUq)",
-  "endsAt": "2020-03-31",
-  "fundraiserGoalAmount": 2000000,
-  "id": 136,
-  "image": Object {
-    "alt": "",
-    "height": 360,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/136/playlive-image-1553961729635.jpg",
-    "width": 640,
-  },
-  "logo": Object {
-    "alt": "",
-    "height": 64,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/logo/136/playlive-logo-1553961912243.png",
-    "width": 100,
-  },
-  "message": "### Welcome to the 2019 St. Jude PLAY LIVE Prize Season!
-
-Fundraising kicks off on Friday, April 26. Right now set up your fundraising page & start spreading the word! 
-
-[Click here](https://goo.gl/RKwlV2) to find out about this year’s prizes from our sponsors!
-
-Don’t forget that you can integrate your Tiltify account with Stream Labs or StreamJar to get access to stream overlays. [Find out more here](http://bit.ly/2dIhfqc).
-
-Follow @stjudeplaylive for more tips and info!",
-  "name": "St. Jude PLAY LIVE",
-  "parent": Object {
-    "id": 39,
-    "name": "St. Jude PLAY LIVE",
-    "slug": "playlive",
-  },
-  "settings": Object {
-    "colors": Object {
-      "background": "#000000",
-      "highlight": "#bf0d3e",
-    },
-    "headerIntro": "Start a campaign, play games, raise funds, win prizes and help kids battling childhood cancer.",
-    "headerTitle": "St. Jude PLAY LIVE",
-    "registrationFields": Object {
-      "address": Object {
-        "enabled": true,
-        "position": 0,
-        "required": true,
-      },
-      "dateOfBirth": Object {
-        "enabled": true,
-        "position": 6,
-        "required": true,
-      },
-      "phoneNumber": Object {
-        "enabled": true,
-        "position": 5,
-        "required": true,
-      },
-      "serviceHours": Object {
-        "enabled": false,
-        "position": 2,
-        "required": false,
-      },
-      "shirtSize": Object {
-        "enabled": true,
-        "position": 1,
-        "required": true,
-      },
-    },
-    "visibilityOptions": Object {
-      "donate": Object {
-        "visible": true,
-      },
-      "donorLeaderboard": Object {
-        "visible": true,
-      },
-      "endsAt": Object {
-        "visible": true,
-      },
-      "fundraiserGoalAmount": Object {
-        "type": "BOTH",
-        "visible": true,
-      },
-      "individualLeaderboard": Object {
-        "heat": true,
-        "type": "ALL",
-        "visible": true,
-      },
-      "preventDonationsBeforeStart": Object {
-        "visible": false,
-      },
-      "regions": Object {
-        "visible": true,
-      },
-      "registration": Object {
-        "visible": true,
-      },
-      "startsAt": Object {
-        "visible": true,
-      },
-      "sustainedGiving": Object {
-        "visible": true,
-      },
-      "sustainedGivingStats": Object {
-        "visible": false,
-      },
-      "teamLeaderboard": Object {
-        "heat": true,
-        "type": "ALL",
-        "visible": true,
-      },
-    },
-  },
-  "shortDescription": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
-  "slug": "playlive",
-  "startsAt": "2019-04-01",
-  "status": "published",
-  "totalAmountRaised": Any<Number>,
-  "type": "FundraisingEvent",
-  "video": "https://www.youtube.com/watch?v=kSqVRLA75co",
-}
-`;
-
-exports[`cause tests - correct Tiltify cause fundraising events returned 7`] = `
-Object {
-  "avatar": Object {
-    "alt": "",
-    "height": 64,
     "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/50/st-jude-polls-avatar-1500330665175.jpg",
     "width": 64,
   },
@@ -885,6 +744,147 @@ Remember – the more votes you get, the more you’re helping St. Jude continue
 }
 `;
 
+exports[`cause tests - correct Tiltify cause fundraising events returned 7`] = `
+Object {
+  "avatar": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/276/playlive-avatar-1553962049542.jpg",
+    "width": 64,
+  },
+  "banner": Object {
+    "alt": "",
+    "height": 530,
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/276/playlive-banner-1553961594251.jpg",
+    "width": 1440,
+  },
+  "causeId": 35,
+  "contactEmail": "playlive@stjude.org",
+  "description": "Sign up to create your own campaign and start fundraising. Play and stream your favorite video games to raise donations and unlock exclusive loot.
+
+### Play For More Than Bragging Rights
+
+St. Jude has helped push the childhood cancer survival rate from less than 20% when we opened to 80% today. We won’t stop until no child dies from cancer.
+
+### [Click here to find out more!](https://goo.gl/eYovUq)",
+  "endsAt": "2021-03-31",
+  "fundraiserGoalAmount": 2000000,
+  "id": 276,
+  "image": Object {
+    "alt": "",
+    "height": 360,
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/276/playlive-image-1553961729635.jpg",
+    "width": 640,
+  },
+  "logo": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/logo/276/playlive-logo-1553961912243.png",
+    "width": 100,
+  },
+  "message": "### The 2020 St. Jude PLAY LIVE Prize Season has begun and registration is now open!
+
+Fundraising kicks off on Friday, April 24. Set up your fundraising page now & start spreading the word!
+
+[Click here](https://goo.gl/RKwlV2) to find out about this year’s prizes from our sponsors.
+
+Utilize our brand new Chatbot, custom overlay tools and branded graphics to magnify your campaign [Find out more here](https://bit.ly/3bJLkhW).​
+
+Follow @stjudeplaylive for more tips and info!",
+  "name": "St. Jude PLAY LIVE",
+  "parent": Object {
+    "id": 39,
+    "name": "St. Jude PLAY LIVE",
+    "slug": "playlive",
+  },
+  "settings": Object {
+    "colors": Object {
+      "background": "#000000",
+      "highlight": "#bf0d3e",
+    },
+    "headerIntro": "Start a campaign, play games, raise funds, win prizes and help kids battling childhood cancer.",
+    "headerTitle": "St. Jude PLAY LIVE",
+    "registrationFields": Object {
+      "address": Object {
+        "enabled": true,
+        "position": 0,
+        "required": true,
+      },
+      "dateOfBirth": Object {
+        "enabled": true,
+        "position": 6,
+        "required": true,
+      },
+      "phoneNumber": Object {
+        "enabled": true,
+        "position": 5,
+        "required": true,
+      },
+      "serviceHours": Object {
+        "enabled": false,
+        "position": 2,
+        "required": false,
+      },
+      "shirtSize": Object {
+        "enabled": true,
+        "position": 1,
+        "required": true,
+      },
+    },
+    "visibilityOptions": Object {
+      "donate": Object {
+        "visible": true,
+      },
+      "donorLeaderboard": Object {
+        "visible": true,
+      },
+      "endsAt": Object {
+        "visible": true,
+      },
+      "fundraiserGoalAmount": Object {
+        "type": "BOTH",
+        "visible": true,
+      },
+      "individualLeaderboard": Object {
+        "heat": true,
+        "type": "ALL",
+        "visible": true,
+      },
+      "preventDonationsBeforeStart": Object {
+        "visible": false,
+      },
+      "regions": Object {
+        "visible": true,
+      },
+      "registration": Object {
+        "visible": true,
+      },
+      "startsAt": Object {
+        "visible": true,
+      },
+      "sustainedGiving": Object {
+        "visible": true,
+      },
+      "sustainedGivingStats": Object {
+        "visible": false,
+      },
+      "teamLeaderboard": Object {
+        "heat": true,
+        "type": "ALL",
+        "visible": true,
+      },
+    },
+  },
+  "shortDescription": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
+  "slug": "playlive",
+  "startsAt": "2020-04-01",
+  "status": "published",
+  "totalAmountRaised": Any<Number>,
+  "type": "FundraisingEvent",
+  "video": "https://www.youtube.com/watch?v=kSqVRLA75co",
+}
+`;
+
 exports[`cause tests - correct Tiltify cause leaderboards returned 1`] = `
 Object {
   "individual": Array [
@@ -924,7 +924,7 @@ Object {
       "url": "/@bloodyfaster/profile",
     },
     Object {
-      "amountRaised": 157667.48,
+      "amountRaised": 157668.48,
       "name": "iKasperr",
       "url": "/@ikasperr/profile",
     },
@@ -979,7 +979,7 @@ Object {
       "url": "/@lowco/profile",
     },
     Object {
-      "amountRaised": 73537.59,
+      "amountRaised": 73937.59,
       "name": "rxysurfchic",
       "url": "/@rxysurfchic/profile",
     },
@@ -999,19 +999,19 @@ Object {
       "url": "/@theonlyryann/profile",
     },
     Object {
-      "amountRaised": 63498.4,
-      "name": "0hmymandy",
-      "url": "/@0hmymandy/profile",
-    },
-    Object {
-      "amountRaised": 59096.79,
+      "amountRaised": 66043.86,
       "name": "PatrckStatic",
       "url": "/@patrckstatic/profile",
     },
     Object {
-      "amountRaised": 58864.73,
-      "name": "Elspeth",
-      "url": "/@elspeth/profile",
+      "amountRaised": 64108.4,
+      "name": "0hmymandy",
+      "url": "/@0hmymandy/profile",
+    },
+    Object {
+      "amountRaised": 62942.07,
+      "name": "St. Jude",
+      "url": "/@st-jude/profile",
     },
   ],
   "team": Array [
@@ -1056,7 +1056,7 @@ Object {
       "url": "/+wouldyoukindly",
     },
     Object {
-      "amountRaised": 98800.37,
+      "amountRaised": 102572.37,
       "name": "Streamfluencer",
       "url": "/+streamfluencer",
     },
@@ -1086,7 +1086,7 @@ Object {
       "url": "/+the-hunt-2019",
     },
     Object {
-      "amountRaised": 61550.67,
+      "amountRaised": 62110.67,
       "name": "Team Kitty",
       "url": "/+team-kitty",
     },
@@ -1101,12 +1101,12 @@ Object {
       "url": "/+the-flagship",
     },
     Object {
-      "amountRaised": 51805.37,
+      "amountRaised": 52005.37,
       "name": "Alienware and Friends",
       "url": "/+alienware-and-friends",
     },
     Object {
-      "amountRaised": 49501.52,
+      "amountRaised": 49596.52,
       "name": "Perky Pugs",
       "url": "/+perky-pugs",
     },
@@ -1126,14 +1126,14 @@ Object {
       "url": "/+flawless-victory",
     },
     Object {
+      "amountRaised": 39932.29,
+      "name": "Team RockSquad ",
+      "url": "/+team-rocksquad",
+    },
+    Object {
       "amountRaised": 39723.47,
       "name": "Wookie Cookies",
       "url": "/+wookie-cookies",
-    },
-    Object {
-      "amountRaised": 39627.29,
-      "name": "Team RockSquad ",
-      "url": "/+team-rocksquad",
     },
     Object {
       "amountRaised": 38488.14,
@@ -1156,7 +1156,7 @@ Object {
       "url": "/+project-kindness",
     },
     Object {
-      "amountRaised": 31321,
+      "amountRaised": 31367,
       "name": "Team Bone-In",
       "url": "/+team-bone-in",
     },
@@ -1321,7 +1321,7 @@ Object {
       "url": "/+content-creators-united",
     },
     Object {
-      "amountRaised": 14785.99,
+      "amountRaised": 14805.99,
       "name": "90's Club for St. Jude ",
       "url": "/+90-s-club-for-st-jude",
     },
@@ -1336,14 +1336,14 @@ Object {
       "url": "/+bearded-bastards-give",
     },
     Object {
+      "amountRaised": 13390.7,
+      "name": "STAR is for the Children 2019",
+      "url": "/+star-is-for-the-children-2019",
+    },
+    Object {
       "amountRaised": 13387.04,
       "name": "Super Rare",
       "url": "/+super-rare",
-    },
-    Object {
-      "amountRaised": 13370.7,
-      "name": "STAR is for the Children 2019",
-      "url": "/+star-is-for-the-children-2019",
     },
     Object {
       "amountRaised": 12235.4,
@@ -1559,6 +1559,11 @@ Object {
       "amountRaised": 4921,
       "name": "Team Zelse",
       "url": "/+team-zelse",
+    },
+    Object {
+      "amountRaised": 4652.5,
+      "name": "Big Heroes Helping Little Heroes",
+      "url": "/+big-heroes-helping-little-heroes",
     },
     Object {
       "amountRaised": 4231.4,
@@ -1987,8 +1992,8 @@ Object {
     },
     Object {
       "amountRaised": 786,
-      "name": "R.A.H Brigade ",
-      "url": "/+r-a-h-brigade",
+      "name": "R.A.H Brigade --01ff7e22-9131-4c57-a213-01bd3104c963",
+      "url": "/+r-a-h-brigade-01ff7e22-9131-4c57-a213-01bd3104c963",
     },
     Object {
       "amountRaised": 760,
@@ -2066,6 +2071,11 @@ Object {
       "url": "/+power-word-give",
     },
     Object {
+      "amountRaised": 550,
+      "name": "Rogues and Baku",
+      "url": "/+rogues-and-baku",
+    },
+    Object {
       "amountRaised": 546,
       "name": "Feruun's St. Jude Team",
       "url": "/+feruun-s-st-jude-team",
@@ -2114,6 +2124,11 @@ Object {
       "amountRaised": 427,
       "name": "BlaBlaDesGardiens",
       "url": "/+blabladesgardiens",
+    },
+    Object {
+      "amountRaised": 390,
+      "name": "Never Say Dice",
+      "url": "/+never-say-dice",
     },
     Object {
       "amountRaised": 390,
@@ -2226,14 +2241,14 @@ Object {
       "url": "/+backwoodz-gaming",
     },
     Object {
+      "amountRaised": 255,
+      "name": "Krakens Wrath",
+      "url": "/+krakens-wrath",
+    },
+    Object {
       "amountRaised": 250,
       "name": "Gamers For Life",
       "url": "/+gamers-for-life",
-    },
-    Object {
-      "amountRaised": 230,
-      "name": "Never Say Dice",
-      "url": "/+never-say-dice",
     },
     Object {
       "amountRaised": 210,
@@ -2264,6 +2279,11 @@ Object {
       "amountRaised": 190,
       "name": "Velocity",
       "url": "/+velocity",
+    },
+    Object {
+      "amountRaised": 188.66,
+      "name": "Kreateure",
+      "url": "/+kreateure",
     },
     Object {
       "amountRaised": 180,
@@ -2324,6 +2344,11 @@ Object {
       "amountRaised": 125,
       "name": "Onyx Fills The Fridge",
       "url": "/+onyx-fills-the-fridge",
+    },
+    Object {
+      "amountRaised": 120,
+      "name": "Scope Gaming X Team Killer",
+      "url": "/+scope-gaming-x-team-killer",
     },
     Object {
       "amountRaised": 120,
@@ -2452,8 +2477,13 @@ Object {
     },
     Object {
       "amountRaised": 35,
-      "name": "The Dancefloor",
-      "url": "/+the-dancefloor",
+      "name": "The Broadway Stream Team",
+      "url": "/+the-broadway-stream-team",
+    },
+    Object {
+      "amountRaised": 35,
+      "name": "The Dancefloor--eb43cab9-0028-4f02-8a82-46cf768483c1",
+      "url": "/+the-dancefloor-eb43cab9-0028-4f02-8a82-46cf768483c1",
     },
     Object {
       "amountRaised": 30,
@@ -2469,6 +2499,11 @@ Object {
       "amountRaised": 26,
       "name": "RedditTryHard",
       "url": "/+reddittryhard",
+    },
+    Object {
+      "amountRaised": 25,
+      "name": "Nerd901",
+      "url": "/+nerd901",
     },
     Object {
       "amountRaised": 25,
@@ -2492,8 +2527,18 @@ Object {
     },
     Object {
       "amountRaised": 20,
+      "name": "Gecko Swarm for St. Jude PLAYLIVE 2020",
+      "url": "/+gecko-swarm-for-st-jude-playlive-2020",
+    },
+    Object {
+      "amountRaised": 20,
       "name": "IRBGamer",
       "url": "/+irbgamer",
+    },
+    Object {
+      "amountRaised": 20,
+      "name": "#LetsCureCancer",
+      "url": "/+letscurecancer",
     },
     Object {
       "amountRaised": 20,
@@ -2507,8 +2552,8 @@ Object {
     },
     Object {
       "amountRaised": 20,
-      "name": "Wild Onyx Studios",
-      "url": "/+wild-onyx-studios",
+      "name": "Zombiecat Community",
+      "url": "/+zombiecat-community",
     },
     Object {
       "amountRaised": 15,
@@ -2529,6 +2574,11 @@ Object {
       "amountRaised": 12,
       "name": "Synergos Community",
       "url": "/+synergos-community",
+    },
+    Object {
+      "amountRaised": 11.92,
+      "name": "Las Vegas Streamers",
+      "url": "/+las-vegas-streamers",
     },
     Object {
       "amountRaised": 10.7,
@@ -2562,11 +2612,6 @@ Object {
     },
     Object {
       "amountRaised": 5,
-      "name": "#LetsCureCancer",
-      "url": "/+letscurecancer",
-    },
-    Object {
-      "amountRaised": 5,
       "name": "Nectarbees",
       "url": "/+nectarbees",
     },
@@ -2584,6 +2629,11 @@ Object {
       "amountRaised": 3,
       "name": "Jennikins and Sheeps Gaming For The Kids",
       "url": "/+jennikins-and-sheeps-gaming-for-the-kids",
+    },
+    Object {
+      "amountRaised": 1,
+      "name": "Sailing For Charity",
+      "url": "/+sailing-for-charity",
     },
     Object {
       "amountRaised": 1,
@@ -2611,7 +2661,6 @@ Object {
   "customizedDonationForm": true,
   "dashboardChart": true,
   "dashboardEnabled": true,
-  "fundraisingEventRewards": false,
   "fundraisingEventsEnabled": true,
   "fundraisingEventsGeneralColors": true,
   "fundraisingEventsGeneralDetails": true,

@@ -164,7 +164,7 @@ Fundraising kicks off on Friday, April 26. Right now set up your fundraising pag
 Don’t forget that you can integrate your Tiltify account with Stream Labs or StreamJar to get access to stream overlays. [Find out more here](http://bit.ly/2dIhfqc).
 
 Follow @stjudeplaylive for more tips and info!",
-  "name": "St. Jude PLAY LIVE",
+  "name": "St. Jude PLAY LIVE 2019",
   "parent": Object {
     "id": 39,
     "name": "St. Jude PLAY LIVE",
@@ -249,9 +249,9 @@ Follow @stjudeplaylive for more tips and info!",
     },
   },
   "shortDescription": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
-  "slug": "playlive",
+  "slug": "st-jude-play-live-2019",
   "startsAt": "2019-04-01",
-  "status": "published",
+  "status": "retired",
   "totalAmountRaised": Any<Number>,
   "type": "FundraisingEvent",
   "video": "https://www.youtube.com/watch?v=kSqVRLA75co",

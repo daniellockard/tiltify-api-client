@@ -22,7 +22,7 @@ describe('fundraising event tests -', () => {
     this.client.FundraisingEvents.getDonations('136', callback)
   })
 
-  test('correct Tiltify fundraising event incentives returned', done => {
+  test.skip('correct Tiltify fundraising event incentives returned', done => {
     function callback (data) {
       expect(data).toMatchSnapshot()
       done()
