@@ -454,7 +454,7 @@ Object {
       "url": "/@lobosjr/profile",
     },
     Object {
-      "amountRaised": 451532,
+      "amountRaised": 451602,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -5033,7 +5033,7 @@ dies from cancer.",
     "findOutMoreLink": "https://stjude.org/get-involved/at-play/video-game-charity-event.html#getstarted",
     "headerIntro": "Start a fundraising campaign to help us end childhood cancer.",
     "headerTitle": "St. Jude Children's Research Hospital",
-    "minimumDonation": null,
+    "minimumDonation": "1.00",
   },
   "slug": "st-jude-children-s-research-hospital",
   "social": Object {
