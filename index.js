@@ -65,8 +65,12 @@ class TiltifyClient {
         Authorization: `Bearer ${this.apiKey}`
       }
     }
-    let payload = await request(options)
-    return payload
+    try {
+      let payload = await request(options)
+      return payload
+    } catch (error) {
+      return Promise.reject(error)
+    }
   }
 
   /**
@@ -91,7 +95,7 @@ class TiltifyClient {
         callback(parsedBody.data)
         return
       }
-      await results.push(parsedBody.data)
+      results.push(parsedBody.data)
       if (parsedBody.data.length === 0) {
         keepGoing = false
         let concatResults = []
