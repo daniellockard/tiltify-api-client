@@ -218,6 +218,9 @@ Follow @stjudeplaylive for more tips and info!",
         "type": "BOTH",
         "visible": true,
       },
+      "goal": Object {
+        "visible": true,
+      },
       "individualLeaderboard": Object {
         "heat": true,
         "type": "ALL",
@@ -225,6 +228,9 @@ Follow @stjudeplaylive for more tips and info!",
       },
       "preventDonationsBeforeStart": Object {
         "visible": false,
+      },
+      "raised": Object {
+        "visible": true,
       },
       "regions": Object {
         "visible": true,
