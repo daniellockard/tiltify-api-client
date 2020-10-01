@@ -454,7 +454,7 @@ Object {
       "url": "/@lobosjr/profile",
     },
     Object {
-      "amountRaised": 451602,
+      "amountRaised": 451675.37,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -1545,7 +1545,7 @@ Object {
       "url": "/+90-s-club-for-st-jude",
     },
     Object {
-      "amountRaised": 14713.63,
+      "amountRaised": 14725.35,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -3305,6 +3305,17 @@ Object {
       "url": "/+mixer-s-guardians-of-the-little-lights",
     },
     Object {
+      "amountRaised": 870.69,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4709/3ebd4622-ad40-44dd-af3a-c5d94de02fa0.jpeg",
+        "width": 128,
+      },
+      "name": "Charity Caravan",
+      "url": "/+charity-caravan",
+    },
+    Object {
       "amountRaised": 820,
       "avatar": Object {
         "alt": "",
@@ -3314,17 +3325,6 @@ Object {
       },
       "name": "The Arctic Narwhals",
       "url": "/+the-arctic-narwhals",
-    },
-    Object {
-      "amountRaised": 818.69,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4709/3ebd4622-ad40-44dd-af3a-c5d94de02fa0.jpeg",
-        "width": 128,
-      },
-      "name": "Charity Caravan",
-      "url": "/+charity-caravan",
     },
     Object {
       "amountRaised": 810,
