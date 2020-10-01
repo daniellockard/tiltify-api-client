@@ -50713,14 +50713,14 @@ Object {
   "avatar": Object {
     "alt": "",
     "height": 200,
-    "src": "https://assets.tiltify.com/uploads/cause/avatar/65/image001.png",
+    "src": "https://assets.tiltify.com/uploads/cause/avatar/65/direct-relief-avatar-1588270117181.png",
     "width": 200,
   },
   "causeCurrency": "USD",
   "causeId": 65,
   "description": "Tune in through May 6th as The Runaway Guys and friends raise money for the charity Direct Relief. Every day will feature races, crazy incentives, and live musical performances.
 ",
-  "endsAt": 1558137600000,
+  "endsAt": 1561251680000,
   "fundraiserGoalAmount": 100000,
   "id": 27286,
   "livestream": Object {
@@ -50732,7 +50732,7 @@ Object {
   "originalFundraiserGoal": 100000,
   "regionId": null,
   "slug": "trgc2",
-  "startsAt": 1556323200000,
+  "startsAt": 1557087283000,
   "status": "retired",
   "supportable": false,
   "supportingAmountRaised": 0,
@@ -50779,7 +50779,7 @@ Array [
     "image": Object {
       "alt": "test",
       "height": 600,
-      "src": "/assets/default-reward-6c82a449532284e1ac03c82fe43b76afa0d153a098f54e4ab0243a61abc5c1b2.png",
+      "src": "https://assets.tiltify.com/assets/default-reward.png",
       "width": 600,
     },
     "kind": "physical",
