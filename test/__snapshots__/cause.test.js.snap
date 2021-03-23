@@ -5,47 +5,191 @@ Object {
   "avatar": Object {
     "alt": "",
     "height": 64,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/225/blob-5f5d76ca-80f7-44fe-a0f7-59d40b7e9b5b.png",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/594/blob-913763d5-5835-40ba-b787-85fcc898208e.jpeg",
     "width": 64,
   },
   "banner": Object {
     "alt": "",
     "height": 530,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/225/gcx-2020-banner-1576693968147.jpg",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/594/blob-acf4d0cc-a249-4a82-a1a3-2f0f21b8691e.jpeg",
     "width": 1440,
   },
   "causeId": 35,
   "contactEmail": "jason.heitman@stjude.org",
-  "description": "GCX is a community based, charity event. A large community of like-hearted gamers coming together to make the world a better place. Grown at the roots in the Destiny community, we have grown and continue to grow the community, in hopes of creating a larger charitable footprint for years to come.",
-  "endsAt": "2020-11-16",
-  "fundraiserGoalAmount": 6000000,
-  "id": 225,
+  "description": "GCX is a community-based, charity event. A large community of like-hearted gamers coming together to make the world a better place. Grown at the roots in the Destiny community, we have grown and continue to grow the community, in hopes of creating a larger charitable footprint for years to come.",
+  "endsAt": "2022-02-27",
+  "fundraiserGoalAmount": 3000000,
+  "id": 594,
   "image": Object {
     "alt": "",
     "height": 360,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/225/gcx-2020-image-1576694493288.jpg",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/594/blob-ee48cfa6-f895-40cb-92a1-d79876c2fd3d.jpeg",
     "width": 640,
   },
   "logo": Object {
     "alt": "",
     "height": 64,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/logo/225/gcx-2020-logo-1576695517617.png",
+    "src": "https://assets.tiltify.com/uploads/cause/logo/35/st-jude-children-s-research-hospital-logo-1588862972226.jpg",
     "width": 100,
   },
-  "message": "Thank you for fundraising for GCX 2020! We're aiming to raise $3,000,000 for the kids of St. Jude, and need all the help we can get.",
-  "name": "GCX 2020",
+  "message": "Thank you for fundraising for GCX 2021! We're aiming to raise $3,000,000 for the kids of St. Jude and are excited to have you join the cause.",
+  "name": "GCX 2021",
   "parent": Object {
     "id": 200,
-    "name": "GCX 2020",
-    "slug": "gcx-2020",
+    "name": "GCX",
+    "slug": "gcx",
   },
   "settings": Object {
     "colors": Object {
-      "background": "#ffffff",
+      "background": "#2bbfc3",
+      "highlight": "#041e41",
+    },
+    "googleAnalyticsTrackingCode": null,
+    "headerIntro": "A community event to benefit the kids of St. Jude.",
+    "headerTitle": "GCX 2021",
+    "minimumDonation": null,
+    "registrationFields": Object {
+      "address": Object {
+        "enabled": true,
+        "position": 0,
+        "required": true,
+      },
+      "dateOfBirth": Object {
+        "enabled": true,
+        "position": 3,
+        "required": true,
+      },
+      "phoneNumber": Object {
+        "enabled": true,
+        "position": 5,
+        "required": true,
+      },
+      "serviceHours": Object {
+        "enabled": false,
+        "position": 2,
+        "required": true,
+      },
+      "shirtSize": Object {
+        "enabled": true,
+        "position": 1,
+        "required": true,
+      },
+    },
+    "visibilityOptions": Object {
+      "donate": Object {
+        "visible": true,
+      },
+      "endsAt": Object {
+        "visible": true,
+      },
+      "fePageCampaigns": null,
+      "fundraiserGoalAmount": Object {
+        "type": "BOTH",
+        "visible": true,
+      },
+      "goal": Object {
+        "visible": true,
+      },
+      "headerIntro": null,
+      "headerTitle": null,
+      "individualLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+      "raised": Object {
+        "visible": true,
+      },
+      "regions": Object {
+        "visible": true,
+      },
+      "registration": Object {
+        "visible": true,
+      },
+      "startsAt": Object {
+        "visible": true,
+      },
+      "sustainedGiving": Object {
+        "visible": false,
+      },
+      "sustainedGivingStats": Object {
+        "visible": false,
+      },
+      "teamLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+      "toolkit": null,
+    },
+  },
+  "shortDescription": "GCX is a community-based, charity event. A large community of like-hearted gamers coming together to make the world a better place.",
+  "slug": "gcx-2021",
+  "startsAt": "2021-03-01",
+  "status": "published",
+  "totalAmountRaised": Any<Number>,
+  "type": "FundraisingEvent",
+  "video": null,
+}
+`;
+
+exports[`cause tests - correct Tiltify cause fundraising events returned 2`] = `
+Object {
+  "avatar": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://assets.tiltify.com/uploads/cause/avatar/35/blob-fb2ebe36-4fd1-4334-9f1e-ba390dd0af2a.jpeg",
+    "width": 64,
+  },
+  "banner": Object {
+    "alt": "",
+    "height": 530,
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/458/blob-b132c6ad-8818-4e68-b025-64ca190e1438.jpeg",
+    "width": 1440,
+  },
+  "causeId": 35,
+  "contactEmail": "playlive@stjude.org",
+  "description": "Whether you’re a sewing master, aspiring chef, painting extraordinaire, crafting expert, coding wizard, or dabble in any other creative field, you can support the kids of St. Jude during Creative Season! The sky is the limit, so put your creative skills on display and earn some exclusive prizes through December 31st.
+
+St. Jude has helped push the childhood cancer survival rate from less than 20% when we opened to 80% today. We won’t stop until no child dies from cancer.
+
+### [Click here to find out more!](https://www.stjude.org/get-involved/other-ways/video-game-charity-event.html)",
+  "endsAt": "2021-01-01",
+  "fundraiserGoalAmount": 0,
+  "id": 458,
+  "image": Object {
+    "alt": "",
+    "height": 360,
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/458/blob-5b48b520-b1d5-4015-a5a0-e47f04ace7b3.jpeg",
+    "width": 640,
+  },
+  "logo": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://assets.tiltify.com/uploads/cause/logo/35/st-jude-children-s-research-hospital-logo-1588862972226.jpg",
+    "width": 100,
+  },
+  "message": "### The 2020 St. Jude PLAY LIVE Creative Season has begun and registration is now open!
+
+Fundraising runs through December 31st. Set up your fundraising page now & start spreading the word!
+
+**Utilize our custom overlay tools, St. Jude Chatbot, and branded graphics to magnify your campaign by [accessing our toolkit here](https://playlive.experience.stjude.org/).​**
+
+Follow @stjudeplaylive on [Twitter](https://twitter.com/StJudePLAYLIVE) and [Instagram](https://instagram.com/stjudeplaylive) for more info, and [join our Discord](https://discord.com/invite/stjudeplaylive) for helpful tips and resources. ",
+  "name": "St. Jude Play Live Creative Season 2020",
+  "parent": Object {
+    "id": 395,
+    "name": "St. Jude Play Live Creative Season",
+    "slug": "playlivecreative",
+  },
+  "settings": Object {
+    "colors": Object {
+      "background": "#000000",
       "highlight": "#ce2f40",
     },
-    "headerIntro": "A community event to benefit the kids of St. Jude.",
-    "headerTitle": "GCX 2020",
+    "googleAnalyticsTrackingCode": null,
+    "headerIntro": "Start a campaign, put your creative skills on display, raise funds, win prizes and help kids battling childhood cancer.",
+    "headerTitle": "St. Jude PLAY LIVE Creative Season",
     "minimumDonation": null,
     "registrationFields": Object {
       "address": Object {
@@ -120,9 +264,9 @@ Object {
       },
     },
   },
-  "shortDescription": "GCX is a community based, charity event. A large community of like-hearted gamers coming together to make the world a better place.",
-  "slug": "gcx-2020",
-  "startsAt": "2019-12-16",
+  "shortDescription": "Put your creative skills on display and support the kids of St. Jude during St. Jude PLAY LIVE Creative Season through December 31st.",
+  "slug": "playlivecreative",
+  "startsAt": "2020-10-19",
   "status": "published",
   "totalAmountRaised": Any<Number>,
   "type": "FundraisingEvent",
@@ -130,7 +274,7 @@ Object {
 }
 `;
 
-exports[`cause tests - correct Tiltify cause fundraising events returned 2`] = `
+exports[`cause tests - correct Tiltify cause fundraising events returned 3`] = `
 Object {
   "avatar": Object {
     "alt": "",
@@ -168,15 +312,13 @@ St. Jude has helped push the childhood cancer survival rate from less than 20% w
     "src": "https://assets.tiltify.com/uploads/fundraising_event/logo/276/playlive-logo-1553961912243.png",
     "width": 100,
   },
-  "message": "### The 2020 St. Jude PLAY LIVE Prize Season has begun and registration is now open!
+  "message": "### Thank you for joining St. Jude PLAY LIVE!
 
-Fundraising kicks off on Friday, April 24. Set up your fundraising page now & start spreading the word!
+**Set up your fundraising page now & start spreading the word! You have until March 31st to support the kids of St. Jude with your favorite games. Raise $100 or more to receive our exclusive shirt!**
 
-[Click here](https://goo.gl/RKwlV2) to find out about this year’s prizes from our sponsors.
+**Utilize our custom overlay tools, donation alerts, St. Jude Chatbot, and branded graphics to magnify your campaign by [accessing our toolkit here](https://playlive.experience.stjude.org/).​**
 
-Utilize our brand new Chatbot, custom overlay tools and branded graphics to magnify your campaign [Find out more here](https://bit.ly/3bJLkhW).​
-
-Follow @stjudeplaylive for more tips and info!",
+**Follow @stjudeplaylive on [Twitter](https://twitter.com/StJudePLAYLIVE) and [Instagram](https://instagram.com/stjudeplaylive) for more info, and [join our Discord](https://discord.com/invite/stjudeplaylive) for helpful tips and resources.**",
   "name": "St. Jude PLAY LIVE",
   "parent": Object {
     "id": 39,
@@ -188,8 +330,10 @@ Follow @stjudeplaylive for more tips and info!",
       "background": "#000000",
       "highlight": "#bf0d3e",
     },
+    "googleAnalyticsTrackingCode": null,
     "headerIntro": "Start a campaign, play games, raise funds, win prizes and help kids battling childhood cancer.",
     "headerTitle": "St. Jude PLAY LIVE",
+    "minimumDonation": null,
     "registrationFields": Object {
       "address": Object {
         "enabled": true,
@@ -198,7 +342,7 @@ Follow @stjudeplaylive for more tips and info!",
       },
       "dateOfBirth": Object {
         "enabled": true,
-        "position": 6,
+        "position": 3,
         "required": true,
       },
       "phoneNumber": Object {
@@ -221,12 +365,10 @@ Follow @stjudeplaylive for more tips and info!",
       "donate": Object {
         "visible": true,
       },
-      "donorLeaderboard": Object {
-        "visible": true,
-      },
       "endsAt": Object {
         "visible": true,
       },
+      "fePageCampaigns": null,
       "fundraiserGoalAmount": Object {
         "type": "BOTH",
         "visible": true,
@@ -234,13 +376,12 @@ Follow @stjudeplaylive for more tips and info!",
       "goal": Object {
         "visible": true,
       },
+      "headerIntro": null,
+      "headerTitle": null,
       "individualLeaderboard": Object {
         "heat": true,
         "type": "ALL",
         "visible": true,
-      },
-      "preventDonationsBeforeStart": Object {
-        "visible": false,
       },
       "raised": Object {
         "visible": true,
@@ -265,6 +406,7 @@ Follow @stjudeplaylive for more tips and info!",
         "type": "ALL",
         "visible": true,
       },
+      "toolkit": null,
     },
   },
   "shortDescription": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
@@ -277,188 +419,70 @@ Follow @stjudeplaylive for more tips and info!",
 }
 `;
 
-exports[`cause tests - correct Tiltify cause fundraising events returned 3`] = `
-Object {
-  "avatar": Object {
-    "alt": "",
-    "height": 64,
-    "src": "https://assets.tiltify.com/uploads/cause/avatar/35/blob-fb2ebe36-4fd1-4334-9f1e-ba390dd0af2a.jpeg",
-    "width": 64,
-  },
-  "banner": Object {
-    "alt": "",
-    "height": 530,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/407/blob-af2ba0c8-85f5-47ef-b220-c38fadcb6067.png",
-    "width": 1440,
-  },
-  "causeId": 35,
-  "contactEmail": "donors@stjude.org",
-  "description": "This is Lindsey Stirling Live: The Artemis Reprise! A virtual concert experience benefiting St. Jude Children’s Research Hospital® on August 20th at 3pm PT/6pm ET. Join us #ForStJude. Because together, nothing is impossible.",
-  "endsAt": "2021-06-30",
-  "fundraiserGoalAmount": 10000,
-  "id": 407,
-  "image": Object {
-    "alt": "",
-    "height": 360,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/407/blob-5ce5218a-4f3f-4a58-829a-589bebe20595.jpeg",
-    "width": 640,
-  },
-  "logo": Object {
-    "alt": "",
-    "height": 64,
-    "src": "https://assets.tiltify.com/uploads/cause/logo/35/st-jude-children-s-research-hospital-logo-1588862972226.jpg",
-    "width": 100,
-  },
-  "message": null,
-  "name": "LINDSEY STIRLING LIVE: THE ARTEMIS REPRISE",
-  "parent": Object {
-    "id": 355,
-    "name": "LINDSEY STIRLING LIVE: THE ARTEMIS REPRISE",
-    "slug": "lindsey-stirling-live-the-artemis-reprise",
-  },
-  "settings": Object {
-    "colors": Object {
-      "background": "#ffffff",
-      "highlight": "#ce2f40",
-    },
-    "headerIntro": "Benefiting St. Jude Children's Research Hospital®",
-    "headerTitle": "Lindsey Stirling Live: The Artemis Reprise  ",
-    "registrationFields": Object {
-      "address": Object {
-        "enabled": false,
-        "position": 0,
-        "required": false,
-      },
-      "dateOfBirth": Object {
-        "enabled": false,
-        "position": 3,
-        "required": false,
-      },
-      "phoneNumber": Object {
-        "enabled": false,
-        "position": 5,
-        "required": false,
-      },
-      "serviceHours": Object {
-        "enabled": false,
-        "position": 2,
-        "required": false,
-      },
-      "shirtSize": Object {
-        "enabled": false,
-        "position": 1,
-        "required": false,
-      },
-    },
-    "visibilityOptions": Object {
-      "donate": Object {
-        "visible": true,
-      },
-      "endsAt": Object {
-        "visible": true,
-      },
-      "fundraiserGoalAmount": Object {
-        "type": "BOTH",
-        "visible": true,
-      },
-      "goal": Object {
-        "visible": true,
-      },
-      "individualLeaderboard": Object {
-        "heat": false,
-        "startsAt": null,
-        "type": "ALL",
-        "visible": true,
-      },
-      "raised": Object {
-        "visible": true,
-      },
-      "regions": Object {
-        "visible": true,
-      },
-      "registration": Object {
-        "visible": true,
-      },
-      "startsAt": Object {
-        "visible": true,
-      },
-      "sustainedGiving": Object {
-        "visible": false,
-      },
-      "sustainedGivingStats": Object {
-        "visible": true,
-      },
-      "teamLeaderboard": Object {
-        "heat": false,
-        "startsAt": null,
-        "type": "ALL",
-        "visible": true,
-      },
-    },
-  },
-  "shortDescription": "Lindsey Stirling Live: The Artemis Reprise - Thursday, August 20th, 3pm PT/6pm ET. In moments that separate us, we unite as one. Join us #ForStJude. Because together, nothing is impossible.",
-  "slug": "lindsey-stirling-live-the-artemis-reprise-2020",
-  "startsAt": "2020-08-01",
-  "status": "published",
-  "totalAmountRaised": Any<Number>,
-  "type": "FundraisingEvent",
-  "video": "https://www.youtube.com/watch?v=-_NZJ9_wVfE",
-}
-`;
-
 exports[`cause tests - correct Tiltify cause leaderboards returned 1`] = `
 Object {
   "individual": Array [
     Object {
-      "amountRaised": 8628947.51,
+      "amountRaised": 8628923.51,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/12457/8c20a3b8-d723-4dfc-8edd-8a27c4c38cf1.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/12457/8c20a3b8-d723-4dfc-8edd-8a27c4c38cf1.jpeg",
         "width": 128,
       },
       "name": "GCX",
       "url": "/@gcx/profile",
     },
     Object {
-      "amountRaised": 3646647.95,
+      "amountRaised": 6104633.12,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/33459/Profile-Pic-2.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/33459/Profile-Pic-2.png",
         "width": 128,
       },
       "name": "DrLupo",
       "url": "/@drlupo/profile",
     },
     Object {
+      "amountRaised": 3100915.16,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/60945/967cc875-054b-4bc7-8fb8-7777b2bc9681.jpeg",
+        "width": 128,
+      },
+      "name": "St. Jude",
+      "url": "/@st-jude/profile",
+    },
+    Object {
       "amountRaised": 1331513.04,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/70421/6dffec93-d8a4-4ef9-8f49-657eb74668ec.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/70421/6dffec93-d8a4-4ef9-8f49-657eb74668ec.jpeg",
         "width": 128,
       },
       "name": "Game Theorists",
       "url": "/@game-theorists/profile",
     },
     Object {
-      "amountRaised": 586449.53,
+      "amountRaised": 586459.53,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/10226/Cool.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/10226/Cool.png",
         "width": 128,
       },
       "name": "LobosJr",
       "url": "/@lobosjr/profile",
     },
     Object {
-      "amountRaised": 451695.37,
+      "amountRaised": 456000,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/152503/c931ec4a-7f09-4048-b6d5-01875c6d618a.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/152503/c931ec4a-7f09-4048-b6d5-01875c6d618a.jpeg",
         "width": 128,
       },
       "name": "Relay FM",
@@ -469,7 +493,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/2937/a1155dc8-db05-4102-93cb-dd6c6285a454.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/2937/a1155dc8-db05-4102-93cb-dd6c6285a454.jpeg",
         "width": 128,
       },
       "name": "Bloodyfaster",
@@ -487,22 +511,33 @@ Object {
       "url": "/@ninjashyper/profile",
     },
     Object {
-      "amountRaised": 238444.95,
+      "amountRaised": 238449.95,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/9716/e3f77d2b-1bea-42ed-a74c-33a5a31dd9d9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/9716/e3f77d2b-1bea-42ed-a74c-33a5a31dd9d9.jpeg",
         "width": 128,
       },
       "name": "littlesiha",
       "url": "/@littlesiha/profile",
     },
     Object {
+      "amountRaised": 197933,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/22046/1d338b0d-701b-44ff-bee3-773171971226.jpeg",
+        "width": 128,
+      },
+      "name": "lilsimsie",
+      "url": "/@lilsimsie/profile",
+    },
+    Object {
       "amountRaised": 171139.11,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/993/dawko_test.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/993/dawko_test.png",
         "width": 128,
       },
       "name": "Dawko",
@@ -513,7 +548,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/2494/Raid_112.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/2494/Raid_112.png",
         "width": 128,
       },
       "name": "iKasperr",
@@ -535,7 +570,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/33287/d14fc503-c53b-4d13-8dbb-46466f1d1f28.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/33287/d14fc503-c53b-4d13-8dbb-46466f1d1f28.jpeg",
         "width": 128,
       },
       "name": "88bitmusic",
@@ -553,44 +588,33 @@ Object {
       "url": "/@darkness429/profile",
     },
     Object {
-      "amountRaised": 139792.59,
+      "amountRaised": 140992.59,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/4965/f3e952b0-20aa-4583-a161-33bfc1b6a471.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/4965/f3e952b0-20aa-4583-a161-33bfc1b6a471.jpeg",
         "width": 128,
       },
       "name": "rxysurfchic",
       "url": "/@rxysurfchic/profile",
     },
     Object {
-      "amountRaised": 123220.66,
+      "amountRaised": 128249.17,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/9699/1cd36920-a2b2-4bd5-a2c9-61a635319af9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/9699/1cd36920-a2b2-4bd5-a2c9-61a635319af9.jpeg",
         "width": 128,
       },
       "name": "TheSpeedGamers",
       "url": "/@thespeedgamers/profile",
     },
     Object {
-      "amountRaised": 118287,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/22046/1d338b0d-701b-44ff-bee3-773171971226.jpeg",
-        "width": 128,
-      },
-      "name": "lilsimsie",
-      "url": "/@lilsimsie/profile",
-    },
-    Object {
       "amountRaised": 115717,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/7800/markiplier_icon.jpg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/7800/markiplier_icon.jpg",
         "width": 128,
       },
       "name": "markiplier",
@@ -601,7 +625,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/29139/unnamed-1__2_.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/29139/unnamed-1__2_.png",
         "width": 128,
       },
       "name": "Jacksepticeye",
@@ -612,7 +636,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/6045/anthony_kongphan-profile_image-5a1bef263ffabffb-300x300.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/6045/anthony_kongphan-profile_image-5a1bef263ffabffb-300x300.png",
         "width": 128,
       },
       "name": "AnthonyKongphan",
@@ -623,7 +647,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/990/Twitter_Profile.jpg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/990/Twitter_Profile.jpg",
         "width": 128,
       },
       "name": "Smash The Record",
@@ -634,7 +658,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/32443/negaHug_L.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/32443/negaHug_L.png",
         "width": 128,
       },
       "name": "negaoryx",
@@ -645,7 +669,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/9546/16708414_955816036630_7660920236558263158_n.jpg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/9546/16708414_955816036630_7660920236558263158_n.jpg",
         "width": 128,
       },
       "name": "TradeChat",
@@ -656,7 +680,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/9415/Avatar.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/9415/Avatar.png",
         "width": 128,
       },
       "name": "Lowco",
@@ -667,22 +691,11 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/user/thumbnail/10569/LogoTest2018_800px_.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/10569/LogoTest2018_800px_.png",
         "width": 128,
       },
       "name": "Terroriser",
       "url": "/@terroriser/profile",
-    },
-    Object {
-      "amountRaised": 81133.85,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/assets/default-avatar.png",
-        "width": 128,
-      },
-      "name": "PatrckStatic",
-      "url": "/@patrckstatic/profile",
     },
   ],
   "team": Array [
@@ -691,7 +704,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/390/Avatartwitch.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/390/Avatartwitch.png",
         "width": 128,
       },
       "name": "Team Catalyst",
@@ -702,7 +715,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1057/Crystalium_Icon.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1057/Crystalium_Icon.png",
         "width": 128,
       },
       "name": "Crystalium & Friends",
@@ -713,7 +726,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1936/2f55b635-7f5e-4af7-b863-8e37acbeef2c.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1936/2f55b635-7f5e-4af7-b863-8e37acbeef2c.jpeg",
         "width": 128,
       },
       "name": "Clips4Kids",
@@ -724,18 +737,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/436/team-icon.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/436/team-icon.png",
         "width": 128,
       },
       "name": "Team Sin Squad",
       "url": "/+team-sin-squad",
     },
     Object {
-      "amountRaised": 236379.86,
+      "amountRaised": 236389.86,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1993/52d73101-fe3a-4e9a-86db-1b9e6b9d97a7.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1993/52d73101-fe3a-4e9a-86db-1b9e6b9d97a7.jpeg",
         "width": 128,
       },
       "name": "Center Stage",
@@ -746,7 +759,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/391/ogBLBw5d.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/391/ogBLBw5d.jpg",
         "width": 128,
       },
       "name": "TeamVGaming",
@@ -757,29 +770,40 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/387/logo.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/387/logo.jpg",
         "width": 128,
       },
       "name": "DerpSquad",
       "url": "/+derpsquad",
     },
     Object {
-      "amountRaised": 185935.57,
+      "amountRaised": 185945.57,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1717/91305eb9-142a-4082-aff8-ab14c34ab209.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1717/91305eb9-142a-4082-aff8-ab14c34ab209.jpeg",
         "width": 128,
       },
       "name": "Streamfluencer",
       "url": "/+streamfluencer",
     },
     Object {
+      "amountRaised": 167339.71,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/619/822080ea-73e1-4711-a0c9-12336a0ab42f.jpeg",
+        "width": 128,
+      },
+      "name": "THE GOO's Metal Meal Meltdown Streamers",
+      "url": "/+the-goo-s-metal-meal-meltdown-streamers",
+    },
+    Object {
       "amountRaised": 155999.92,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/945/Main_Menu_Camera_Black.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/945/Main_Menu_Camera_Black.png",
         "width": 128,
       },
       "name": "Main Menu and friends",
@@ -790,18 +814,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2830/94d4732e-c58c-4a3d-8d09-264f7dab0439.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2830/94d4732e-c58c-4a3d-8d09-264f7dab0439.jpeg",
         "width": 128,
       },
       "name": "Sailing For Charity",
       "url": "/+sailing-for-charity",
     },
     Object {
-      "amountRaised": 143318.33,
+      "amountRaised": 145199.72,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/397/49bc3b77-be99-43f8-8a2a-d064839e3d03.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/397/49bc3b77-be99-43f8-8a2a-d064839e3d03.jpeg",
         "width": 128,
       },
       "name": "Team Kitty",
@@ -812,7 +836,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1051/7751c930-b87e-4a95-be7c-3144702451a9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1051/7751c930-b87e-4a95-be7c-3144702451a9.jpeg",
         "width": 128,
       },
       "name": "WouldYouKindly ",
@@ -830,33 +854,44 @@ Object {
       "url": "/+little-miracle-makers",
     },
     Object {
-      "amountRaised": 117960.37,
+      "amountRaised": 119160.37,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/404/af7aec7b-644f-4189-80d9-9a12c3eaa5c9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/404/af7aec7b-644f-4189-80d9-9a12c3eaa5c9.jpeg",
         "width": 128,
       },
       "name": "Alienware and Friends",
       "url": "/+alienware-and-friends",
     },
     Object {
-      "amountRaised": 96890.64,
+      "amountRaised": 106299.73,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/619/822080ea-73e1-4711-a0c9-12336a0ab42f.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5094/69337592-e436-45d2-b0e4-c4f012bb1848.jpeg",
         "width": 128,
       },
-      "name": "THE GOO's Metal Meal Meltdown Streamers",
-      "url": "/+the-goo-s-metal-meal-meltdown-streamers",
+      "name": "Fallout For Hope",
+      "url": "/+fallout-for-hope",
+    },
+    Object {
+      "amountRaised": 94152.57,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2054/9b2d7b26-aeb5-4c23-be18-d542cef912d0.jpeg",
+        "width": 128,
+      },
+      "name": "Wookie Cookies",
+      "url": "/+wookie-cookies",
     },
     Object {
       "amountRaised": 92807.95,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1917/0087f7a9-ac9e-4ad4-8d14-4cd0f022dc07.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1917/0087f7a9-ac9e-4ad4-8d14-4cd0f022dc07.jpeg",
         "width": 128,
       },
       "name": "The Storm",
@@ -867,29 +902,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1003/Stream-On.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1003/Stream-On.png",
         "width": 128,
       },
       "name": "Stream On",
       "url": "/+stream-on",
     },
     Object {
-      "amountRaised": 84393.26,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2054/9b2d7b26-aeb5-4c23-be18-d542cef912d0.jpeg",
-        "width": 128,
-      },
-      "name": "Wookie Cookies",
-      "url": "/+wookie-cookies",
-    },
-    Object {
       "amountRaised": 81071.09,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/915/02.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/915/02.png",
         "width": 128,
       },
       "name": "Perky Pugs",
@@ -900,7 +924,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2060/772f3a7e-17da-4e5d-80d3-581812fe2992.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2060/772f3a7e-17da-4e5d-80d3-581812fe2992.jpeg",
         "width": 128,
       },
       "name": "4 Truth, JustUs, and The Kids!",
@@ -911,7 +935,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1261/c314de5f-6604-417f-91a9-e8b0e3831b23.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1261/c314de5f-6604-417f-91a9-e8b0e3831b23.jpeg",
         "width": 128,
       },
       "name": "Team RockSquad ",
@@ -922,7 +946,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1045/4235370539282877877.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1045/4235370539282877877.jpg",
         "width": 128,
       },
       "name": "The Flagship",
@@ -933,29 +957,40 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/415/Main_Menu_x_GameStop.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/415/Main_Menu_x_GameStop.png",
         "width": 128,
       },
       "name": "Main Menu x GameStop",
       "url": "/+main-menu-x-gamestop",
     },
     Object {
-      "amountRaised": 67806.38,
+      "amountRaised": 67831.38,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/943/ProjectKindness.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/943/ProjectKindness.jpg",
         "width": 128,
       },
       "name": "Project Kindness",
       "url": "/+project-kindness",
     },
     Object {
+      "amountRaised": 67272.06,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5862/blob-28a5530d-3bcf-4184-b452-49dec4fbb4d3.png",
+        "width": 128,
+      },
+      "name": "The Hunt 2021",
+      "url": "/+the-hunt-2021",
+    },
+    Object {
       "amountRaised": 65976.32,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1991/1158c203-bf45-4e14-a0ab-14826508f306.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1991/1158c203-bf45-4e14-a0ab-14826508f306.jpeg",
         "width": 128,
       },
       "name": "Chatloaf & Friends ",
@@ -966,7 +1001,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/400/Pokemon_18_Profile.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/400/Pokemon_18_Profile.png",
         "width": 128,
       },
       "name": "TSG",
@@ -977,7 +1012,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1624/3c56dbfe-b11a-4b6e-a7cf-527ef82b333f.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1624/3c56dbfe-b11a-4b6e-a7cf-527ef82b333f.jpeg",
         "width": 128,
       },
       "name": "The Hunt 2019",
@@ -988,29 +1023,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3251/2fa50a33-5da2-4b94-8614-74b69a6dec0b.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3251/blob-9a6bf266-f9ed-43ba-a67f-fa3381859681.png",
         "width": 128,
       },
       "name": "Confectionary",
       "url": "/+confectionary",
     },
     Object {
-      "amountRaised": 56561.98,
+      "amountRaised": 56571.98,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3468/7806fa78-d673-42c1-a598-c00cb60e37a1.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3468/7806fa78-d673-42c1-a598-c00cb60e37a1.jpeg",
         "width": 128,
       },
       "name": "The Charity Braves",
       "url": "/+the-charity-braves",
     },
     Object {
-      "amountRaised": 55138.59,
+      "amountRaised": 55188.59,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3474/7e8c0162-248c-4a29-a211-d5ae61c4f1a1.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3474/7e8c0162-248c-4a29-a211-d5ae61c4f1a1.jpeg",
         "width": 128,
       },
       "name": "WaveXR",
@@ -1021,7 +1056,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1988/e69faa1e-e0a9-420e-ab69-6e9b5dabb079.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1988/e69faa1e-e0a9-420e-ab69-6e9b5dabb079.jpeg",
         "width": 128,
       },
       "name": "Aim and Achieve Stream Team",
@@ -1032,11 +1067,22 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2149/3644ad7f-4287-422e-9b3b-98afcbf655d5.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2149/3644ad7f-4287-422e-9b3b-98afcbf655d5.jpeg",
         "width": 128,
       },
       "name": "Mixer Musicians",
       "url": "/+mixer-musicians",
+    },
+    Object {
+      "amountRaised": 48613.69,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5664/57729986-2fbf-40ea-9c0f-fa513b01fee5.jpeg",
+        "width": 128,
+      },
+      "name": "GoodCauseCrusaders",
+      "url": "/+goodcausecrusaders",
     },
     Object {
       "amountRaised": 48535.77,
@@ -1050,44 +1096,55 @@ Object {
       "url": "/+4dakeedz",
     },
     Object {
-      "amountRaised": 47646.11,
+      "amountRaised": 48048.46,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/974/mastersword3.jpg",
-        "width": 128,
-      },
-      "name": "Flawless Victory",
-      "url": "/+flawless-victory",
-    },
-    Object {
-      "amountRaised": 46958.32,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2468/eae554f3-3968-4ad7-8a80-e36f021d3c48.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2468/eae554f3-3968-4ad7-8a80-e36f021d3c48.jpeg",
         "width": 128,
       },
       "name": "Team Bone-In",
       "url": "/+team-bone-in",
     },
     Object {
+      "amountRaised": 47646.11,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/974/mastersword3.jpg",
+        "width": 128,
+      },
+      "name": "Flawless Victory",
+      "url": "/+flawless-victory",
+    },
+    Object {
       "amountRaised": 46141.14,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/467/everAfterlogoGray.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/467/everAfterlogoGray.png",
         "width": 128,
       },
       "name": "Team Ever After",
       "url": "/+team-ever-after",
     },
     Object {
+      "amountRaised": 42069,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5584/eb797224-be12-4dbe-9111-9925e5b8761e.jpeg",
+        "width": 128,
+      },
+      "name": "VShojo",
+      "url": "/+vshojo",
+    },
+    Object {
       "amountRaised": 41141.66,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1019/e80e0ea3-58b1-4f5b-8cca-53fb841b3b61.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1019/e80e0ea3-58b1-4f5b-8cca-53fb841b3b61.jpeg",
         "width": 128,
       },
       "name": "The Cookout",
@@ -1098,7 +1155,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1002/purplegecko.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1002/purplegecko.png",
         "width": 128,
       },
       "name": "Gecko Swarm",
@@ -1109,7 +1166,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3926/acdf8a38-5c42-4c5b-b6eb-3a6881e2b8ba.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3926/acdf8a38-5c42-4c5b-b6eb-3a6881e2b8ba.jpeg",
         "width": 128,
       },
       "name": "Stonemountain's Squad",
@@ -1120,18 +1177,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1924/6efcf09d-5b9a-4ff4-b9e4-ef2773ec4cb7.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1924/6efcf09d-5b9a-4ff4-b9e4-ef2773ec4cb7.jpeg",
         "width": 128,
       },
       "name": "Playing with Fire TV",
       "url": "/+playing-with-fire-tv",
     },
     Object {
+      "amountRaised": 35885.75,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3874/5fc69f36-7754-490f-8ff9-739099f197a2.jpeg",
+        "width": 128,
+      },
+      "name": "8-Bit Community",
+      "url": "/+8-bit-community",
+    },
+    Object {
       "amountRaised": 35016,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/445/Profile_Image2.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/445/Profile_Image2.png",
         "width": 128,
       },
       "name": "Team Smash The Record",
@@ -1142,7 +1210,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/254/cce8043c-07e2-4397-ad5d-08bc17dd47b5.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/254/cce8043c-07e2-4397-ad5d-08bc17dd47b5.jpeg",
         "width": 128,
       },
       "name": "ScareAThon",
@@ -1153,7 +1221,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/111/e33aaff8-3ec7-4262-8787-0e37d0487e24.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/111/e33aaff8-3ec7-4262-8787-0e37d0487e24.jpeg",
         "width": 128,
       },
       "name": "ASTRO Gaming",
@@ -1175,7 +1243,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1887/701875ae-93d3-4d09-8d58-a3432a6637f9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1887/701875ae-93d3-4d09-8d58-a3432a6637f9.jpeg",
         "width": 128,
       },
       "name": "The Mooners",
@@ -1186,7 +1254,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/998/Nucleus-Twitter-Icon.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/998/Nucleus-Twitter-Icon.png",
         "width": 128,
       },
       "name": "Team Nucleus",
@@ -1197,7 +1265,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/987/Pasted_image_at_2018_04_25_07_39_PM.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/987/Pasted_image_at_2018_04_25_07_39_PM.png",
         "width": 128,
       },
       "name": "/r/Twitch & Community",
@@ -1208,7 +1276,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/389/G4CButton.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/389/G4CButton.jpg",
         "width": 128,
       },
       "name": "Gamers4Change",
@@ -1219,7 +1287,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/772/SR_newlogoSQyel-01.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/772/SR_newlogoSQyel-01.png",
         "width": 128,
       },
       "name": "Super Rare",
@@ -1230,7 +1298,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1066/PartnerStampRed.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1066/PartnerStampRed.png",
         "width": 128,
       },
       "name": "Humble Partners & Friends",
@@ -1241,18 +1309,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1922/71a1c3de-7b3e-4d4b-a7a5-14d38fb1772a.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1922/71a1c3de-7b3e-4d4b-a7a5-14d38fb1772a.jpeg",
         "width": 128,
       },
       "name": "TwitchKittens Alpha",
       "url": "/+twitchkittens-alpha",
     },
     Object {
+      "amountRaised": 27271.24,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Our Powers Combined",
+      "url": "/+our-powers-combined",
+    },
+    Object {
       "amountRaised": 26623.75,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1798/323b6c69-4761-499f-afc4-f6adc593cdfb.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1798/323b6c69-4761-499f-afc4-f6adc593cdfb.jpeg",
         "width": 128,
       },
       "name": "Yam Fam",
@@ -1263,7 +1342,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2027/0f48b76c-fcbc-4343-bd37-62d09771d9be.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2027/0f48b76c-fcbc-4343-bd37-62d09771d9be.jpeg",
         "width": 128,
       },
       "name": "St. Jude Charity Scare-a-thon 2019",
@@ -1274,7 +1353,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2203/ea541054-b7b9-4f89-aed3-4084c0da9c79.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2203/ea541054-b7b9-4f89-aed3-4084c0da9c79.jpeg",
         "width": 128,
       },
       "name": "Team Strugglebus",
@@ -1285,7 +1364,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/426/goodvibes12.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/426/goodvibes12.jpg",
         "width": 128,
       },
       "name": "Good Vibes",
@@ -1307,7 +1386,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2612/da78cffd-d268-4ebe-a673-a270ee7178b8.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2612/da78cffd-d268-4ebe-a673-a270ee7178b8.jpeg",
         "width": 128,
       },
       "name": "Just Dance for a Cause",
@@ -1318,18 +1397,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3558/741c7cc3-a527-4f34-9ece-f8047bffe2c6.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3558/741c7cc3-a527-4f34-9ece-f8047bffe2c6.jpeg",
         "width": 128,
       },
       "name": "The Expedition",
       "url": "/+the-expedition",
     },
     Object {
+      "amountRaised": 24394.97,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3484/bb413fe1-a8dc-47c4-b312-08151b330376.jpeg",
+        "width": 128,
+      },
+      "name": "StreamersForCharity",
+      "url": "/+streamersforcharity",
+    },
+    Object {
       "amountRaised": 24167,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/455/logo-color-notext.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/455/logo-color-notext.png",
         "width": 128,
       },
       "name": "The Party",
@@ -1340,7 +1430,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2086/03e00b52-302a-44b7-a9a5-09107347acb9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2086/03e00b52-302a-44b7-a9a5-09107347acb9.jpeg",
         "width": 128,
       },
       "name": "Keys to Hearts",
@@ -1351,7 +1441,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2161/67441ea1-0f3e-4d8e-89cf-31c5fd17772c.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2161/67441ea1-0f3e-4d8e-89cf-31c5fd17772c.jpeg",
         "width": 128,
       },
       "name": "Plant Army",
@@ -1362,7 +1452,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2436/0969d974-86b2-46df-afce-5ece6d27559f.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2436/0969d974-86b2-46df-afce-5ece6d27559f.jpeg",
         "width": 128,
       },
       "name": "505 Games and Friends",
@@ -1373,7 +1463,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/498/LWAC-New.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/498/LWAC-New.png",
         "width": 128,
       },
       "name": "Level With A Cause",
@@ -1384,7 +1474,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/841/Twitter_Profile.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/841/Twitter_Profile.png",
         "width": 128,
       },
       "name": "Inception Talent",
@@ -1395,7 +1485,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/527/BYOB_Thumb.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/527/BYOB_Thumb.jpg",
         "width": 128,
       },
       "name": "BYOB Gaming",
@@ -1406,7 +1496,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/953/ntg.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/953/ntg.jpg",
         "width": 128,
       },
       "name": "NonToxic Gaming",
@@ -1428,7 +1518,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3269/4313d25d-7509-4a09-9852-4c494e5e050e.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3269/4313d25d-7509-4a09-9852-4c494e5e050e.jpeg",
         "width": 128,
       },
       "name": "Content Loading",
@@ -1439,18 +1529,40 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/393/Profile_Pic.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/393/Profile_Pic.jpg",
         "width": 128,
       },
       "name": "Dominos",
       "url": "/+dominos",
     },
     Object {
+      "amountRaised": 17860.85,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1168/7d898d22-27b6-4b03-b8e1-419a1c00e0bd.jpeg",
+        "width": 128,
+      },
+      "name": "A Reddit Dystopia",
+      "url": "/+a-reddit-dystopia",
+    },
+    Object {
+      "amountRaised": 17370.4,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2095/65424008-0728-4e2b-9c60-47fa8acc91af.jpeg",
+        "width": 128,
+      },
+      "name": "Team Poppy Ellie",
+      "url": "/+team-poppy-ellie",
+    },
+    Object {
       "amountRaised": 17188,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/464/Spoon3month72.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/464/Spoon3month72.png",
         "width": 128,
       },
       "name": "The Utensils",
@@ -1461,40 +1573,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1467/294d38cd-804a-4ea4-8f9b-6d06c5c2fd79.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1467/294d38cd-804a-4ea4-8f9b-6d06c5c2fd79.jpeg",
         "width": 128,
       },
-      "name": "GIRLSTREAMERS",
-      "url": "/+girlstreamers",
+      "name": "GIRLSTREAMERS--069dbe4d-540b-4fca-8d58-180bb40da30e",
+      "url": "/+girlstreamers-069dbe4d-540b-4fca-8d58-180bb40da30e",
     },
     Object {
       "amountRaised": 16590,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/420/legioncircle.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/420/legioncircle.png",
         "width": 128,
       },
       "name": "The Legion",
       "url": "/+the-legion",
     },
     Object {
-      "amountRaised": 16446.38,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1168/7d898d22-27b6-4b03-b8e1-419a1c00e0bd.jpeg",
-        "width": 128,
-      },
-      "name": "A Reddit Dystopia",
-      "url": "/+a-reddit-dystopia",
-    },
-    Object {
       "amountRaised": 16130,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/573/shd.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/573/shd.png",
         "width": 128,
       },
       "name": "The Division Community",
@@ -1505,7 +1606,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/969/steady_logo_prntqtransparent1.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/969/steady_logo_prntqtransparent1.png",
         "width": 128,
       },
       "name": "SteadyArmy",
@@ -1516,7 +1617,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2056/0db5e832-8585-4685-8d58-f592793f4846.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2056/0db5e832-8585-4685-8d58-f592793f4846.jpeg",
         "width": 128,
       },
       "name": "Hope Squadron",
@@ -1527,7 +1628,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/833/CCULogo.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/833/CCULogo.png",
         "width": 128,
       },
       "name": "Content Creators United",
@@ -1538,29 +1639,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1069/8cs2cHY8.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1069/8cs2cHY8.png",
         "width": 128,
       },
       "name": "90's Club for St. Jude ",
       "url": "/+90-s-club-for-st-jude",
     },
     Object {
-      "amountRaised": 14725.35,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3484/bb413fe1-a8dc-47c4-b312-08151b330376.jpeg",
-        "width": 128,
-      },
-      "name": "StreamersForCharity",
-      "url": "/+streamersforcharity",
-    },
-    Object {
       "amountRaised": 14282.76,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2746/60f6756c-5803-4734-84d5-9ba9d8a1420f.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2746/60f6756c-5803-4734-84d5-9ba9d8a1420f.jpeg",
         "width": 128,
       },
       "name": "Spellbound",
@@ -1571,7 +1661,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/494/BRIX_white.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/494/BRIX_white.png",
         "width": 128,
       },
       "name": "Brix Haus",
@@ -1589,11 +1679,22 @@ Object {
       "url": "/+bearded-bastards-give",
     },
     Object {
+      "amountRaised": 13414.81,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3441/9137b78f-d9dc-4d30-aab0-6061311c263e.jpeg",
+        "width": 128,
+      },
+      "name": "The Lass Project",
+      "url": "/+the-lass-project",
+    },
+    Object {
       "amountRaised": 13390.7,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2058/3ee3b19e-a1f6-4358-9e9e-1404def5301e.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2058/3ee3b19e-a1f6-4358-9e9e-1404def5301e.jpeg",
         "width": 128,
       },
       "name": "STAR is for the Children 2019",
@@ -1604,29 +1705,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2596/3a4c324c-8541-42b5-a8de-1311ba2e5242.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2596/3a4c324c-8541-42b5-a8de-1311ba2e5242.jpeg",
         "width": 128,
       },
       "name": "Hearts of Gold Fleet",
       "url": "/+hearts-of-gold-fleet",
     },
     Object {
-      "amountRaised": 12804.81,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3441/9137b78f-d9dc-4d30-aab0-6061311c263e.jpeg",
-        "width": 128,
-      },
-      "name": "The Lass Project",
-      "url": "/+the-lass-project",
-    },
-    Object {
       "amountRaised": 12110.52,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3328/f15c4dfc-5034-4792-95fc-60ad011bb3be.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3328/f15c4dfc-5034-4792-95fc-60ad011bb3be.jpeg",
         "width": 128,
       },
       "name": "Gecko Swarm for St. Jude PLAYLIVE 2020",
@@ -1637,7 +1727,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1046/5cb65e12-2ab8-4873-83c1-e5e626986a3f.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1046/5cb65e12-2ab8-4873-83c1-e5e626986a3f.jpeg",
         "width": 128,
       },
       "name": "Space Vikings",
@@ -1648,7 +1738,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/406/trash_squad_poster_6.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/406/trash_squad_poster_6.png",
         "width": 128,
       },
       "name": "trashsquad",
@@ -1659,18 +1749,40 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1905/74f7ccf0-34b8-4da7-9d05-eef44d401d5d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1905/74f7ccf0-34b8-4da7-9d05-eef44d401d5d.jpeg",
         "width": 128,
       },
       "name": "To Be Determined Play Live",
       "url": "/+to-be-determined-play-live",
     },
     Object {
+      "amountRaised": 11523.26,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4505/d2bc0267-b61a-48e5-b576-07b09a393c72.jpeg",
+        "width": 128,
+      },
+      "name": "Caturday",
+      "url": "/+caturday",
+    },
+    Object {
+      "amountRaised": 11461.08,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Press Play x Tiger Tea",
+      "url": "/+press-play-x-tiger-tea",
+    },
+    Object {
       "amountRaised": 11219.69,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2827/175275e9-e31d-499f-a26b-812a772f6bae.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2827/175275e9-e31d-499f-a26b-812a772f6bae.jpeg",
         "width": 128,
       },
       "name": "Cypher's Nat 20's",
@@ -1681,11 +1793,22 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2272/2080a7ee-814d-4469-9e52-e8687897061b.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2272/2080a7ee-814d-4469-9e52-e8687897061b.jpeg",
         "width": 128,
       },
       "name": "Deep Winter",
       "url": "/+deep-winter",
+    },
+    Object {
+      "amountRaised": 10937.01,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3688/be17d329-f0c9-4db6-b5ea-458e1f2e5f0b.jpeg",
+        "width": 128,
+      },
+      "name": "Sprinklr",
+      "url": "/+sprinklr",
     },
     Object {
       "amountRaised": 10843,
@@ -1714,7 +1837,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1912/5923fb4b-3162-428f-8dcd-f119991233c5.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1912/5923fb4b-3162-428f-8dcd-f119991233c5.jpeg",
         "width": 128,
       },
       "name": "Companion Crew",
@@ -1725,7 +1848,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4497/d6031312-16fd-43f7-a420-094c6ae7eb3e.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4497/d6031312-16fd-43f7-a420-094c6ae7eb3e.jpeg",
         "width": 128,
       },
       "name": "Lights for Hope",
@@ -1736,7 +1859,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1010/skittleknight112.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1010/skittleknight112.png",
         "width": 128,
       },
       "name": "Skittle Squad",
@@ -1769,14 +1892,25 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1925/0b03c9fb-3a26-4505-8f68-f8512abd3dc7.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1925/0b03c9fb-3a26-4505-8f68-f8512abd3dc7.jpeg",
         "width": 128,
       },
       "name": "TwitchKittens Community",
       "url": "/+twitchkittens-community",
     },
     Object {
-      "amountRaised": 10115,
+      "amountRaised": 10021.01,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5632/b5f04cd0-60e8-48e8-a6c2-3f0160d8c9b6.jpeg",
+        "width": 128,
+      },
+      "name": "Greyhawk Community Streamers",
+      "url": "/+greyhawk-community-streamers",
+    },
+    Object {
+      "amountRaised": 9690,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -1791,7 +1925,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1943/1875e434-1a80-4b88-8a37-c699fbfd3b3a.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1943/1875e434-1a80-4b88-8a37-c699fbfd3b3a.jpeg",
         "width": 128,
       },
       "name": "The Newb Crew",
@@ -1802,7 +1936,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1916/61b4e30c-c9ae-497a-a8b4-b7c7c79b5ee0.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1916/61b4e30c-c9ae-497a-a8b4-b7c7c79b5ee0.jpeg",
         "width": 128,
       },
       "name": "Twitch Food & Drink!",
@@ -1813,7 +1947,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1486/09915ea9-4ba3-4305-b116-c784a5bbabdd.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1486/09915ea9-4ba3-4305-b116-c784a5bbabdd.jpeg",
         "width": 128,
       },
       "name": "PlayDauntless",
@@ -1824,7 +1958,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1940/6b8dd67f-8f99-47ed-ba7c-80ede02f1068.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1940/6b8dd67f-8f99-47ed-ba7c-80ede02f1068.jpeg",
         "width": 128,
       },
       "name": "The Cabbage Patch",
@@ -1835,7 +1969,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3279/2bd88394-16e0-421a-a774-8f3d2744e1ef.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3279/2bd88394-16e0-421a-a774-8f3d2744e1ef.jpeg",
         "width": 128,
       },
       "name": "Kreateure",
@@ -1846,7 +1980,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1301/139b1af0-1e61-4062-a428-ca35f03596ed.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1301/139b1af0-1e61-4062-a428-ca35f03596ed.jpeg",
         "width": 128,
       },
       "name": "Charity Streamers",
@@ -1857,7 +1991,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/612/The_Avowed_Logo.PNG",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/612/The_Avowed_Logo.PNG",
         "width": 128,
       },
       "name": "The Avowed Team--77f003a7-706b-4625-8f57-9b983646ddae",
@@ -1868,7 +2002,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/477/unnamed__10_.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/477/unnamed__10_.png",
         "width": 128,
       },
       "name": "p90princess ",
@@ -1879,7 +2013,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/396/Screen_Shot_2017-04-12_at_3.09.37_PM.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/396/Screen_Shot_2017-04-12_at_3.09.37_PM.png",
         "width": 128,
       },
       "name": "GSN Gaming & Friends",
@@ -1901,7 +2035,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/495/01_trans.gif",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/495/01_trans.gif",
         "width": 128,
       },
       "name": "AimzAtchu Dolphin Family",
@@ -1912,7 +2046,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2420/42073fb0-8492-4cab-8201-4a455ae41135.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2420/42073fb0-8492-4cab-8201-4a455ae41135.jpeg",
         "width": 128,
       },
       "name": "Charity Hunters",
@@ -1923,7 +2057,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3545/f062462b-4978-40f7-a246-2df99d6c8e6d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3545/f062462b-4978-40f7-a246-2df99d6c8e6d.jpeg",
         "width": 128,
       },
       "name": "H*cking Play",
@@ -1934,29 +2068,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1146/pineapplegray.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1146/pineapplegray.jpg",
         "width": 128,
       },
       "name": "Positive Pineapples",
       "url": "/+positive-pineapples",
     },
     Object {
-      "amountRaised": 6856,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2095/65424008-0728-4e2b-9c60-47fa8acc91af.jpeg",
-        "width": 128,
-      },
-      "name": "Team Poppy Ellie",
-      "url": "/+team-poppy-ellie",
-    },
-    Object {
       "amountRaised": 6750,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/330/vs_evil_logo.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/330/vs_evil_logo.jpeg",
         "width": 128,
       },
       "name": "Versus Evil",
@@ -1967,7 +2090,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2074/8881c788-3e41-4760-856b-b332d74b503d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2074/8881c788-3e41-4760-856b-b332d74b503d.jpeg",
         "width": 128,
       },
       "name": "Sea of Streams",
@@ -1978,7 +2101,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1029/neon_cup_logo_with_back.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1029/neon_cup_logo_with_back.png",
         "width": 128,
       },
       "name": "Cup of Caring",
@@ -1989,7 +2112,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3435/22d92172-9761-43dc-b84f-9e4fe4e9a46f.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3435/22d92172-9761-43dc-b84f-9e4fe4e9a46f.jpeg",
         "width": 128,
       },
       "name": "Lenard18's Mustached Marauders",
@@ -2000,7 +2123,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3661/4d22956f-793d-4811-b41f-204736b2b16c.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3661/4d22956f-793d-4811-b41f-204736b2b16c.jpeg",
         "width": 128,
       },
       "name": "Variety Streamers for St Jude",
@@ -2033,7 +2156,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/528/unity.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/528/unity.png",
         "width": 128,
       },
       "name": "TwitchUnity Dance-a-thon",
@@ -2044,7 +2167,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/414/itam_logo.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/414/itam_logo.jpg",
         "width": 128,
       },
       "name": "Into The AM",
@@ -2055,7 +2178,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1324/UHC_On_Air.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1324/UHC_On_Air.png",
         "width": 128,
       },
       "name": "UHC On Air",
@@ -2066,7 +2189,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1076/Thank_You__Transparent_.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1076/Thank_You__Transparent_.png",
         "width": 128,
       },
       "name": "The Deal Nation Femily--709cf939-4736-4b79-b317-9d2669290f13",
@@ -2088,7 +2211,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/844/retromaniacsnew-twitchpanel.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/844/retromaniacsnew-twitchpanel.png",
         "width": 128,
       },
       "name": "Retromaniacs",
@@ -2099,7 +2222,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/329/Emblem_-_Black.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/329/Emblem_-_Black.png",
         "width": 128,
       },
       "name": "ZeldaUniverse",
@@ -2110,7 +2233,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1063/Aethernet.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1063/Aethernet.jpg",
         "width": 128,
       },
       "name": "The Aethernet & Friends Team",
@@ -2121,7 +2244,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1983/64c4f490-b1a8-4a47-bcdb-1c65f7386c8d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1983/64c4f490-b1a8-4a47-bcdb-1c65f7386c8d.jpeg",
         "width": 128,
       },
       "name": "Less Than Three",
@@ -2132,7 +2255,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1005/Hug112.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1005/Hug112.png",
         "width": 128,
       },
       "name": "For The Kids! Because, Why Not?",
@@ -2150,11 +2273,22 @@ Object {
       "url": "/+ity-bitty-charity-team",
     },
     Object {
+      "amountRaised": 5204.03,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4709/3ebd4622-ad40-44dd-af3a-c5d94de02fa0.jpeg",
+        "width": 128,
+      },
+      "name": "Charity Caravan",
+      "url": "/+charity-caravan",
+    },
+    Object {
       "amountRaised": 5165,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/399/BEEZ72.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/399/BEEZ72.png",
         "width": 128,
       },
       "name": "Hive Community Play Live Fundraiser ",
@@ -2165,7 +2299,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/727/red_controller.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/727/red_controller.jpg",
         "width": 128,
       },
       "name": "Too Rad To Be Sad",
@@ -2176,7 +2310,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1981/26c73999-3ed7-4408-99ef-1317fa65d8fe.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1981/26c73999-3ed7-4408-99ef-1317fa65d8fe.jpeg",
         "width": 128,
       },
       "name": "Ready Level Up",
@@ -2209,7 +2343,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1661/dea18c4f-2ee5-4052-93ea-6aa0ed3447cb.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1661/dea18c4f-2ee5-4052-93ea-6aa0ed3447cb.jpeg",
         "width": 128,
       },
       "name": "Vying for a Cure",
@@ -2220,7 +2354,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/402/Zelse.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/402/Zelse.jpeg",
         "width": 128,
       },
       "name": "Team Zelse",
@@ -2231,7 +2365,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3161/4f7c6c2a-b257-404f-ad01-53a13c87145a.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3161/4f7c6c2a-b257-404f-ad01-53a13c87145a.jpeg",
         "width": 128,
       },
       "name": "Big Heroes Helping Little Heroes",
@@ -2242,11 +2376,22 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1923/fcf7ba2d-ca69-4ed0-aaf2-f82e3d3a7419.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1923/fcf7ba2d-ca69-4ed0-aaf2-f82e3d3a7419.jpeg",
         "width": 128,
       },
       "name": "Reflections",
       "url": "/+reflections",
+    },
+    Object {
+      "amountRaised": 4423.37,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1964/8bf4ffac-1eaa-4034-b3b3-a42db8924e92.jpeg",
+        "width": 128,
+      },
+      "name": "GONE FULL CASUAL",
+      "url": "/+gone-full-casual",
     },
     Object {
       "amountRaised": 4360,
@@ -2260,22 +2405,11 @@ Object {
       "url": "/+tbs",
     },
     Object {
-      "amountRaised": 4236.37,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1964/8bf4ffac-1eaa-4034-b3b3-a42db8924e92.jpeg",
-        "width": 128,
-      },
-      "name": "GONE FULL CASUAL",
-      "url": "/+gone-full-casual",
-    },
-    Object {
       "amountRaised": 4231.4,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/996/ugly_mug.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/996/ugly_mug.jpg",
         "width": 128,
       },
       "name": "ducckkyyTV's Flock",
@@ -2293,11 +2427,22 @@ Object {
       "url": "/+rare-sense",
     },
     Object {
+      "amountRaised": 4201.82,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Charity squad",
+      "url": "/+charity-squad",
+    },
+    Object {
       "amountRaised": 4182,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3299/97a4ffbe-7f7f-4955-96a6-e702424deb3d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3299/97a4ffbe-7f7f-4955-96a6-e702424deb3d.jpeg",
         "width": 128,
       },
       "name": "Nerd901",
@@ -2319,7 +2464,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/472/peachy_heart112x112.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/472/peachy_heart112x112.png",
         "width": 128,
       },
       "name": "Peachy Party",
@@ -2330,7 +2475,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1034/ee5f1ec9-3f06-4e01-aac5-6e739526ca11.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1034/ee5f1ec9-3f06-4e01-aac5-6e739526ca11.jpeg",
         "width": 128,
       },
       "name": "Twitch Hawaii",
@@ -2341,7 +2486,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1194/BOTG_Final.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1194/BOTG_Final.jpg",
         "width": 128,
       },
       "name": "Mixer Streamers Collaborative ",
@@ -2359,11 +2504,22 @@ Object {
       "url": "/+team-grape",
     },
     Object {
+      "amountRaised": 3689.79,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Chaotic Charity for Children",
+      "url": "/+chaotic-charity-for-children",
+    },
+    Object {
       "amountRaised": 3629.54,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2008/1ebbdf8f-e5ef-4ac4-a40f-d55d6c98b377.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2008/1ebbdf8f-e5ef-4ac4-a40f-d55d6c98b377.jpeg",
         "width": 128,
       },
       "name": "Elite Four",
@@ -2374,7 +2530,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1559/2b6b9e7b-5252-4540-944f-d60926ad5243.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1559/2b6b9e7b-5252-4540-944f-d60926ad5243.jpeg",
         "width": 128,
       },
       "name": "Fade2Karma",
@@ -2385,7 +2541,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1062/retsy.fw.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1062/retsy.fw.png",
         "width": 128,
       },
       "name": "Kinsanity For the Kids",
@@ -2407,18 +2563,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/428/thereallogo.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/428/thereallogo.png",
         "width": 128,
       },
       "name": "Game Over Cancer",
       "url": "/+game-over-cancer",
     },
     Object {
+      "amountRaised": 3561.81,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5510/16c66d12-1cb1-4368-b23b-d565ada15c04.jpeg",
+        "width": 128,
+      },
+      "name": "Down 2 Earth",
+      "url": "/+down-2-earth",
+    },
+    Object {
       "amountRaised": 3505.33,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1895/3badb7f9-78bf-445e-9da8-7893ad0f23d8.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1895/3badb7f9-78bf-445e-9da8-7893ad0f23d8.jpeg",
         "width": 128,
       },
       "name": "LAN House",
@@ -2429,7 +2596,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1952/d90fa4ba-5714-4646-8e21-81a7368731e1.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1952/d90fa4ba-5714-4646-8e21-81a7368731e1.jpeg",
         "width": 128,
       },
       "name": "Chocolate Thunder",
@@ -2451,7 +2618,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2131/6e03c1b3-0a5c-4cdb-985a-473492533d87.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2131/6e03c1b3-0a5c-4cdb-985a-473492533d87.jpeg",
         "width": 128,
       },
       "name": "Pod Gods",
@@ -2462,7 +2629,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/307/christmas_hat_png_by_xhipstaswift-d5lkmu8.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/307/christmas_hat_png_by_xhipstaswift-d5lkmu8.png",
         "width": 128,
       },
       "name": "The Grind",
@@ -2480,11 +2647,22 @@ Object {
       "url": "/+sea-of-pokemon-crew",
     },
     Object {
+      "amountRaised": 3085,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5377/87908051-b455-488d-9e37-08fd5418416f.jpeg",
+        "width": 128,
+      },
+      "name": "Team GLHF",
+      "url": "/+team-glhf",
+    },
+    Object {
       "amountRaised": 3058.3,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1578/98801d67-c409-4f7e-8db4-bef2061b93a0.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1578/98801d67-c409-4f7e-8db4-bef2061b93a0.jpeg",
         "width": 128,
       },
       "name": "Smile Squad",
@@ -2495,7 +2673,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1997/7d767f43-4fcb-4c92-8cb1-9b2cbbea1a65.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1997/7d767f43-4fcb-4c92-8cb1-9b2cbbea1a65.jpeg",
         "width": 128,
       },
       "name": "Old Man Charity Crew",
@@ -2506,7 +2684,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1047/MvZKMs6g_400x400.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1047/MvZKMs6g_400x400.jpg",
         "width": 128,
       },
       "name": "World Best Gaming ",
@@ -2517,7 +2695,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2075/blob-24e1cfdc-cbb0-451c-a710-b689a5f719ee.png",
         "width": 128,
       },
       "name": "Black Girl Gamers",
@@ -2528,7 +2706,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/459/Z.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/Z.jpg",
         "width": 128,
       },
       "name": "Zeldathon Community",
@@ -2539,7 +2717,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1572/14dcc8f0-d876-4610-bd45-64313d706fd3.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1572/14dcc8f0-d876-4610-bd45-64313d706fd3.jpeg",
         "width": 128,
       },
       "name": "The Twitch Bakery",
@@ -2550,7 +2728,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4642/d123c2b6-fd67-4a14-a98c-75e0cb86de9c.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4642/d123c2b6-fd67-4a14-a98c-75e0cb86de9c.jpeg",
         "width": 128,
       },
       "name": "4pf",
@@ -2561,7 +2739,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1945/8bb99ff0-f082-43ac-a637-5bafb532ce1a.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1945/8bb99ff0-f082-43ac-a637-5bafb532ce1a.jpeg",
         "width": 128,
       },
       "name": "Team B42",
@@ -2572,7 +2750,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2066/e3884836-120e-4f2e-9a1a-538c88351c13.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2066/e3884836-120e-4f2e-9a1a-538c88351c13.jpeg",
         "width": 128,
       },
       "name": "Misfit Toys",
@@ -2583,7 +2761,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2757/207ebf25-6fad-4277-a075-5d09534b2d17.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2757/207ebf25-6fad-4277-a075-5d09534b2d17.jpeg",
         "width": 128,
       },
       "name": "Guardians Against Childhood Illnesses ",
@@ -2594,7 +2772,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3271/ff771fbc-263f-4265-88b0-5b842ea133c0.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3271/ff771fbc-263f-4265-88b0-5b842ea133c0.jpeg",
         "width": 128,
       },
       "name": "Purr Pack",
@@ -2605,7 +2783,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/392/ChibiHead.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/392/ChibiHead.jpg",
         "width": 128,
       },
       "name": "Jroc's Band of Misfits",
@@ -2616,7 +2794,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1396/SOBA-round-avatar.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1396/SOBA-round-avatar.jpg",
         "width": 128,
       },
       "name": "SOBA",
@@ -2627,7 +2805,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/971/ProfileImage.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/971/ProfileImage.png",
         "width": 128,
       },
       "name": "Caelestis Gaming Network",
@@ -2638,11 +2816,33 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4204/14e879ae-2eb3-4cbd-b89e-d508f7381ad8.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4204/14e879ae-2eb3-4cbd-b89e-d508f7381ad8.jpeg",
         "width": 128,
       },
       "name": "Team Redirect",
       "url": "/+team-redirect",
+    },
+    Object {
+      "amountRaised": 2365.69,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3295/bfb8f657-4f33-4db1-a215-53e19d1e6407.jpeg",
+        "width": 128,
+      },
+      "name": "Kingdom for Kids",
+      "url": "/+kingdom-for-kids",
+    },
+    Object {
+      "amountRaised": 2313.06,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5594/19f6a4d6-64fc-4581-8144-3083255259d1.jpeg",
+        "width": 128,
+      },
+      "name": "FF7 for St. Jude",
+      "url": "/+ff7-for-st-jude",
     },
     Object {
       "amountRaised": 2248,
@@ -2656,11 +2856,22 @@ Object {
       "url": "/+jeef-s-team-of-memes",
     },
     Object {
+      "amountRaised": 2229.38,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4934/7d0f00c3-3fc6-4434-8c4b-98c2d447b2c8.jpeg",
+        "width": 128,
+      },
+      "name": "Phi Delta Chi Pharmacy Fraternity",
+      "url": "/+phi-delta-chi-pharmacy-fraternity",
+    },
+    Object {
       "amountRaised": 2215,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/551/DayKnight_Logo.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/551/DayKnight_Logo.png",
         "width": 128,
       },
       "name": "The DayKnights",
@@ -2671,7 +2882,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/403/leeroy.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/403/leeroy.jpg",
         "width": 128,
       },
       "name": "Let's Do This",
@@ -2682,7 +2893,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/626/Akupara_Banner_04_Tileable.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/626/Akupara_Banner_04_Tileable.jpg",
         "width": 128,
       },
       "name": "Akupara Games for Charity",
@@ -2693,7 +2904,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2282/d3aff723-f2e1-4cf5-ab02-dd3cbc70c738.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2282/d3aff723-f2e1-4cf5-ab02-dd3cbc70c738.jpeg",
         "width": 128,
       },
       "name": "DMM Team",
@@ -2715,7 +2926,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2001/fceb14ba-9ffa-4de8-b474-4ab9d37965cc.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2001/fceb14ba-9ffa-4de8-b474-4ab9d37965cc.jpeg",
         "width": 128,
       },
       "name": "DAM BUGS",
@@ -2726,18 +2937,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2052/66b16a50-3273-4d29-9bd5-42d34b54df7e.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2052/66b16a50-3273-4d29-9bd5-42d34b54df7e.jpeg",
         "width": 128,
       },
       "name": "Used 2 Be Cool",
       "url": "/+used-2-be-cool",
     },
     Object {
+      "amountRaised": 2070,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5952/blob-519a9896-0c70-4671-a37e-632cc53cad4f.jpeg",
+        "width": 128,
+      },
+      "name": "Dance From Home & Chi Sigma Tau",
+      "url": "/+dance-from-home-and-chi-sigma-tau",
+    },
+    Object {
       "amountRaised": 2055,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2045/9f177725-5d56-4a1c-b102-82120f121314.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2045/9f177725-5d56-4a1c-b102-82120f121314.jpeg",
         "width": 128,
       },
       "name": "Madcap Society",
@@ -2748,7 +2970,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/846/j72_bit_badge.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/846/j72_bit_badge.png",
         "width": 128,
       },
       "name": "Team Justus",
@@ -2759,18 +2981,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1458/35140967-6d76-42d2-a122-90cbe807e5ef.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1458/35140967-6d76-42d2-a122-90cbe807e5ef.jpeg",
         "width": 128,
       },
       "name": "Grand Scheme Gaming",
       "url": "/+grand-scheme-gaming",
     },
     Object {
+      "amountRaised": 1955,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Mini Painters for St. Jude",
+      "url": "/+mini-painters-for-st-jude",
+    },
+    Object {
       "amountRaised": 1897.11,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/832/pvc.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/832/pvc.jpg",
         "width": 128,
       },
       "name": "Players vs Cancer",
@@ -2792,7 +3025,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/500/ihsmarkit.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/500/ihsmarkit.jpg",
         "width": 128,
       },
       "name": "RootMetrics",
@@ -2803,7 +3036,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1423/posrevoutlinesq.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1423/posrevoutlinesq.png",
         "width": 128,
       },
       "name": "Positive AF St Jude",
@@ -2814,7 +3047,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/263/twitchinformo.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/263/twitchinformo.png",
         "width": 128,
       },
       "name": "Twitchin For Mo",
@@ -2836,7 +3069,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3742/fcf72f70-3881-4ee8-a724-a4c05d7ab2bc.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3742/fcf72f70-3881-4ee8-a724-a4c05d7ab2bc.jpeg",
         "width": 128,
       },
       "name": "Prettie Buttons ",
@@ -2847,7 +3080,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1889/12178e6b-75b2-4329-80fc-2616e90c4582.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1889/12178e6b-75b2-4329-80fc-2616e90c4582.jpeg",
         "width": 128,
       },
       "name": "God Mode Activated",
@@ -2858,7 +3091,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2088/006fa1eb-04c5-483f-be8b-8e4139cbca67.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2088/006fa1eb-04c5-483f-be8b-8e4139cbca67.jpeg",
         "width": 128,
       },
       "name": "The Disco Party for the Kids",
@@ -2869,7 +3102,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/980/logo600.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/980/logo600.png",
         "width": 128,
       },
       "name": "The Alpha",
@@ -2887,22 +3120,11 @@ Object {
       "url": "/+team-l-town",
     },
     Object {
-      "amountRaised": 1690,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3295/bfb8f657-4f33-4db1-a215-53e19d1e6407.jpeg",
-        "width": 128,
-      },
-      "name": "Kingdom for Kids",
-      "url": "/+kingdom-for-kids",
-    },
-    Object {
       "amountRaised": 1686.11,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2143/0945ab09-4012-401c-97b3-41a26502d5b8.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2143/0945ab09-4012-401c-97b3-41a26502d5b8.jpeg",
         "width": 128,
       },
       "name": "Kinsanity for the Kids 2019",
@@ -2913,7 +3135,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/837/emote_3resize.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/837/emote_3resize.png",
         "width": 128,
       },
       "name": "RED RAIDER",
@@ -2924,40 +3146,73 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1537/7773daf2-a1a6-4c8c-8141-6fcb9132d88d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1537/7773daf2-a1a6-4c8c-8141-6fcb9132d88d.jpeg",
         "width": 128,
       },
       "name": "Absurve Family",
       "url": "/+absurve-family",
     },
     Object {
+      "amountRaised": 1650,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5409/b021dac7-5e4c-4fca-8ecd-99bc940b4182.jpeg",
+        "width": 128,
+      },
+      "name": "The Stars Beyond",
+      "url": "/+the-stars-beyond",
+    },
+    Object {
       "amountRaised": 1622,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1903/d708a67d-c614-4e3e-905f-01c82de7de89.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1903/d708a67d-c614-4e3e-905f-01c82de7de89.jpeg",
         "width": 128,
       },
       "name": "Not So Super Squad",
       "url": "/+not-so-super-squad",
     },
     Object {
+      "amountRaised": 1555,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/992/GBA_icon.png",
+        "width": 128,
+      },
+      "name": "Gunpla Builders Association ",
+      "url": "/+gunpla-builders-association",
+    },
+    Object {
       "amountRaised": 1544,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/546/Team_Moist.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/546/Team_Moist.png",
         "width": 128,
       },
       "name": "Moist",
       "url": "/+moist",
     },
     Object {
+      "amountRaised": 1530.89,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2617/3fe27657-52d5-4431-a9dc-5c6d72db5156.jpeg",
+        "width": 128,
+      },
+      "name": "UTDEsports",
+      "url": "/+utdesports",
+    },
+    Object {
       "amountRaised": 1520,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/491/ardentlogo2.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/491/ardentlogo2.png",
         "width": 128,
       },
       "name": "Ardent Esports",
@@ -2979,7 +3234,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1035/cute_t.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1035/cute_t.jpg",
         "width": 128,
       },
       "name": "Team Mischievous",
@@ -2990,7 +3245,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/28/charityzone-avatar.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/28/charityzone-avatar.png",
         "width": 128,
       },
       "name": "TwitchCon Charity Zone 2015",
@@ -3001,18 +3256,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/994/logomark_2x-b-stk.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/994/logomark_2x-b-stk.png",
         "width": 128,
       },
       "name": "Dungeons & Flagons--72cd2057-1cf6-41c8-8c2d-8c09a3c9f82b",
       "url": "/+dungeons-flagons-72cd2057-1cf6-41c8-8c2d-8c09a3c9f82b",
     },
     Object {
+      "amountRaised": 1414,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5156/69a811df-405b-4bdd-a803-3fb37d0cdbe6.jpeg",
+        "width": 128,
+      },
+      "name": "StrategyRoastersHope",
+      "url": "/+strategyroastershope",
+    },
+    Object {
       "amountRaised": 1323,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1989/33722697-11a0-456f-bae4-87be145813f9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1989/33722697-11a0-456f-bae4-87be145813f9.jpeg",
         "width": 128,
       },
       "name": "Twitch Memphis Community Meetup",
@@ -3023,7 +3289,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3500/cf3f1eb6-ca0d-434d-b2bc-0ed8238292fb.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3500/cf3f1eb6-ca0d-434d-b2bc-0ed8238292fb.jpeg",
         "width": 128,
       },
       "name": "The Beans",
@@ -3034,7 +3300,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1973/56a00dcb-8c86-4a78-8957-606249d63454.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1973/56a00dcb-8c86-4a78-8957-606249d63454.jpeg",
         "width": 128,
       },
       "name": "WitchDoctorXera",
@@ -3056,7 +3322,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/557/7d2d5398-5a00-4912-a581-ccf59e26dc2b.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/557/7d2d5398-5a00-4912-a581-ccf59e26dc2b.jpeg",
         "width": 128,
       },
       "name": "Ambush",
@@ -3067,7 +3333,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2070/fc6dea81-ec9b-42dc-9436-620e2d56e2ff.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2070/fc6dea81-ec9b-42dc-9436-620e2d56e2ff.jpeg",
         "width": 128,
       },
       "name": "Beccville",
@@ -3089,7 +3355,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/427/asfjkin.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/427/asfjkin.jpg",
         "width": 128,
       },
       "name": "The Casuals",
@@ -3122,7 +3388,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2044/0613d1ee-0e14-431b-97b9-20a0b13ca3e8.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2044/0613d1ee-0e14-431b-97b9-20a0b13ca3e8.jpeg",
         "width": 128,
       },
       "name": "Team Soshul Gamers--e85cdb88-3d46-4a96-9ad6-ff8c365e8a7e",
@@ -3133,7 +3399,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1937/c1ecb57f-48c8-48f2-a112-a05cbb9a73b0.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1937/c1ecb57f-48c8-48f2-a112-a05cbb9a73b0.jpeg",
         "width": 128,
       },
       "name": "Gamers for Children's Health",
@@ -3144,7 +3410,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2960/e645585c-3c2b-460e-8278-84b5a6c5cc8a.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2960/e645585c-3c2b-460e-8278-84b5a6c5cc8a.jpeg",
         "width": 128,
       },
       "name": "RetroBlockParty",
@@ -3166,7 +3432,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1070/ArctixMascotLogov1-2.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1070/ArctixMascotLogov1-2.png",
         "width": 128,
       },
       "name": "Arctix's Cool Stream Club for the kids!",
@@ -3177,7 +3443,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/821/foxhead.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/821/foxhead.jpg",
         "width": 128,
       },
       "name": "Holo Nation Gaming",
@@ -3195,6 +3461,17 @@ Object {
       "url": "/+mmdr-guardiancon-2018",
     },
     Object {
+      "amountRaised": 1040,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5304/4318ede0-f096-4067-a0a2-7e0f0358cc1b.jpeg",
+        "width": 128,
+      },
+      "name": "Fishsticks",
+      "url": "/+fishsticks",
+    },
+    Object {
       "amountRaised": 1035,
       "avatar": Object {
         "alt": "",
@@ -3206,11 +3483,44 @@ Object {
       "url": "/+csv-main-team",
     },
     Object {
+      "amountRaised": 1025,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4622/e8834a3e-a7cb-46c9-95eb-03a2c7370ffa.jpeg",
+        "width": 128,
+      },
+      "name": "The Darkness",
+      "url": "/+the-darkness",
+    },
+    Object {
+      "amountRaised": 1000,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "FF9 Speedrunners",
+      "url": "/+ff9-speedrunners",
+    },
+    Object {
+      "amountRaised": 1000,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "MEAN GREEN STREAM TEAM",
+      "url": "/+mean-green-stream-team",
+    },
+    Object {
       "amountRaised": 939.12,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1091/eQ20E.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1091/eQ20E.jpg",
         "width": 128,
       },
       "name": "The Last Minuters",
@@ -3221,18 +3531,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1033/logo-01.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1033/logo-01.png",
         "width": 128,
       },
       "name": "Karnedge for the kids!",
       "url": "/+karnedge-for-the-kids",
     },
     Object {
+      "amountRaised": 929,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4759/feb41d26-bac3-431d-ad0d-a0bc0e91ba65.jpeg",
+        "width": 128,
+      },
+      "name": "The Avowed 2020",
+      "url": "/+the-avowed-2020",
+    },
+    Object {
       "amountRaised": 920,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1169/ARD_large.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1169/ARD_large.png",
         "width": 128,
       },
       "name": "<A Reddit Dystopia>",
@@ -3243,7 +3564,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1619/97d1da0c-654a-49d0-af29-38050e43378d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1619/97d1da0c-654a-49d0-af29-38050e43378d.jpeg",
         "width": 128,
       },
       "name": "Gamers4Charity",
@@ -3254,29 +3575,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1041/E1_vert_no_BG.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1041/E1_vert_no_BG.png",
         "width": 128,
       },
       "name": "Esports One",
       "url": "/+esports-one",
     },
     Object {
-      "amountRaised": 901.87,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2617/3fe27657-52d5-4431-a9dc-5c6d72db5156.jpeg",
-        "width": 128,
-      },
-      "name": "UTDEsports",
-      "url": "/+utdesports",
-    },
-    Object {
       "amountRaised": 886.73,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1465/8d268ae8-c49f-42ec-aabe-19e4e03c8b91.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1465/8d268ae8-c49f-42ec-aabe-19e4e03c8b91.jpeg",
         "width": 128,
       },
       "name": "Cayde's Sweatiest Spicy Noodles Against Cancer",
@@ -3287,7 +3597,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3262/472fb77e-c4e4-488f-8985-1a323212d721.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3262/472fb77e-c4e4-488f-8985-1a323212d721.jpeg",
         "width": 128,
       },
       "name": "Las Vegas Streamers",
@@ -3305,22 +3615,22 @@ Object {
       "url": "/+mixer-s-guardians-of-the-little-lights",
     },
     Object {
-      "amountRaised": 870.69,
+      "amountRaised": 850.2,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4709/3ebd4622-ad40-44dd-af3a-c5d94de02fa0.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5103/f50b2b99-6635-4315-81d3-160c70f98554.jpeg",
         "width": 128,
       },
-      "name": "Charity Caravan",
-      "url": "/+charity-caravan",
+      "name": "The Stream Team",
+      "url": "/+the-stream-team",
     },
     Object {
       "amountRaised": 820,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3732/90239b05-7e38-4f13-ad4f-eba144788e69.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3732/90239b05-7e38-4f13-ad4f-eba144788e69.jpeg",
         "width": 128,
       },
       "name": "The Arctic Narwhals",
@@ -3331,7 +3641,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3061/cf3b77eb-7ce6-4611-b2f7-b837a87db8f9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3061/cf3b77eb-7ce6-4611-b2f7-b837a87db8f9.jpeg",
         "width": 128,
       },
       "name": "The Broadway Stream Team",
@@ -3342,7 +3652,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/560/Logo.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/560/Logo.png",
         "width": 128,
       },
       "name": "2wenty & Friends",
@@ -3353,7 +3663,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1675/afe9bfe4-d447-4e20-b48a-41cfa36a6213.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1675/afe9bfe4-d447-4e20-b48a-41cfa36a6213.jpeg",
         "width": 128,
       },
       "name": "Spectrum",
@@ -3375,11 +3685,22 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/456/playlive.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/456/playlive.jpeg",
         "width": 128,
       },
       "name": "Gamers For Good--e3d57f39-0b8c-4955-8eed-1006a5e081ab",
       "url": "/+gamers-for-good-e3d57f39-0b8c-4955-8eed-1006a5e081ab",
+    },
+    Object {
+      "amountRaised": 750,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Avleyyn and Lil_cherrykitty",
+      "url": "/+avleyyn-and-lil_cherrykitty",
     },
     Object {
       "amountRaised": 745,
@@ -3397,7 +3718,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/545/technodrome_2_COV_w_groot.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/545/technodrome_2_COV_w_groot.jpg",
         "width": 128,
       },
       "name": "Guardians of The Technodrome",
@@ -3408,7 +3729,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1257/Jolly_Rogers.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1257/Jolly_Rogers.jpg",
         "width": 128,
       },
       "name": "The Jolly Rogers",
@@ -3419,7 +3740,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/602/youtubeicon.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/602/youtubeicon.png",
         "width": 128,
       },
       "name": "AlavasGiving",
@@ -3448,11 +3769,22 @@ Object {
       "url": "/+kindred-strong",
     },
     Object {
+      "amountRaised": 650,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4433/a70d1331-6a10-439a-b01c-abd1ef853832.jpeg",
+        "width": 128,
+      },
+      "name": "UnKnown Creations",
+      "url": "/+unknown-creations",
+    },
+    Object {
       "amountRaised": 630,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/697/Low-Poly-Heart.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/697/Low-Poly-Heart.png",
         "width": 128,
       },
       "name": "Team Prism",
@@ -3463,18 +3795,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1100/05531f8a.gif",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1100/05531f8a.gif",
         "width": 128,
       },
       "name": "The Magic of Friendship",
       "url": "/+the-magic-of-friendship",
     },
     Object {
+      "amountRaised": 620,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "The Aum Club",
+      "url": "/+the-aum-club",
+    },
+    Object {
       "amountRaised": 610.9,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1212/New-Dragon-Logo-w-background-500px.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1212/New-Dragon-Logo-w-background-500px.jpg",
         "width": 128,
       },
       "name": "HadokenxGaming Community",
@@ -3485,7 +3828,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/378/Partner_Push.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/378/Partner_Push.png",
         "width": 128,
       },
       "name": "International Gamers--ea5900fb-d40a-4f42-95b3-a7763292a596",
@@ -3496,18 +3839,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/441/team-aboveitall-team_logo_image-36064d3427b146ed-300x300.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/441/team-aboveitall-team_logo_image-36064d3427b146ed-300x300.png",
         "width": 128,
       },
       "name": "Above it All--ea932f9a-0a27-43e6-801c-04905d20d81c",
       "url": "/+above-it-all-ea932f9a-0a27-43e6-801c-04905d20d81c",
     },
     Object {
+      "amountRaised": 570,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Rangers of the Last Guard",
+      "url": "/+rangers-of-the-last-guard",
+    },
+    Object {
       "amountRaised": 561,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/732/e26dd025-c9a7-451f-83ac-6be5cad20d2d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/732/e26dd025-c9a7-451f-83ac-6be5cad20d2d.jpeg",
         "width": 128,
       },
       "name": "Magical Gamers",
@@ -3518,7 +3872,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3407/6677d6b5-3009-4c40-8900-fd459de96bd7.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3407/6677d6b5-3009-4c40-8900-fd459de96bd7.jpeg",
         "width": 128,
       },
       "name": "Oaters Deam Team ",
@@ -3529,7 +3883,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1038/30708176_10160252211775440_8799531783405092655_n.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1038/30708176_10160252211775440_8799531783405092655_n.jpg",
         "width": 128,
       },
       "name": "PhelpsGG & Squad",
@@ -3540,7 +3894,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3741/6b866c58-4e77-4c06-bc2f-8e9b1a32a474.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3741/6b866c58-4e77-4c06-bc2f-8e9b1a32a474.jpeg",
         "width": 128,
       },
       "name": "Arctix's Cold-Hearted Arena VIP Team",
@@ -3551,7 +3905,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/461/c87638c7-6283-4983-8300-daad490f11bd.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/461/c87638c7-6283-4983-8300-daad490f11bd.jpg",
         "width": 128,
       },
       "name": "Gamer Squad",
@@ -3562,7 +3916,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1611/26012cae-aece-43e9-8db1-a1c6a7c97271.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1611/26012cae-aece-43e9-8db1-a1c6a7c97271.jpeg",
         "width": 128,
       },
       "name": "Power Word Give",
@@ -3584,7 +3938,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/470/feruun.fw.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/470/feruun.fw.png",
         "width": 128,
       },
       "name": "Feruun's St. Jude Team",
@@ -3595,7 +3949,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/453/heroes-never-die.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/453/heroes-never-die.jpg",
         "width": 128,
       },
       "name": "Heroes Never Die!",
@@ -3606,7 +3960,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2608/9f2501c9-05eb-49de-b70a-fb3f55bf9f66.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2608/9f2501c9-05eb-49de-b70a-fb3f55bf9f66.jpeg",
         "width": 128,
       },
       "name": "The Avowed 2019",
@@ -3628,7 +3982,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1037/Retro-Coin-icon.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1037/Retro-Coin-icon.png",
         "width": 128,
       },
       "name": "The Arcaders",
@@ -3639,40 +3993,84 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1948/5f65d17d-f270-4c94-b1dc-306730d8364d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1948/5f65d17d-f270-4c94-b1dc-306730d8364d.jpeg",
         "width": 128,
       },
       "name": "BeyondGaming",
       "url": "/+beyondgaming",
     },
     Object {
+      "amountRaised": 500,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "SDTK Gamers",
+      "url": "/+sdtk-gamers",
+    },
+    Object {
+      "amountRaised": 483,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3155/f3468bc9-acdc-4415-8419-283e3837ae5a.jpeg",
+        "width": 128,
+      },
+      "name": "TBC Stream Team",
+      "url": "/+tbc-stream-team",
+    },
+    Object {
       "amountRaised": 482,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/965/playlive.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/965/playlive.jpeg",
         "width": 128,
       },
       "name": "Gamers For Good",
       "url": "/+gamers-for-good",
     },
     Object {
+      "amountRaised": 470,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2750/61fd85d1-1e53-4461-ba7e-2f396e40cc5f.jpeg",
+        "width": 128,
+      },
+      "name": "Wild Ones Unite for Charity",
+      "url": "/+wild-ones-unite-for-charity",
+    },
+    Object {
       "amountRaised": 460,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/591/avatar.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/591/avatar.jpg",
         "width": 128,
       },
       "name": "Blue Esports",
       "url": "/+blue-esports",
     },
     Object {
+      "amountRaised": 445,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Disorderly Content",
+      "url": "/+disorderly-content",
+    },
+    Object {
       "amountRaised": 432,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/447/photo.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/447/photo.jpg",
         "width": 128,
       },
       "name": "TheMistakeMakers",
@@ -3683,7 +4081,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/547/BBLogosmall.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/547/BBLogosmall.png",
         "width": 128,
       },
       "name": "BlaBlaDesGardiens",
@@ -3694,7 +4092,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3069/d3280332-b20e-4b94-9a6e-8e983acd7673.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3069/d3280332-b20e-4b94-9a6e-8e983acd7673.jpeg",
         "width": 128,
       },
       "name": "MonkeyBrigade",
@@ -3716,7 +4114,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/532/logo.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/532/logo.png",
         "width": 128,
       },
       "name": "The X Zone @Twitch Community ",
@@ -3727,22 +4125,11 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/395/UNITed_Mercs_logo.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/395/UNITed_Mercs_logo.jpg",
         "width": 128,
       },
       "name": "UNITed Mercs",
       "url": "/+united-mercs",
-    },
-    Object {
-      "amountRaised": 375,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4622/e8834a3e-a7cb-46c9-95eb-03a2c7370ffa.jpeg",
-        "width": 128,
-      },
-      "name": "The Darkness",
-      "url": "/+the-darkness",
     },
     Object {
       "amountRaised": 370,
@@ -3760,7 +4147,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1953/c9de36fc-d112-43f9-b1d2-5bec1d3cc0fb.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1953/c9de36fc-d112-43f9-b1d2-5bec1d3cc0fb.jpeg",
         "width": 128,
       },
       "name": "LURK24",
@@ -3782,7 +4169,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4579/651fbbf1-43cc-47ef-8c42-30bbee5f43f6.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4579/651fbbf1-43cc-47ef-8c42-30bbee5f43f6.jpeg",
         "width": 128,
       },
       "name": "Slushie Crew",
@@ -3793,7 +4180,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/189/RKMascotbig.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/189/RKMascotbig.png",
         "width": 128,
       },
       "name": "RebornKnights",
@@ -3804,7 +4191,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/847/badass_brigade_logo_v4-06-09.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/847/badass_brigade_logo_v4-06-09.png",
         "width": 128,
       },
       "name": "Badass Brigade ",
@@ -3815,7 +4202,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1468/9e398d63-e9a6-4dd5-b685-cf60a07cfaa8.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1468/9e398d63-e9a6-4dd5-b685-cf60a07cfaa8.jpeg",
         "width": 128,
       },
       "name": "KSS For Change",
@@ -3833,22 +4220,11 @@ Object {
       "url": "/+gamers-4-charity",
     },
     Object {
-      "amountRaised": 340,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
-        "width": 128,
-      },
-      "name": "Rangers of the Last Guard",
-      "url": "/+rangers-of-the-last-guard",
-    },
-    Object {
       "amountRaised": 330,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1209/bombadier.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1209/bombadier.jpg",
         "width": 128,
       },
       "name": "The Bombardiers",
@@ -3859,7 +4235,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/471/pUdvlRr.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/471/pUdvlRr.png",
         "width": 128,
       },
       "name": "ZILLA SQUAD",
@@ -3870,7 +4246,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1099/TM_logo_.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1099/TM_logo_.png",
         "width": 128,
       },
       "name": "Team Multiverse",
@@ -3903,7 +4279,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2735/a7b1982d-dfc8-49cf-a334-c74bc14cc600.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2735/a7b1982d-dfc8-49cf-a334-c74bc14cc600.jpeg",
         "width": 128,
       },
       "name": "TeamUwU",
@@ -3925,7 +4301,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/739/st-judes_panel_jpg.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/739/st-judes_panel_jpg.jpg",
         "width": 128,
       },
       "name": "Silent Knights",
@@ -3947,7 +4323,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/469/CorD_nowords__1_.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/469/CorD_nowords__1_.png",
         "width": 128,
       },
       "name": "CASTorDIE",
@@ -3958,7 +4334,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1665/41b8290a-1f84-43b1-bc42-70c6b42e956b.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1665/41b8290a-1f84-43b1-bc42-70c6b42e956b.jpeg",
         "width": 128,
       },
       "name": "extRAIDvaganza",
@@ -3969,7 +4345,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1180/BWG3.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1180/BWG3.png",
         "width": 128,
       },
       "name": "Backwoodz Gaming",
@@ -3980,7 +4356,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3049/fd3ccd67-54cc-47fa-9125-2c2732aa89ac.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3049/fd3ccd67-54cc-47fa-9125-2c2732aa89ac.jpeg",
         "width": 128,
       },
       "name": "Krakens Wrath",
@@ -4002,7 +4378,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3267/96410bdb-cb0d-4c60-aafa-e2328df414f6.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3267/96410bdb-cb0d-4c60-aafa-e2328df414f6.jpeg",
         "width": 128,
       },
       "name": "The House of Cal",
@@ -4013,7 +4389,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3679/28644d8e-efa9-4daf-a81c-9a51498540c0.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3679/28644d8e-efa9-4daf-a81c-9a51498540c0.jpeg",
         "width": 128,
       },
       "name": "Corrupted Truth ",
@@ -4024,7 +4400,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/514/IMG_5953.JPG",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/514/IMG_5953.JPG",
         "width": 128,
       },
       "name": "Erox Gaming Ltd",
@@ -4035,7 +4411,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1121/Binturong_in_Overloon.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1121/Binturong_in_Overloon.jpg",
         "width": 128,
       },
       "name": "The Bearcat Fund",
@@ -4046,7 +4422,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4396/aecb02d3-4613-4cb3-a871-252e90a9fca5.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4396/aecb02d3-4613-4cb3-a871-252e90a9fca5.jpeg",
         "width": 128,
       },
       "name": "Charity Club Super Stream",
@@ -4057,7 +4433,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2768/f862da8d-7513-41f4-8de5-55f4d0ef705b.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2768/f862da8d-7513-41f4-8de5-55f4d0ef705b.jpeg",
         "width": 128,
       },
       "name": "Vyrok Gaming",
@@ -4068,7 +4444,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1185/icon2.PNG",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1185/icon2.PNG",
         "width": 128,
       },
       "name": "Gaming Warriors",
@@ -4079,7 +4455,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2669/67896e8c-4171-4ce6-a32f-c6778eded51e.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2669/67896e8c-4171-4ce6-a32f-c6778eded51e.jpeg",
         "width": 128,
       },
       "name": "Velocity",
@@ -4090,7 +4466,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1696/414bc09c-2c0d-40e5-996c-56af9b9dac0a.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1696/414bc09c-2c0d-40e5-996c-56af9b9dac0a.jpeg",
         "width": 128,
       },
       "name": "Final February ",
@@ -4101,7 +4477,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2285/e6a61e0e-8ae3-496d-ba59-0b5dd9251ce9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2285/e6a61e0e-8ae3-496d-ba59-0b5dd9251ce9.jpeg",
         "width": 128,
       },
       "name": "Fortnite For The Kidz",
@@ -4123,7 +4499,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1021/PB-Circle-Transparent-LOGOWHITE-half_outline-saturated-darker.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1021/PB-Circle-Transparent-LOGOWHITE-half_outline-saturated-darker.png",
         "width": 128,
       },
       "name": "/r/Pokemon",
@@ -4134,7 +4510,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2120/e64d9964-3274-40ad-b27d-283378fb745a.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2120/e64d9964-3274-40ad-b27d-283378fb745a.jpeg",
         "width": 128,
       },
       "name": "Video Game Vanguards--08cfe118-b920-47ef-8d6a-87b5c77e8502",
@@ -4145,7 +4521,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2134/3ee20c04-1c96-408e-8819-a9306e037632.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2134/3ee20c04-1c96-408e-8819-a9306e037632.jpeg",
         "width": 128,
       },
       "name": "Infinibees",
@@ -4156,7 +4532,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2123/f1d5b12b-dd63-41a9-9329-b5646a2a0f29.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2123/f1d5b12b-dd63-41a9-9329-b5646a2a0f29.jpeg",
         "width": 128,
       },
       "name": "The Northern Front",
@@ -4167,7 +4543,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1473/6618b30d-a722-4cba-8247-e3eb5ac1e9cd.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1473/6618b30d-a722-4cba-8247-e3eb5ac1e9cd.jpeg",
         "width": 128,
       },
       "name": "1912 Titanic Swim Team",
@@ -4178,7 +4554,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2943/62f04526-a766-4f61-97ca-07d5caaaa9e0.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2943/62f04526-a766-4f61-97ca-07d5caaaa9e0.jpeg",
         "width": 128,
       },
       "name": "LSSCharity",
@@ -4189,11 +4565,33 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2273/b96ac000-e46f-43b8-b190-25260495d789.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2273/b96ac000-e46f-43b8-b190-25260495d789.jpeg",
         "width": 128,
       },
       "name": "The Forgotten Soldiers",
       "url": "/+the-forgotten-soldiers",
+    },
+    Object {
+      "amountRaised": 140,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5339/34dd6fde-5e83-40dc-b699-7db4f88e8b41.jpeg",
+        "width": 128,
+      },
+      "name": "CrimsonCoalition",
+      "url": "/+crimsoncoalition",
+    },
+    Object {
+      "amountRaised": 138,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1391/unnamed.jpg",
+        "width": 128,
+      },
+      "name": "Proper Gamers",
+      "url": "/+proper-gamers",
     },
     Object {
       "amountRaised": 134,
@@ -4233,7 +4631,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1394/Avatar_EliteUno.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1394/Avatar_EliteUno.png",
         "width": 128,
       },
       "name": "The Elite Uno",
@@ -4266,7 +4664,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3234/6a574474-c9c0-400d-b995-e07d1aab57a2.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5407/6410ca1f-7849-4390-867c-09941aad06e5.jpeg",
+        "width": 128,
+      },
+      "name": "Camping For A Cure",
+      "url": "/+camping-for-a-cure",
+    },
+    Object {
+      "amountRaised": 120,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3234/6a574474-c9c0-400d-b995-e07d1aab57a2.jpeg",
         "width": 128,
       },
       "name": "Scope Gaming X Team Killer",
@@ -4277,7 +4686,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/444/logo.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/444/logo.jpg",
         "width": 128,
       },
       "name": "Wolf Pack--b0606133-7bd9-44fe-8a63-9b9ca0bc9982",
@@ -4299,18 +4708,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/293/poopgaming2.PNG",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/293/poopgaming2.PNG",
         "width": 128,
       },
       "name": "POOPGames",
       "url": "/+poopgames",
     },
     Object {
+      "amountRaised": 100.69,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4716/2d3addf1-a2c6-4ff0-9cef-f07c353add9a.jpeg",
+        "width": 128,
+      },
+      "name": "SaveTHEMEXICAN Gives",
+      "url": "/+savethemexican-gives",
+    },
+    Object {
       "amountRaised": 100.11,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1476/cc713419-7928-4351-a6ce-73e61ba7ce72.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1476/cc713419-7928-4351-a6ce-73e61ba7ce72.jpeg",
         "width": 128,
       },
       "name": "Famiraye",
@@ -4321,7 +4741,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2630/4acb96d5-a473-4a56-8d2f-83ab0042e333.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2630/4acb96d5-a473-4a56-8d2f-83ab0042e333.jpeg",
         "width": 128,
       },
       "name": "Guardians MH Offical Charity Team",
@@ -4332,7 +4752,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2463/89cc6dc8-9291-49c0-bb07-ba0081bbbebe.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2463/89cc6dc8-9291-49c0-bb07-ba0081bbbebe.jpeg",
         "width": 128,
       },
       "name": "Jello Jigglers",
@@ -4343,7 +4763,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/572/TeeNationv2.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/572/TeeNationv2.png",
         "width": 128,
       },
       "name": "TeeNation",
@@ -4354,7 +4774,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2286/824ce2d7-008a-42e8-af0e-94daeb73b113.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2286/824ce2d7-008a-42e8-af0e-94daeb73b113.jpeg",
         "width": 128,
       },
       "name": "The Warren Clan",
@@ -4365,7 +4785,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3907/c3981a93-299f-4f70-a280-41531cfd2a40.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3907/c3981a93-299f-4f70-a280-41531cfd2a40.jpeg",
         "width": 128,
       },
       "name": "wh.iterabb.it",
@@ -4376,7 +4796,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1000/anigif_enhanced-buzz-15837-1393276538-4.gif",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1000/anigif_enhanced-buzz-15837-1393276538-4.gif",
         "width": 128,
       },
       "name": "Plebs R Us",
@@ -4387,7 +4807,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1085/VMW_Final.png",
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Starforce Shenanigans ",
+      "url": "/+starforce-shenanigans",
+    },
+    Object {
+      "amountRaised": 95,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1085/VMW_Final.png",
         "width": 128,
       },
       "name": "VMW--25473675-d9eb-479d-815c-4ba70942f439",
@@ -4405,11 +4836,22 @@ Object {
       "url": "/+depth-esports",
     },
     Object {
+      "amountRaised": 90,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5608/1c7c0ef5-6f31-4745-a19e-1906032476d2.jpeg",
+        "width": 128,
+      },
+      "name": "Squirrel Team 6",
+      "url": "/+squirrel-team-6",
+    },
+    Object {
       "amountRaised": 75,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/338/MarithonUndergroundSmallHQ.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/338/MarithonUndergroundSmallHQ.png",
         "width": 128,
       },
       "name": "Marithon",
@@ -4442,7 +4884,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2174/11d7e2b5-5a2e-4b2c-ad30-4b4e170340ee.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2174/11d7e2b5-5a2e-4b2c-ad30-4b4e170340ee.jpeg",
         "width": 128,
       },
       "name": "Gaming Broadcasters",
@@ -4453,7 +4895,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/96/hoc-banner-nonames.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/96/hoc-banner-nonames.jpg",
         "width": 128,
       },
       "name": "House of Cards Gaming",
@@ -4464,7 +4906,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1296/unnamed.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1296/unnamed.jpg",
         "width": 128,
       },
       "name": "RedVacktor",
@@ -4475,7 +4917,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1135/mockup1.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1135/mockup1.jpg",
         "width": 128,
       },
       "name": "SGG Team",
@@ -4497,7 +4939,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2842/698970e7-8981-4651-980f-eb031bbdec4d.jpeg",
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Crafter Dark Collective",
+      "url": "/+crafter-dark-collective",
+    },
+    Object {
+      "amountRaised": 55,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2842/698970e7-8981-4651-980f-eb031bbdec4d.jpeg",
         "width": 128,
       },
       "name": "MidwestRP",
@@ -4508,11 +4961,22 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1686/e2b1f29a-2ca7-4b52-a013-0901d58cad1d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1686/e2b1f29a-2ca7-4b52-a013-0901d58cad1d.jpeg",
         "width": 128,
       },
       "name": "The Clan-C",
       "url": "/+the-clan-c",
+    },
+    Object {
+      "amountRaised": 50,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5168/dbc29351-8413-4fcd-9166-f8f9e25121f5.jpeg",
+        "width": 128,
+      },
+      "name": "10YG",
+      "url": "/+10yg",
     },
     Object {
       "amountRaised": 50,
@@ -4530,18 +4994,29 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1022/FB_IMG_1511297965437.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1022/FB_IMG_1511297965437.jpg",
         "width": 128,
       },
       "name": "Obtenebration Network",
       "url": "/+obtenebration-network",
     },
     Object {
+      "amountRaised": 50,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5636/bdf2474b-2d61-4672-982e-b9fce7845602.jpeg",
+        "width": 128,
+      },
+      "name": "The Milk Conglomerate ",
+      "url": "/+the-milk-conglomerate",
+    },
+    Object {
       "amountRaised": 45,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1374/received_294294854487922.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1374/received_294294854487922.png",
         "width": 128,
       },
       "name": "Lucky Ace Gaming",
@@ -4552,7 +5027,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2947/4724d5dd-88cb-4d34-ba6c-abfde2390016.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2947/4724d5dd-88cb-4d34-ba6c-abfde2390016.jpeg",
         "width": 128,
       },
       "name": "#LetsCureCancer",
@@ -4563,7 +5038,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4360/a396ce04-f4dd-4706-9658-10ff4d240b05.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4360/a396ce04-f4dd-4706-9658-10ff4d240b05.jpeg",
         "width": 128,
       },
       "name": "StreamAggro",
@@ -4574,7 +5049,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2132/d388749b-fdcc-4fda-8ef1-f0cd709627bb.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2132/d388749b-fdcc-4fda-8ef1-f0cd709627bb.jpeg",
         "width": 128,
       },
       "name": "Sweetbees ",
@@ -4585,7 +5060,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2170/1cf8d740-d6b5-4bea-bda2-e7f00cf2f2cb.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2170/1cf8d740-d6b5-4bea-bda2-e7f00cf2f2cb.jpeg",
         "width": 128,
       },
       "name": "The Dancefloor--eb43cab9-0028-4f02-8a82-46cf768483c1",
@@ -4603,17 +5078,6 @@ Object {
       "url": "/+charity-stream-w-officialwildside-and-tsskarnes",
     },
     Object {
-      "amountRaised": 30,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1391/unnamed.jpg",
-        "width": 128,
-      },
-      "name": "Proper Gamers",
-      "url": "/+proper-gamers",
-    },
-    Object {
       "amountRaised": 26.53,
       "avatar": Object {
         "alt": "",
@@ -4629,7 +5093,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1039/logo.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1039/logo.jpeg",
         "width": 128,
       },
       "name": "RedditTryHard",
@@ -4651,7 +5115,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1996/156a7b02-6eda-49a9-a7bb-d8d901c2f6eb.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1996/156a7b02-6eda-49a9-a7bb-d8d901c2f6eb.jpeg",
         "width": 128,
       },
       "name": "Team Midnight Gaming",
@@ -4662,7 +5126,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/593/06349ADCCE594F93867A0466C78D61DB.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/593/06349ADCCE594F93867A0466C78D61DB.png",
         "width": 128,
       },
       "name": "Zombies ",
@@ -4684,7 +5148,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/989/IRBGamer_logo.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/989/IRBGamer_logo.jpg",
         "width": 128,
       },
       "name": "IRBGamer",
@@ -4706,7 +5170,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1001/OneOfUsV2.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1001/OneOfUsV2.png",
         "width": 128,
       },
       "name": "One Of Us Charity Crew",
@@ -4717,11 +5181,22 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/995/wildonyxstudiossolid200200.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/995/wildonyxstudiossolid200200.png",
         "width": 128,
       },
       "name": "Zombiecat Community",
       "url": "/+zombiecat-community",
+    },
+    Object {
+      "amountRaised": 15,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Charity SMP",
+      "url": "/+charity-smp",
     },
     Object {
       "amountRaised": 15,
@@ -4739,7 +5214,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/736/love_emote112.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/736/love_emote112.png",
         "width": 128,
       },
       "name": "Spiritual Jedi Order",
@@ -4761,7 +5236,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1078/logoss.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1078/logoss.png",
         "width": 128,
       },
       "name": "Synergos Community",
@@ -4772,7 +5247,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1994/b0067f7a-1f10-4704-a6e4-35253464ea41.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1994/b0067f7a-1f10-4704-a6e4-35253464ea41.jpeg",
         "width": 128,
       },
       "name": "Kitchen Kings for Charity",
@@ -4783,7 +5258,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1095/d2d.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1095/d2d.png",
         "width": 128,
       },
       "name": "Dare2Decal ",
@@ -4816,18 +5291,40 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/454/lRRYHoQo.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4731/eef2ad59-ec8a-4dc9-b436-0e54a79e527a.jpeg",
+        "width": 128,
+      },
+      "name": "WhatsFine",
+      "url": "/+whatsfine",
+    },
+    Object {
+      "amountRaised": 10,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/454/lRRYHoQo.jpg",
         "width": 128,
       },
       "name": "ZooSKWAD--a99020fb-6885-41f8-a291-bc681d4f125e",
       "url": "/+zooskwad-a99020fb-6885-41f8-a291-bc681d4f125e",
     },
     Object {
+      "amountRaised": 7,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2141/a5bd06ac-6577-43c5-8bb8-23a818db50a8.jpeg",
+        "width": 128,
+      },
+      "name": "Scope Gaming",
+      "url": "/+scope-gaming",
+    },
+    Object {
       "amountRaised": 5,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/3857/8813436c-9b4e-4c20-859f-026b3ecff94b.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3857/8813436c-9b4e-4c20-859f-026b3ecff94b.jpeg",
         "width": 128,
       },
       "name": "Asylum Coop",
@@ -4849,7 +5346,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/2133/4cff68be-8366-4336-a6e6-ef90832507e0.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2133/4cff68be-8366-4336-a6e6-ef90832507e0.jpeg",
         "width": 128,
       },
       "name": "Nectarbees",
@@ -4860,7 +5357,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1652/e8433965-b279-46e6-b54f-0e7b86b3286d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1652/e8433965-b279-46e6-b54f-0e7b86b3286d.jpeg",
         "width": 128,
       },
       "name": "UnderdogSquad",
@@ -4871,7 +5368,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1026/images.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1026/images.jpg",
         "width": 128,
       },
       "name": "Gankstars",
@@ -4882,7 +5379,7 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/1143/youtube-gaming-banner-gse-bookbinder-co-inside-gaming-banners-for-youtube.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1143/youtube-gaming-banner-gse-bookbinder-co-inside-gaming-banners-for-youtube.jpeg",
         "width": 128,
       },
       "name": "Jennikins and Sheeps Gaming For The Kids",
@@ -4893,18 +5390,18 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/4424/7c8f2ed3-be12-425d-a3a3-40669e70f7e9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4424/7c8f2ed3-be12-425d-a3a3-40669e70f7e9.jpeg",
         "width": 128,
       },
-      "name": "Hunt 2020",
-      "url": "/+hunt-2020",
+      "name": "Hunt 2020--96a810d9-ba18-4a53-93cd-b0fecb3f91e5",
+      "url": "/+hunt-2020--96a810d9-ba18-4a53-93cd-b0fecb3f91e5",
     },
     Object {
       "amountRaised": 1,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://tiltify-production-assets.s3.us-west-2.amazonaws.com/uploads/team/thumbnail/300/tjGP1CYg.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/300/tjGP1CYg.jpg",
         "width": 128,
       },
       "name": "Team ReaPer",
@@ -5037,14 +5534,14 @@ dies from cancer.",
   },
   "slug": "st-jude-children-s-research-hospital",
   "social": Object {
-    "discord": null,
+    "discord": "https://discord.gg/stjudeplaylive",
     "facebook": "stjude",
     "instagram": "stjudeplaylive",
     "snapchat": null,
     "tiktok": null,
     "twitter": "stjudeplaylive",
-    "website": null,
-    "youtube": "MyStJude",
+    "website": "https://www.stjude.org/playlive",
+    "youtube": "stjude",
   },
   "status": "published",
   "stripeConnected": true,
