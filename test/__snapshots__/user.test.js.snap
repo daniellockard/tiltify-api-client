@@ -45,6 +45,45 @@ Object {
 exports[`user tests correct Tiltify user campaigns returned 1`] = `
 Array [
   Object {
+    "amountRaised": 0,
+    "avatar": Object {
+      "alt": "",
+      "height": 200,
+      "src": "https://assets.tiltify.com/uploads/cause/avatar/35/blob-fb2ebe36-4fd1-4334-9f1e-ba390dd0af2a.jpeg",
+      "width": 200,
+    },
+    "causeCurrency": "USD",
+    "causeId": 35,
+    "description": "test",
+    "endsAt": null,
+    "fundraiserGoalAmount": 100,
+    "id": 116627,
+    "livestream": null,
+    "metadata": Object {},
+    "name": "test",
+    "originalFundraiserGoal": 100,
+    "regionId": null,
+    "slug": "test",
+    "startsAt": 1620764235000,
+    "status": "published",
+    "supportable": false,
+    "supportingAmountRaised": 0,
+    "totalAmountRaised": 0,
+    "type": "Event",
+    "user": Object {
+      "avatar": Object {
+        "alt": "",
+        "height": 200,
+        "src": "https://assets.tiltify.com/assets/default-avatar.png",
+        "width": 200,
+      },
+      "id": 3935,
+      "slug": "ender3989",
+      "url": "https://tiltify.com/@ender3989",
+      "username": "ender3989",
+    },
+  },
+  Object {
     "amountRaised": 36,
     "avatar": Object {
       "alt": "",

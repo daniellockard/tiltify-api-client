@@ -5,139 +5,6 @@ Object {
   "avatar": Object {
     "alt": "",
     "height": 64,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/594/blob-913763d5-5835-40ba-b787-85fcc898208e.jpeg",
-    "width": 64,
-  },
-  "banner": Object {
-    "alt": "",
-    "height": 530,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/594/blob-acf4d0cc-a249-4a82-a1a3-2f0f21b8691e.jpeg",
-    "width": 1440,
-  },
-  "causeId": 35,
-  "contactEmail": "jason.heitman@stjude.org",
-  "description": "GCX is a community-based, charity event. A large community of like-hearted gamers coming together to make the world a better place. Grown at the roots in the Destiny community, we have grown and continue to grow the community, in hopes of creating a larger charitable footprint for years to come.",
-  "endsAt": "2022-02-27",
-  "fundraiserGoalAmount": 3000000,
-  "id": 594,
-  "image": Object {
-    "alt": "",
-    "height": 360,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/594/blob-ee48cfa6-f895-40cb-92a1-d79876c2fd3d.jpeg",
-    "width": 640,
-  },
-  "logo": Object {
-    "alt": "",
-    "height": 64,
-    "src": "https://assets.tiltify.com/uploads/cause/logo/35/st-jude-children-s-research-hospital-logo-1588862972226.jpg",
-    "width": 100,
-  },
-  "message": "Thank you for fundraising for GCX 2021! We're aiming to raise $3,000,000 for the kids of St. Jude and are excited to have you join the cause.",
-  "name": "GCX 2021",
-  "parent": Object {
-    "id": 200,
-    "name": "GCX",
-    "slug": "gcx",
-  },
-  "settings": Object {
-    "colors": Object {
-      "background": "#2bbfc3",
-      "highlight": "#041e41",
-    },
-    "googleAnalyticsTrackingCode": null,
-    "headerIntro": "A community event to benefit the kids of St. Jude.",
-    "headerTitle": "GCX 2021",
-    "minimumDonation": null,
-    "registrationFields": Object {
-      "address": Object {
-        "enabled": true,
-        "position": 0,
-        "required": true,
-      },
-      "dateOfBirth": Object {
-        "enabled": true,
-        "position": 3,
-        "required": true,
-      },
-      "phoneNumber": Object {
-        "enabled": true,
-        "position": 5,
-        "required": true,
-      },
-      "serviceHours": Object {
-        "enabled": false,
-        "position": 2,
-        "required": true,
-      },
-      "shirtSize": Object {
-        "enabled": true,
-        "position": 1,
-        "required": true,
-      },
-    },
-    "visibilityOptions": Object {
-      "donate": Object {
-        "visible": true,
-      },
-      "endsAt": Object {
-        "visible": true,
-      },
-      "fePageCampaigns": null,
-      "fundraiserGoalAmount": Object {
-        "type": "BOTH",
-        "visible": true,
-      },
-      "goal": Object {
-        "visible": true,
-      },
-      "headerIntro": null,
-      "headerTitle": null,
-      "individualLeaderboard": Object {
-        "heat": false,
-        "type": "ALL",
-        "visible": true,
-      },
-      "raised": Object {
-        "visible": true,
-      },
-      "regions": Object {
-        "visible": true,
-      },
-      "registration": Object {
-        "visible": true,
-      },
-      "startsAt": Object {
-        "visible": true,
-      },
-      "sustainedGiving": Object {
-        "visible": false,
-      },
-      "sustainedGivingStats": Object {
-        "visible": false,
-      },
-      "teamLeaderboard": Object {
-        "heat": false,
-        "type": "ALL",
-        "visible": true,
-      },
-      "toolkit": null,
-    },
-  },
-  "shortDescription": "GCX is a community-based, charity event. A large community of like-hearted gamers coming together to make the world a better place.",
-  "slug": "gcx-2021",
-  "startsAt": "2021-03-01",
-  "status": "published",
-  "totalAmountRaised": Any<Number>,
-  "type": "FundraisingEvent",
-  "video": null,
-}
-`;
-
-exports[`cause tests - correct Tiltify cause fundraising events returned 2`] = `
-Object {
-  "avatar": Object {
-    "alt": "",
-    "height": 64,
     "src": "https://assets.tiltify.com/uploads/cause/avatar/35/blob-fb2ebe36-4fd1-4334-9f1e-ba390dd0af2a.jpeg",
     "width": 64,
   },
@@ -274,18 +141,151 @@ Follow @stjudeplaylive on [Twitter](https://twitter.com/StJudePLAYLIVE) and [Ins
 }
 `;
 
-exports[`cause tests - correct Tiltify cause fundraising events returned 3`] = `
+exports[`cause tests - correct Tiltify cause fundraising events returned 2`] = `
 Object {
   "avatar": Object {
     "alt": "",
     "height": 64,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/276/playlive-avatar-1553962049542.jpg",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/594/blob-913763d5-5835-40ba-b787-85fcc898208e.jpeg",
     "width": 64,
   },
   "banner": Object {
     "alt": "",
     "height": 530,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/276/playlive-banner-1553961594251.jpg",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/594/blob-acf4d0cc-a249-4a82-a1a3-2f0f21b8691e.jpeg",
+    "width": 1440,
+  },
+  "causeId": 35,
+  "contactEmail": "jason.heitman@stjude.org",
+  "description": "GCX is a community-based, charity event. A large community of like-hearted gamers coming together to make the world a better place. Grown at the roots in the Destiny community, we have grown and continue to grow the community, in hopes of creating a larger charitable footprint for years to come.",
+  "endsAt": "2022-02-27",
+  "fundraiserGoalAmount": 6000000,
+  "id": 594,
+  "image": Object {
+    "alt": "",
+    "height": 360,
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/594/blob-ee48cfa6-f895-40cb-92a1-d79876c2fd3d.jpeg",
+    "width": 640,
+  },
+  "logo": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://assets.tiltify.com/uploads/cause/logo/35/st-jude-children-s-research-hospital-logo-1588862972226.jpg",
+    "width": 100,
+  },
+  "message": "Thank you for fundraising for GCX 2021! We're aiming to raise $3,000,000 for the kids of St. Jude and are excited to have you join the cause.",
+  "name": "GCX 2021",
+  "parent": Object {
+    "id": 200,
+    "name": "GCX",
+    "slug": "gcx",
+  },
+  "settings": Object {
+    "colors": Object {
+      "background": "#2bbfc3",
+      "highlight": "#041e41",
+    },
+    "googleAnalyticsTrackingCode": null,
+    "headerIntro": "A community event to benefit the kids of St. Jude.",
+    "headerTitle": "GCX 2021",
+    "minimumDonation": null,
+    "registrationFields": Object {
+      "address": Object {
+        "enabled": true,
+        "position": 0,
+        "required": true,
+      },
+      "dateOfBirth": Object {
+        "enabled": true,
+        "position": 3,
+        "required": true,
+      },
+      "phoneNumber": Object {
+        "enabled": true,
+        "position": 5,
+        "required": true,
+      },
+      "serviceHours": Object {
+        "enabled": false,
+        "position": 2,
+        "required": true,
+      },
+      "shirtSize": Object {
+        "enabled": true,
+        "position": 1,
+        "required": true,
+      },
+    },
+    "visibilityOptions": Object {
+      "donate": Object {
+        "visible": true,
+      },
+      "endsAt": Object {
+        "visible": true,
+      },
+      "fePageCampaigns": null,
+      "fundraiserGoalAmount": Object {
+        "type": "BOTH",
+        "visible": true,
+      },
+      "goal": Object {
+        "visible": true,
+      },
+      "headerIntro": null,
+      "headerTitle": null,
+      "individualLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+      "raised": Object {
+        "visible": true,
+      },
+      "regions": Object {
+        "visible": true,
+      },
+      "registration": Object {
+        "visible": true,
+      },
+      "startsAt": Object {
+        "visible": true,
+      },
+      "sustainedGiving": Object {
+        "visible": false,
+      },
+      "sustainedGivingStats": Object {
+        "visible": false,
+      },
+      "teamLeaderboard": Object {
+        "heat": false,
+        "type": "ALL",
+        "visible": true,
+      },
+      "toolkit": null,
+    },
+  },
+  "shortDescription": "GCX is a community-based, charity event. A large community of like-hearted gamers coming together to make the world a better place.",
+  "slug": "gcx-2021",
+  "startsAt": "2021-03-01",
+  "status": "published",
+  "totalAmountRaised": Any<Number>,
+  "type": "FundraisingEvent",
+  "video": null,
+}
+`;
+
+exports[`cause tests - correct Tiltify cause fundraising events returned 3`] = `
+Object {
+  "avatar": Object {
+    "alt": "",
+    "height": 64,
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/avatar/608/playlive-avatar-1553962049542.jpg",
+    "width": 64,
+  },
+  "banner": Object {
+    "alt": "",
+    "height": 530,
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/banner/608/playlive-banner-1553961594251.jpg",
     "width": 1440,
   },
   "causeId": 35,
@@ -297,29 +297,31 @@ Object {
 St. Jude has helped push the childhood cancer survival rate from less than 20% when we opened to 80% today. We won’t stop until no child dies from cancer.
 
 ### [Click here to find out more!](https://goo.gl/eYovUq)",
-  "endsAt": "2021-03-31",
-  "fundraiserGoalAmount": 2800000,
-  "id": 276,
+  "endsAt": "2022-03-30",
+  "fundraiserGoalAmount": 4000000,
+  "id": 608,
   "image": Object {
     "alt": "",
     "height": 360,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/276/playlive-image-1553961729635.jpg",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/image/608/playlive-image-1553961729635.jpg",
     "width": 640,
   },
   "logo": Object {
     "alt": "",
     "height": 64,
-    "src": "https://assets.tiltify.com/uploads/fundraising_event/logo/276/playlive-logo-1553961912243.png",
+    "src": "https://assets.tiltify.com/uploads/fundraising_event/logo/608/playlive-logo-1553961912243.png",
     "width": 100,
   },
-  "message": "### Thank you for joining St. Jude PLAY LIVE!
+  "message": "### The 2021 St. Jude PLAY LIVE Prize Season has begun and registration is now open!
 
-**Set up your fundraising page now & start spreading the word! You have until March 31st to support the kids of St. Jude with your favorite games. Raise $100 or more to receive our exclusive shirt!**
+Prize Season officially kicks off on Friday, April 30th and runs through May 31st, but any fundraising in April will count toward your campaign total. Publish your fundraising page now & start spreading the word!
 
-**Utilize our custom overlay tools, donation alerts, St. Jude Chatbot, and branded graphics to magnify your campaign by [accessing our toolkit here](https://playlive.experience.stjude.org/).​**
+[Click here](https://stjude.tiltify.com/playlive) and scroll down the page to learn more about this year’s amazing prizes from our sponsors.
 
-**Follow @stjudeplaylive on [Twitter](https://twitter.com/StJudePLAYLIVE) and [Instagram](https://instagram.com/stjudeplaylive) for more info, and [join our Discord](https://discord.com/invite/stjudeplaylive) for helpful tips and resources.**",
-  "name": "St. Jude PLAY LIVE",
+**Utilize our custom overlay tools, hype train, donation alerts, St. Jude Chatbot, and branded graphics to magnify your campaign by [accessing our toolkit here](https://playlive.experience.stjude.org/).**
+
+Follow @stjudeplaylive on [Twitter](https://twitter.com/StJudePLAYLIVE) and [Instagram](https://instagram.com/stjudeplaylive) for more info, and [join our Discord](https://discord.com/invite/stjudeplaylive) for helpful tips and resources.",
+  "name": "St. Jude PLAY LIVE 2021",
   "parent": Object {
     "id": 39,
     "name": "St. Jude PLAY LIVE",
@@ -410,8 +412,8 @@ St. Jude has helped push the childhood cancer survival rate from less than 20% w
     },
   },
   "shortDescription": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
-  "slug": "playlive",
-  "startsAt": "2020-04-01",
+  "slug": "playlive2021",
+  "startsAt": "2021-04-01",
   "status": "published",
   "totalAmountRaised": Any<Number>,
   "type": "FundraisingEvent",
@@ -434,7 +436,7 @@ Object {
       "url": "/@gcx/profile",
     },
     Object {
-      "amountRaised": 6104633.12,
+      "amountRaised": 6129096.47,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -445,7 +447,7 @@ Object {
       "url": "/@drlupo/profile",
     },
     Object {
-      "amountRaised": 3100915.16,
+      "amountRaised": 3101094.85,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -467,7 +469,7 @@ Object {
       "url": "/@game-theorists/profile",
     },
     Object {
-      "amountRaised": 586459.53,
+      "amountRaised": 722918.21,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -489,15 +491,37 @@ Object {
       "url": "/@relay-fm/profile",
     },
     Object {
-      "amountRaised": 286981.38,
+      "amountRaised": 343637.98,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/user/thumbnail/2937/a1155dc8-db05-4102-93cb-dd6c6285a454.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/9716/e3f77d2b-1bea-42ed-a74c-33a5a31dd9d9.jpeg",
+        "width": 128,
+      },
+      "name": "littlesiha",
+      "url": "/@littlesiha/profile",
+    },
+    Object {
+      "amountRaised": 333181.38,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/2937/blob-e0b9d4f8-23d2-48aa-8333-34767df45a00.png",
         "width": 128,
       },
       "name": "Bloodyfaster",
       "url": "/@bloodyfaster/profile",
+    },
+    Object {
+      "amountRaised": 326279.67,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/22046/1d338b0d-701b-44ff-bee3-773171971226.jpeg",
+        "width": 128,
+      },
+      "name": "lilsimsie",
+      "url": "/@lilsimsie/profile",
     },
     Object {
       "amountRaised": 254812.61,
@@ -511,26 +535,15 @@ Object {
       "url": "/@ninjashyper/profile",
     },
     Object {
-      "amountRaised": 238449.95,
+      "amountRaised": 183397.18,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/user/thumbnail/9716/e3f77d2b-1bea-42ed-a74c-33a5a31dd9d9.jpeg",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/33287/d14fc503-c53b-4d13-8dbb-46466f1d1f28.jpeg",
         "width": 128,
       },
-      "name": "littlesiha",
-      "url": "/@littlesiha/profile",
-    },
-    Object {
-      "amountRaised": 197933,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/user/thumbnail/22046/1d338b0d-701b-44ff-bee3-773171971226.jpeg",
-        "width": 128,
-      },
-      "name": "lilsimsie",
-      "url": "/@lilsimsie/profile",
+      "name": "88bitmusic",
+      "url": "/@88bitmusic/profile",
     },
     Object {
       "amountRaised": 171139.11,
@@ -555,6 +568,17 @@ Object {
       "url": "/@ikasperr/profile",
     },
     Object {
+      "amountRaised": 163805.96,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/4965/f3e952b0-20aa-4583-a161-33bfc1b6a471.jpeg",
+        "width": 128,
+      },
+      "name": "rxysurfchic",
+      "url": "/@rxysurfchic/profile",
+    },
+    Object {
       "amountRaised": 146505.66,
       "avatar": Object {
         "alt": "",
@@ -564,17 +588,6 @@ Object {
       },
       "name": "WTFGameNation",
       "url": "/@wtfgamenation/profile",
-    },
-    Object {
-      "amountRaised": 146250.43,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/user/thumbnail/33287/d14fc503-c53b-4d13-8dbb-46466f1d1f28.jpeg",
-        "width": 128,
-      },
-      "name": "88bitmusic",
-      "url": "/@88bitmusic/profile",
     },
     Object {
       "amountRaised": 141742.17,
@@ -588,17 +601,6 @@ Object {
       "url": "/@darkness429/profile",
     },
     Object {
-      "amountRaised": 140992.59,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/user/thumbnail/4965/f3e952b0-20aa-4583-a161-33bfc1b6a471.jpeg",
-        "width": 128,
-      },
-      "name": "rxysurfchic",
-      "url": "/@rxysurfchic/profile",
-    },
-    Object {
       "amountRaised": 128249.17,
       "avatar": Object {
         "alt": "",
@@ -610,6 +612,17 @@ Object {
       "url": "/@thespeedgamers/profile",
     },
     Object {
+      "amountRaised": 116161.09,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/34180/7AIPIJui_400x400.jpg",
+        "width": 128,
+      },
+      "name": "Blessious",
+      "url": "/@blessious/profile",
+    },
+    Object {
       "amountRaised": 115717,
       "avatar": Object {
         "alt": "",
@@ -619,6 +632,17 @@ Object {
       },
       "name": "markiplier",
       "url": "/@markiplier/profile",
+    },
+    Object {
+      "amountRaised": 114346.68,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/32443/negaHug_L.png",
+        "width": 128,
+      },
+      "name": "negaoryx",
+      "url": "/@negaoryx/profile",
     },
     Object {
       "amountRaised": 111776.81,
@@ -654,15 +678,15 @@ Object {
       "url": "/@smashtherecord/profile",
     },
     Object {
-      "amountRaised": 97541.68,
+      "amountRaised": 98066.62,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/user/thumbnail/32443/negaHug_L.png",
+        "src": "https://assets.tiltify.com/uploads/user/thumbnail/2869/2D_ToR_Logo_blueSM.png",
         "width": 128,
       },
-      "name": "negaoryx",
-      "url": "/@negaoryx/profile",
+      "name": "TheOnlyRyann",
+      "url": "/@theonlyryann/profile",
     },
     Object {
       "amountRaised": 97402.68,
@@ -674,28 +698,6 @@ Object {
       },
       "name": "TradeChat",
       "url": "/@tradechat/profile",
-    },
-    Object {
-      "amountRaised": 91078.94,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/user/thumbnail/9415/Avatar.png",
-        "width": 128,
-      },
-      "name": "Lowco",
-      "url": "/@lowco/profile",
-    },
-    Object {
-      "amountRaised": 81575.42,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/user/thumbnail/10569/LogoTest2018_800px_.png",
-        "width": 128,
-      },
-      "name": "Terroriser",
-      "url": "/@terroriser/profile",
     },
   ],
   "team": Array [
@@ -744,6 +746,17 @@ Object {
       "url": "/+team-sin-squad",
     },
     Object {
+      "amountRaised": 281660.99,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6451/blob-d525209f-9faa-4398-98f1-5198e69c521f.png",
+        "width": 128,
+      },
+      "name": "Hand In Hand",
+      "url": "/+hand-in-hand",
+    },
+    Object {
       "amountRaised": 236389.86,
       "avatar": Object {
         "alt": "",
@@ -755,7 +768,7 @@ Object {
       "url": "/+center-stage",
     },
     Object {
-      "amountRaised": 218831.21,
+      "amountRaised": 228895.53,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -764,6 +777,17 @@ Object {
       },
       "name": "TeamVGaming",
       "url": "/+teamvgaming",
+    },
+    Object {
+      "amountRaised": 206666.57,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/397/49bc3b77-be99-43f8-8a2a-d064839e3d03.jpeg",
+        "width": 128,
+      },
+      "name": "Team Kitty",
+      "url": "/+team-kitty",
     },
     Object {
       "amountRaised": 193525.62,
@@ -788,7 +812,29 @@ Object {
       "url": "/+streamfluencer",
     },
     Object {
-      "amountRaised": 167339.71,
+      "amountRaised": 183626.15,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2830/94d4732e-c58c-4a3d-8d09-264f7dab0439.jpeg",
+        "width": 128,
+      },
+      "name": "Sailing For Charity",
+      "url": "/+sailing-for-charity",
+    },
+    Object {
+      "amountRaised": 174604.49,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1051/7751c930-b87e-4a95-be7c-3144702451a9.jpeg",
+        "width": 128,
+      },
+      "name": "WouldYouKindly ",
+      "url": "/+wouldyoukindly",
+    },
+    Object {
+      "amountRaised": 167414.71,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -797,6 +843,17 @@ Object {
       },
       "name": "THE GOO's Metal Meal Meltdown Streamers",
       "url": "/+the-goo-s-metal-meal-meltdown-streamers",
+    },
+    Object {
+      "amountRaised": 158865.43,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2054/9b2d7b26-aeb5-4c23-be18-d542cef912d0.jpeg",
+        "width": 128,
+      },
+      "name": "Wookie Cookies",
+      "url": "/+wookie-cookies",
     },
     Object {
       "amountRaised": 155999.92,
@@ -810,37 +867,26 @@ Object {
       "url": "/+main-menu-and-friends",
     },
     Object {
-      "amountRaised": 146122.22,
+      "amountRaised": 141973.74,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2830/94d4732e-c58c-4a3d-8d09-264f7dab0439.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/404/af7aec7b-644f-4189-80d9-9a12c3eaa5c9.jpeg",
         "width": 128,
       },
-      "name": "Sailing For Charity",
-      "url": "/+sailing-for-charity",
+      "name": "Alienware and Friends",
+      "url": "/+alienware-and-friends",
     },
     Object {
-      "amountRaised": 145199.72,
+      "amountRaised": 138377.68,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/397/49bc3b77-be99-43f8-8a2a-d064839e3d03.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6644/blob-19cc54e1-0cf9-4eb0-b8a9-5f04471a8111.png",
         "width": 128,
       },
-      "name": "Team Kitty",
-      "url": "/+team-kitty",
-    },
-    Object {
-      "amountRaised": 141560.35,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1051/7751c930-b87e-4a95-be7c-3144702451a9.jpeg",
-        "width": 128,
-      },
-      "name": "WouldYouKindly ",
-      "url": "/+wouldyoukindly",
+      "name": "Wolfpack Fundraising",
+      "url": "/+wolfpack-fundraising",
     },
     Object {
       "amountRaised": 126545.54,
@@ -854,17 +900,6 @@ Object {
       "url": "/+little-miracle-makers",
     },
     Object {
-      "amountRaised": 119160.37,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/404/af7aec7b-644f-4189-80d9-9a12c3eaa5c9.jpeg",
-        "width": 128,
-      },
-      "name": "Alienware and Friends",
-      "url": "/+alienware-and-friends",
-    },
-    Object {
       "amountRaised": 106299.73,
       "avatar": Object {
         "alt": "",
@@ -876,18 +911,7 @@ Object {
       "url": "/+fallout-for-hope",
     },
     Object {
-      "amountRaised": 94152.57,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2054/9b2d7b26-aeb5-4c23-be18-d542cef912d0.jpeg",
-        "width": 128,
-      },
-      "name": "Wookie Cookies",
-      "url": "/+wookie-cookies",
-    },
-    Object {
-      "amountRaised": 92807.95,
+      "amountRaised": 100261.64,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -896,6 +920,17 @@ Object {
       },
       "name": "The Storm",
       "url": "/+the-storm",
+    },
+    Object {
+      "amountRaised": 92158.56,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1045/4235370539282877877.jpg",
+        "width": 128,
+      },
+      "name": "The Flagship",
+      "url": "/+the-flagship",
     },
     Object {
       "amountRaised": 91079.03,
@@ -909,7 +944,40 @@ Object {
       "url": "/+stream-on",
     },
     Object {
-      "amountRaised": 81071.09,
+      "amountRaised": 88111.64,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3468/7806fa78-d673-42c1-a598-c00cb60e37a1.jpeg",
+        "width": 128,
+      },
+      "name": "The Charity Braves",
+      "url": "/+the-charity-braves",
+    },
+    Object {
+      "amountRaised": 86106.63,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4549/44144df1-d537-476e-8072-00a73a993b6c.jpeg",
+        "width": 128,
+      },
+      "name": "Sidequest",
+      "url": "/+sidequest",
+    },
+    Object {
+      "amountRaised": 84417.34,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5664/57729986-2fbf-40ea-9c0f-fa513b01fee5.jpeg",
+        "width": 128,
+      },
+      "name": "GoodCauseCrusaders",
+      "url": "/+goodcausecrusaders",
+    },
+    Object {
+      "amountRaised": 81471.09,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -942,15 +1010,15 @@ Object {
       "url": "/+team-rocksquad",
     },
     Object {
-      "amountRaised": 73172.87,
+      "amountRaised": 74959.04,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1045/4235370539282877877.jpg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1988/e69faa1e-e0a9-420e-ab69-6e9b5dabb079.jpeg",
         "width": 128,
       },
-      "name": "The Flagship",
-      "url": "/+the-flagship",
+      "name": "Aim and Achieve Streamer Network",
+      "url": "/+aim-and-achieve-streamer-network",
     },
     Object {
       "amountRaised": 71682,
@@ -964,6 +1032,17 @@ Object {
       "url": "/+main-menu-x-gamestop",
     },
     Object {
+      "amountRaised": 71517.34,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3251/blob-9a6bf266-f9ed-43ba-a67f-fa3381859681.png",
+        "width": 128,
+      },
+      "name": "Confectionary",
+      "url": "/+confectionary",
+    },
+    Object {
       "amountRaised": 67831.38,
       "avatar": Object {
         "alt": "",
@@ -975,7 +1054,7 @@ Object {
       "url": "/+project-kindness",
     },
     Object {
-      "amountRaised": 67272.06,
+      "amountRaised": 67243.06,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -984,6 +1063,17 @@ Object {
       },
       "name": "The Hunt 2021",
       "url": "/+the-hunt-2021",
+    },
+    Object {
+      "amountRaised": 66314.66,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/400/Pokemon_18_Profile.png",
+        "width": 128,
+      },
+      "name": "TSG",
+      "url": "/+tsg",
     },
     Object {
       "amountRaised": 65976.32,
@@ -997,17 +1087,6 @@ Object {
       "url": "/+chatloaf-friends",
     },
     Object {
-      "amountRaised": 64814.66,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/400/Pokemon_18_Profile.png",
-        "width": 128,
-      },
-      "name": "TSG",
-      "url": "/+tsg",
-    },
-    Object {
       "amountRaised": 63654.24,
       "avatar": Object {
         "alt": "",
@@ -1017,28 +1096,6 @@ Object {
       },
       "name": "The Hunt 2019",
       "url": "/+the-hunt-2019",
-    },
-    Object {
-      "amountRaised": 57595.68,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3251/blob-9a6bf266-f9ed-43ba-a67f-fa3381859681.png",
-        "width": 128,
-      },
-      "name": "Confectionary",
-      "url": "/+confectionary",
-    },
-    Object {
-      "amountRaised": 56571.98,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3468/7806fa78-d673-42c1-a598-c00cb60e37a1.jpeg",
-        "width": 128,
-      },
-      "name": "The Charity Braves",
-      "url": "/+the-charity-braves",
     },
     Object {
       "amountRaised": 55188.59,
@@ -1052,15 +1109,26 @@ Object {
       "url": "/+wavexr",
     },
     Object {
-      "amountRaised": 51332.94,
+      "amountRaised": 52824.66,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1988/e69faa1e-e0a9-420e-ab69-6e9b5dabb079.jpeg",
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
         "width": 128,
       },
-      "name": "Aim and Achieve Stream Team",
-      "url": "/+aim-and-achieve-stream-team",
+      "name": "Richmond Young Professionals",
+      "url": "/+richmond-young-professionals-474163",
+    },
+    Object {
+      "amountRaised": 52447.78,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3874/5fc69f36-7754-490f-8ff9-739099f197a2.jpeg",
+        "width": 128,
+      },
+      "name": "8-Bit Community",
+      "url": "/+8-bit-community",
     },
     Object {
       "amountRaised": 50820,
@@ -1072,17 +1140,6 @@ Object {
       },
       "name": "Mixer Musicians",
       "url": "/+mixer-musicians",
-    },
-    Object {
-      "amountRaised": 48613.69,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5664/57729986-2fbf-40ea-9c0f-fa513b01fee5.jpeg",
-        "width": 128,
-      },
-      "name": "GoodCauseCrusaders",
-      "url": "/+goodcausecrusaders",
     },
     Object {
       "amountRaised": 48535.77,
@@ -1118,6 +1175,17 @@ Object {
       "url": "/+flawless-victory",
     },
     Object {
+      "amountRaised": 47564.77,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2270/blob-59705486-cf16-4709-96bb-de73033ea1d0.png",
+        "width": 128,
+      },
+      "name": "Streamer Sphere",
+      "url": "/+streamer-sphere",
+    },
+    Object {
       "amountRaised": 46141.14,
       "avatar": Object {
         "alt": "",
@@ -1127,6 +1195,17 @@ Object {
       },
       "name": "Team Ever After",
       "url": "/+team-ever-after",
+    },
+    Object {
+      "amountRaised": 44681.48,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2086/03e00b52-302a-44b7-a9a5-09107347acb9.jpeg",
+        "width": 128,
+      },
+      "name": "Keys to Hearts",
+      "url": "/+keys-to-hearts",
     },
     Object {
       "amountRaised": 42069,
@@ -1173,6 +1252,17 @@ Object {
       "url": "/+stonemountain-s-squad",
     },
     Object {
+      "amountRaised": 36257.78,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/254/cce8043c-07e2-4397-ad5d-08bc17dd47b5.jpeg",
+        "width": 128,
+      },
+      "name": "ScareAThon",
+      "url": "/+scareathon",
+    },
+    Object {
       "amountRaised": 36095.93,
       "avatar": Object {
         "alt": "",
@@ -1182,17 +1272,6 @@ Object {
       },
       "name": "Playing with Fire TV",
       "url": "/+playing-with-fire-tv",
-    },
-    Object {
-      "amountRaised": 35885.75,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3874/5fc69f36-7754-490f-8ff9-739099f197a2.jpeg",
-        "width": 128,
-      },
-      "name": "8-Bit Community",
-      "url": "/+8-bit-community",
     },
     Object {
       "amountRaised": 35016,
@@ -1206,17 +1285,6 @@ Object {
       "url": "/+team-smash-the-record",
     },
     Object {
-      "amountRaised": 34173,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/254/cce8043c-07e2-4397-ad5d-08bc17dd47b5.jpeg",
-        "width": 128,
-      },
-      "name": "ScareAThon",
-      "url": "/+scareathon",
-    },
-    Object {
       "amountRaised": 32526.09,
       "avatar": Object {
         "alt": "",
@@ -1226,17 +1294,6 @@ Object {
       },
       "name": "ASTRO Gaming",
       "url": "/+astro-gaming",
-    },
-    Object {
-      "amountRaised": 30977.66,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
-        "width": 128,
-      },
-      "name": "Richmond Young Professionals ",
-      "url": "/+richmond-young-professionals",
     },
     Object {
       "amountRaised": 30419.82,
@@ -1316,7 +1373,7 @@ Object {
       "url": "/+twitchkittens-alpha",
     },
     Object {
-      "amountRaised": 27271.24,
+      "amountRaised": 27291.24,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -1426,17 +1483,6 @@ Object {
       "url": "/+the-party",
     },
     Object {
-      "amountRaised": 23948.14,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2086/03e00b52-302a-44b7-a9a5-09107347acb9.jpeg",
-        "width": 128,
-      },
-      "name": "Keys to Hearts",
-      "url": "/+keys-to-hearts",
-    },
-    Object {
       "amountRaised": 23290.34,
       "avatar": Object {
         "alt": "",
@@ -1459,6 +1505,50 @@ Object {
       "url": "/+505-games-and-friends",
     },
     Object {
+      "amountRaised": 23013.24,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6315/blob-29c2b3d9-890a-40b6-936c-06c64948f261.jpeg",
+        "width": 128,
+      },
+      "name": "Plague Clan",
+      "url": "/+plague-clan",
+    },
+    Object {
+      "amountRaised": 22997.54,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3269/4313d25d-7509-4a09-9852-4c494e5e050e.jpeg",
+        "width": 128,
+      },
+      "name": "Content Loading",
+      "url": "/+content-loading",
+    },
+    Object {
+      "amountRaised": 22813.16,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3441/9137b78f-d9dc-4d30-aab0-6061311c263e.jpeg",
+        "width": 128,
+      },
+      "name": "The Lass Project",
+      "url": "/+the-lass-project",
+    },
+    Object {
+      "amountRaised": 22756.98,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4380/2a3ce7d6-520c-4bd8-a8b7-7c8d5b22d956.jpeg",
+        "width": 128,
+      },
+      "name": "Toon-Up The World",
+      "url": "/+toon-up-the-world",
+    },
+    Object {
       "amountRaised": 22390.17,
       "avatar": Object {
         "alt": "",
@@ -1468,6 +1558,28 @@ Object {
       },
       "name": "Level With A Cause",
       "url": "/+level-with-a-cause",
+    },
+    Object {
+      "amountRaised": 22278.96,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6530/blob-c24a8269-7630-483e-8f0a-99c8784e173f.jpeg",
+        "width": 128,
+      },
+      "name": "TEAMEVGA",
+      "url": "/+teamevga",
+    },
+    Object {
+      "amountRaised": 22169.88,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/393/Profile_Pic.jpg",
+        "width": 128,
+      },
+      "name": "Dominos",
+      "url": "/+dominos",
     },
     Object {
       "amountRaised": 22013.75,
@@ -1514,26 +1626,15 @@ Object {
       "url": "/+st-jude-play-live-scare-a-thon",
     },
     Object {
-      "amountRaised": 19813.54,
+      "amountRaised": 17921,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3269/4313d25d-7509-4a09-9852-4c494e5e050e.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6518/blob-9dee46af-6a2c-43fa-9a5e-99506a42a7e4.png",
         "width": 128,
       },
-      "name": "Content Loading",
-      "url": "/+content-loading",
-    },
-    Object {
-      "amountRaised": 18053.88,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/393/Profile_Pic.jpg",
-        "width": 128,
-      },
-      "name": "Dominos",
-      "url": "/+dominos",
+      "name": "BZRK",
+      "url": "/+bzrk",
     },
     Object {
       "amountRaised": 17860.85,
@@ -1569,6 +1670,17 @@ Object {
       "url": "/+the-utensils",
     },
     Object {
+      "amountRaised": 16860.99,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1069/8cs2cHY8.png",
+        "width": 128,
+      },
+      "name": "90's Club for St. Jude ",
+      "url": "/+90-s-club-for-st-jude",
+    },
+    Object {
       "amountRaised": 16616.95,
       "avatar": Object {
         "alt": "",
@@ -1591,6 +1703,17 @@ Object {
       "url": "/+the-legion",
     },
     Object {
+      "amountRaised": 16165.09,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Team RP",
+      "url": "/+team-rp",
+    },
+    Object {
       "amountRaised": 16130,
       "avatar": Object {
         "alt": "",
@@ -1602,6 +1725,17 @@ Object {
       "url": "/+the-division-community",
     },
     Object {
+      "amountRaised": 15899.19,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5696/blob-b72215c7-9c18-4a3e-a111-f73345ed7f84.png",
+        "width": 128,
+      },
+      "name": "Mistbehaven",
+      "url": "/+mistbehaven",
+    },
+    Object {
       "amountRaised": 15620.93,
       "avatar": Object {
         "alt": "",
@@ -1611,6 +1745,17 @@ Object {
       },
       "name": "SteadyArmy",
       "url": "/+steadyarmy",
+    },
+    Object {
+      "amountRaised": 15499.39,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5958/blob-b022da5f-0645-46c7-8d24-dbc3a5416576.png",
+        "width": 128,
+      },
+      "name": "Astral Lotus",
+      "url": "/+astral-lotus",
     },
     Object {
       "amountRaised": 15419.05,
@@ -1635,15 +1780,15 @@ Object {
       "url": "/+content-creators-united",
     },
     Object {
-      "amountRaised": 14805.99,
+      "amountRaised": 14861.69,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1069/8cs2cHY8.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1423/posrevoutlinesq.png",
         "width": 128,
       },
-      "name": "90's Club for St. Jude ",
-      "url": "/+90-s-club-for-st-jude",
+      "name": "Positive AF St Jude",
+      "url": "/+positive-af-st-jude",
     },
     Object {
       "amountRaised": 14282.76,
@@ -1679,15 +1824,15 @@ Object {
       "url": "/+bearded-bastards-give",
     },
     Object {
-      "amountRaised": 13414.81,
+      "amountRaised": 13752.07,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3441/9137b78f-d9dc-4d30-aab0-6061311c263e.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2827/175275e9-e31d-499f-a26b-812a772f6bae.jpeg",
         "width": 128,
       },
-      "name": "The Lass Project",
-      "url": "/+the-lass-project",
+      "name": "Cypher's Nat 20's",
+      "url": "/+cypher-s-nat-20-s",
     },
     Object {
       "amountRaised": 13390.7,
@@ -1712,6 +1857,28 @@ Object {
       "url": "/+hearts-of-gold-fleet",
     },
     Object {
+      "amountRaised": 12782.19,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6412/blob-fadefa17-57a3-4432-8d34-01a47793cd50.png",
+        "width": 128,
+      },
+      "name": "Kilometers 4 Kiddos",
+      "url": "/+kilometers-4-kiddos",
+    },
+    Object {
+      "amountRaised": 12489.74,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1981/26c73999-3ed7-4408-99ef-1317fa65d8fe.jpeg",
+        "width": 128,
+      },
+      "name": "Ready Level Up",
+      "url": "/+ready-level-up",
+    },
+    Object {
       "amountRaised": 12110.52,
       "avatar": Object {
         "alt": "",
@@ -1721,6 +1888,17 @@ Object {
       },
       "name": "Gecko Swarm for St. Jude PLAYLIVE 2020",
       "url": "/+gecko-swarm-for-st-jude-playlive-2020",
+    },
+    Object {
+      "amountRaised": 12060,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6453/blob-6a4a8136-6f3e-4c23-bc66-b58886a504b3.jpeg",
+        "width": 128,
+      },
+      "name": "NurdLegion",
+      "url": "/+nurdlegion",
     },
     Object {
       "amountRaised": 11997.49,
@@ -1756,7 +1934,18 @@ Object {
       "url": "/+to-be-determined-play-live",
     },
     Object {
-      "amountRaised": 11523.26,
+      "amountRaised": 11540.61,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1912/5923fb4b-3162-428f-8dcd-f119991233c5.jpeg",
+        "width": 128,
+      },
+      "name": "Companion Crew",
+      "url": "/+companion-crew",
+    },
+    Object {
+      "amountRaised": 11533.26,
       "avatar": Object {
         "alt": "",
         "height": 128,
@@ -1778,15 +1967,15 @@ Object {
       "url": "/+press-play-x-tiger-tea",
     },
     Object {
-      "amountRaised": 11219.69,
+      "amountRaised": 11357.34,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2827/175275e9-e31d-499f-a26b-812a772f6bae.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3279/blob-518c5df9-f06e-433e-90c8-fec0ad57aa5f.jpeg",
         "width": 128,
       },
-      "name": "Cypher's Nat 20's",
-      "url": "/+cypher-s-nat-20-s",
+      "name": "Kreateure",
+      "url": "/+kreateure",
     },
     Object {
       "amountRaised": 11200,
@@ -1800,6 +1989,17 @@ Object {
       "url": "/+deep-winter",
     },
     Object {
+      "amountRaised": 11099.08,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6483/blob-23694001-8789-4435-8da7-0b78c60d08e3.jpeg",
+        "width": 128,
+      },
+      "name": "The I’m Possibles",
+      "url": "/+the-i-m-possibles",
+    },
+    Object {
       "amountRaised": 10937.01,
       "avatar": Object {
         "alt": "",
@@ -1809,6 +2009,17 @@ Object {
       },
       "name": "Sprinklr",
       "url": "/+sprinklr",
+    },
+    Object {
+      "amountRaised": 10896.56,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6606/blob-a3903fdd-8138-4177-8750-82db9c87ec60.png",
+        "width": 128,
+      },
+      "name": "Warriors of Light",
+      "url": "/+warriors-of-light",
     },
     Object {
       "amountRaised": 10843,
@@ -1831,17 +2042,6 @@ Object {
       },
       "name": "The Wolf Pack",
       "url": "/+the-wolf-pack",
-    },
-    Object {
-      "amountRaised": 10660.61,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1912/5923fb4b-3162-428f-8dcd-f119991233c5.jpeg",
-        "width": 128,
-      },
-      "name": "Companion Crew",
-      "url": "/+companion-crew",
     },
     Object {
       "amountRaised": 10555.55,
@@ -1954,6 +2154,17 @@ Object {
       "url": "/+playdauntless",
     },
     Object {
+      "amountRaised": 8609.77,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6414/blob-bf1075ad-a027-49eb-b3d4-294d08ed9999.png",
+        "width": 128,
+      },
+      "name": "Wino Babes for ALL THE CHARITY",
+      "url": "/+wino-babes-for-all-the-charity",
+    },
+    Object {
       "amountRaised": 8600,
       "avatar": Object {
         "alt": "",
@@ -1963,17 +2174,6 @@ Object {
       },
       "name": "The Cabbage Patch",
       "url": "/+the-cabbage-patch",
-    },
-    Object {
-      "amountRaised": 8466.24,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3279/2bd88394-16e0-421a-a774-8f3d2744e1ef.jpeg",
-        "width": 128,
-      },
-      "name": "Kreateure",
-      "url": "/+kreateure",
     },
     Object {
       "amountRaised": 8360,
@@ -1998,6 +2198,17 @@ Object {
       "url": "/+the-avowed-team-77f003a7-706b-4625-8f57-9b983646ddae",
     },
     Object {
+      "amountRaised": 7771,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3299/97a4ffbe-7f7f-4955-96a6-e702424deb3d.jpeg",
+        "width": 128,
+      },
+      "name": "Nerd901",
+      "url": "/+nerd901",
+    },
+    Object {
       "amountRaised": 7757,
       "avatar": Object {
         "alt": "",
@@ -2018,6 +2229,17 @@ Object {
       },
       "name": "GSN Gaming & Friends",
       "url": "/+gsn-gaming-friends",
+    },
+    Object {
+      "amountRaised": 7662.03,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1034/ee5f1ec9-3f06-4e01-aac5-6e739526ca11.jpeg",
+        "width": 128,
+      },
+      "name": "Twitch Hawaii",
+      "url": "/+twitch-hawaii",
     },
     Object {
       "amountRaised": 7500,
@@ -2042,6 +2264,28 @@ Object {
       "url": "/+aimzatchu-dolphin-family",
     },
     Object {
+      "amountRaised": 7234.77,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2001/fceb14ba-9ffa-4de8-b474-4ab9d37965cc.jpeg",
+        "width": 128,
+      },
+      "name": "DAM BUGS",
+      "url": "/+dam-bugs",
+    },
+    Object {
+      "amountRaised": 7087.38,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Rare Sense",
+      "url": "/+rare-sense",
+    },
+    Object {
       "amountRaised": 7015,
       "avatar": Object {
         "alt": "",
@@ -2051,6 +2295,17 @@ Object {
       },
       "name": "Charity Hunters",
       "url": "/+charity-hunters",
+    },
+    Object {
+      "amountRaised": 6985,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3435/22d92172-9761-43dc-b84f-9e4fe4e9a46f.jpeg",
+        "width": 128,
+      },
+      "name": "Lenard18's Mustached Marauders",
+      "url": "/+lenard18-s-mustached-marauders",
     },
     Object {
       "amountRaised": 6948.38,
@@ -2108,17 +2363,6 @@ Object {
       "url": "/+cup-of-caring",
     },
     Object {
-      "amountRaised": 6485,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3435/22d92172-9761-43dc-b84f-9e4fe4e9a46f.jpeg",
-        "width": 128,
-      },
-      "name": "Lenard18's Mustached Marauders",
-      "url": "/+lenard18-s-mustached-marauders",
-    },
-    Object {
       "amountRaised": 6454.69,
       "avatar": Object {
         "alt": "",
@@ -2172,6 +2416,17 @@ Object {
       },
       "name": "Into The AM",
       "url": "/+into-the-am",
+    },
+    Object {
+      "amountRaised": 6020,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6686/blob-206f1a4e-a57e-4471-bdf3-b001716e42b9.png",
+        "width": 128,
+      },
+      "name": "Guardians of the Order",
+      "url": "/+guardians-of-the-order",
     },
     Object {
       "amountRaised": 5805.37,
@@ -2251,6 +2506,17 @@ Object {
       "url": "/+less-than-three",
     },
     Object {
+      "amountRaised": 5354,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5156/blob-6a5d4b99-cb9a-4b64-af13-1290c3f990e2.png",
+        "width": 128,
+      },
+      "name": "Strategy Roasters for St. Jude",
+      "url": "/+strategy-roasters-for-st-jude",
+    },
+    Object {
       "amountRaised": 5278.22,
       "avatar": Object {
         "alt": "",
@@ -2304,17 +2570,6 @@ Object {
       },
       "name": "Too Rad To Be Sad",
       "url": "/+too-rad-to-be-sad",
-    },
-    Object {
-      "amountRaised": 5102.68,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1981/26c73999-3ed7-4408-99ef-1317fa65d8fe.jpeg",
-        "width": 128,
-      },
-      "name": "Ready Level Up",
-      "url": "/+ready-level-up",
     },
     Object {
       "amountRaised": 5050,
@@ -2372,6 +2627,28 @@ Object {
       "url": "/+big-heroes-helping-little-heroes",
     },
     Object {
+      "amountRaised": 4650.15,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6459/blob-d2b50c55-0f42-4845-b6e6-1fe772e67281.png",
+        "width": 128,
+      },
+      "name": "Casual Crew TV",
+      "url": "/+casual-crew-tv",
+    },
+    Object {
+      "amountRaised": 4622,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5188/blob-38a815d4-db38-471d-8622-dad76812460c.png",
+        "width": 128,
+      },
+      "name": "The Blu A Academy",
+      "url": "/+the-blu-a-academy-914974",
+    },
+    Object {
       "amountRaised": 4505.78,
       "avatar": Object {
         "alt": "",
@@ -2381,6 +2658,17 @@ Object {
       },
       "name": "Reflections",
       "url": "/+reflections",
+    },
+    Object {
+      "amountRaised": 4496.79,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Chaotic Charity for Children",
+      "url": "/+chaotic-charity-for-children",
     },
     Object {
       "amountRaised": 4423.37,
@@ -2405,6 +2693,17 @@ Object {
       "url": "/+tbs",
     },
     Object {
+      "amountRaised": 4245,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5608/blob-b96accba-2800-499f-971d-855809c04f5d.png",
+        "width": 128,
+      },
+      "name": "Squirrel Team 6",
+      "url": "/+squirrel-team-6",
+    },
+    Object {
       "amountRaised": 4231.4,
       "avatar": Object {
         "alt": "",
@@ -2416,15 +2715,15 @@ Object {
       "url": "/+ducckkyytv-s-flock",
     },
     Object {
-      "amountRaised": 4210.69,
+      "amountRaised": 4217.15,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1458/blob-e44e5c80-fa4f-4da7-babc-30bfd49d3470.jpeg",
         "width": 128,
       },
-      "name": "Rare Sense",
-      "url": "/+rare-sense",
+      "name": "Grand Scheme Gaming",
+      "url": "/+grand-scheme-gaming",
     },
     Object {
       "amountRaised": 4201.82,
@@ -2438,17 +2737,6 @@ Object {
       "url": "/+charity-squad",
     },
     Object {
-      "amountRaised": 4182,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3299/97a4ffbe-7f7f-4955-96a6-e702424deb3d.jpeg",
-        "width": 128,
-      },
-      "name": "Nerd901",
-      "url": "/+nerd901",
-    },
-    Object {
       "amountRaised": 4077,
       "avatar": Object {
         "alt": "",
@@ -2460,6 +2748,17 @@ Object {
       "url": "/+little-lights-brigade",
     },
     Object {
+      "amountRaised": 4001.09,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Launch Party",
+      "url": "/+launch-party",
+    },
+    Object {
       "amountRaised": 4000,
       "avatar": Object {
         "alt": "",
@@ -2469,17 +2768,6 @@ Object {
       },
       "name": "Peachy Party",
       "url": "/+peachy-party",
-    },
-    Object {
-      "amountRaised": 3800.66,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1034/ee5f1ec9-3f06-4e01-aac5-6e739526ca11.jpeg",
-        "width": 128,
-      },
-      "name": "Twitch Hawaii",
-      "url": "/+twitch-hawaii",
     },
     Object {
       "amountRaised": 3800.15,
@@ -2504,15 +2792,15 @@ Object {
       "url": "/+team-grape",
     },
     Object {
-      "amountRaised": 3689.79,
+      "amountRaised": 3642.05,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6521/blob-395fd8d7-4af6-4e55-a790-aa9ce7f89cf3.png",
         "width": 128,
       },
-      "name": "Chaotic Charity for Children",
-      "url": "/+chaotic-charity-for-children",
+      "name": "GRAPE 2021",
+      "url": "/+grape-2021",
     },
     Object {
       "amountRaised": 3629.54,
@@ -2592,6 +2880,17 @@ Object {
       "url": "/+lan-house",
     },
     Object {
+      "amountRaised": 3440,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1396/SOBA-round-avatar.jpg",
+        "width": 128,
+      },
+      "name": "SOBA",
+      "url": "/+soba",
+    },
+    Object {
       "amountRaised": 3404,
       "avatar": Object {
         "alt": "",
@@ -2601,6 +2900,28 @@ Object {
       },
       "name": "Chocolate Thunder",
       "url": "/+chocolate-thunder",
+    },
+    Object {
+      "amountRaised": 3383.38,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2617/blob-c660a131-798d-4dd0-9e23-19f35f66bf3f.jpeg",
+        "width": 128,
+      },
+      "name": "UTDEsports",
+      "url": "/+utdesports",
+    },
+    Object {
+      "amountRaised": 3381.36,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6469/blob-de7e6d05-ccb1-43b3-8200-bb491d1642da.jpeg",
+        "width": 128,
+      },
+      "name": "Twitch Philippines",
+      "url": "/+twitch-philippines",
     },
     Object {
       "amountRaised": 3320,
@@ -2667,6 +2988,17 @@ Object {
       },
       "name": "Smile Squad",
       "url": "/+smile-squad",
+    },
+    Object {
+      "amountRaised": 3038.69,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6422/blob-33206e45-f485-4876-8e05-1f54c3e943b0.png",
+        "width": 128,
+      },
+      "name": "Not a Cult",
+      "url": "/+not-a-cult",
     },
     Object {
       "amountRaised": 3033.2,
@@ -2746,6 +3078,17 @@ Object {
       "url": "/+team-b42",
     },
     Object {
+      "amountRaised": 2625,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Heckin' Play 2021",
+      "url": "/+heckin-play-2021",
+    },
+    Object {
       "amountRaised": 2601,
       "avatar": Object {
         "alt": "",
@@ -2790,15 +3133,26 @@ Object {
       "url": "/+jroc-s-band-of-misfits",
     },
     Object {
+      "amountRaised": 2491.38,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4934/7d0f00c3-3fc6-4434-8c4b-98c2d447b2c8.jpeg",
+        "width": 128,
+      },
+      "name": "Phi Delta Chi Pharmacy Fraternity",
+      "url": "/+phi-delta-chi-pharmacy-fraternity",
+    },
+    Object {
       "amountRaised": 2440,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1396/SOBA-round-avatar.jpg",
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
         "width": 128,
       },
-      "name": "SOBA",
-      "url": "/+soba",
+      "name": "Ginger Sisters",
+      "url": "/+ginger-sisters",
     },
     Object {
       "amountRaised": 2377.84,
@@ -2834,6 +3188,17 @@ Object {
       "url": "/+kingdom-for-kids",
     },
     Object {
+      "amountRaised": 2365,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "The Yarr Crew",
+      "url": "/+the-yarr-crew",
+    },
+    Object {
       "amountRaised": 2313.06,
       "avatar": Object {
         "alt": "",
@@ -2854,17 +3219,6 @@ Object {
       },
       "name": "Jeef's team of memes",
       "url": "/+jeef-s-team-of-memes",
-    },
-    Object {
-      "amountRaised": 2229.38,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4934/7d0f00c3-3fc6-4434-8c4b-98c2d447b2c8.jpeg",
-        "width": 128,
-      },
-      "name": "Phi Delta Chi Pharmacy Fraternity",
-      "url": "/+phi-delta-chi-pharmacy-fraternity",
     },
     Object {
       "amountRaised": 2215,
@@ -2922,17 +3276,6 @@ Object {
       "url": "/+ten-toes-for-st-jude-2019",
     },
     Object {
-      "amountRaised": 2138.39,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2001/fceb14ba-9ffa-4de8-b474-4ab9d37965cc.jpeg",
-        "width": 128,
-      },
-      "name": "DAM BUGS",
-      "url": "/+dam-bugs",
-    },
-    Object {
       "amountRaised": 2100,
       "avatar": Object {
         "alt": "",
@@ -2977,17 +3320,6 @@ Object {
       "url": "/+team-justus",
     },
     Object {
-      "amountRaised": 2000.05,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1458/35140967-6d76-42d2-a122-90cbe807e5ef.jpeg",
-        "width": 128,
-      },
-      "name": "Grand Scheme Gaming",
-      "url": "/+grand-scheme-gaming",
-    },
-    Object {
       "amountRaised": 1955,
       "avatar": Object {
         "alt": "",
@@ -3030,17 +3362,6 @@ Object {
       },
       "name": "RootMetrics",
       "url": "/+rootmetrics",
-    },
-    Object {
-      "amountRaised": 1856,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/1423/posrevoutlinesq.png",
-        "width": 128,
-      },
-      "name": "Positive AF St Jude",
-      "url": "/+positive-af-st-jude",
     },
     Object {
       "amountRaised": 1851,
@@ -3164,6 +3485,17 @@ Object {
       "url": "/+the-stars-beyond",
     },
     Object {
+      "amountRaised": 1640,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3732/90239b05-7e38-4f13-ad4f-eba144788e69.jpeg",
+        "width": 128,
+      },
+      "name": "The Arctic Narwhals",
+      "url": "/+the-arctic-narwhals",
+    },
+    Object {
       "amountRaised": 1622,
       "avatar": Object {
         "alt": "",
@@ -3197,15 +3529,26 @@ Object {
       "url": "/+moist",
     },
     Object {
-      "amountRaised": 1530.89,
+      "amountRaised": 1530,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2617/3fe27657-52d5-4431-a9dc-5c6d72db5156.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2636/blob-d206c8f9-f293-48b1-9a35-b8055bd61ae4.jpeg",
         "width": 128,
       },
-      "name": "UTDEsports",
-      "url": "/+utdesports",
+      "name": "STREAMING 4 GOOD",
+      "url": "/+streaming-4-good",
+    },
+    Object {
+      "amountRaised": 1524,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "MEAN GREEN STREAM TEAM",
+      "url": "/+mean-green-stream-team",
     },
     Object {
       "amountRaised": 1520,
@@ -3263,15 +3606,15 @@ Object {
       "url": "/+dungeons-flagons-72cd2057-1cf6-41c8-8c2d-8c09a3c9f82b",
     },
     Object {
-      "amountRaised": 1414,
+      "amountRaised": 1437.77,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5156/69a811df-405b-4bdd-a803-3fb37d0cdbe6.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6625/blob-792c1d5f-a5b9-45e5-930c-b062761860c2.png",
         "width": 128,
       },
-      "name": "StrategyRoastersHope",
-      "url": "/+strategyroastershope",
+      "name": "Gecko Swarm for St. Jude 2021",
+      "url": "/+gecko-swarm-for-st-jude-2021",
     },
     Object {
       "amountRaised": 1323,
@@ -3294,6 +3637,17 @@ Object {
       },
       "name": "The Beans",
       "url": "/+the-beans",
+    },
+    Object {
+      "amountRaised": 1293.9,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6264/blob-c1cffb87-ac8e-42b8-830a-7f300a460541.png",
+        "width": 128,
+      },
+      "name": "Zeldathon",
+      "url": "/+zeldathon",
     },
     Object {
       "amountRaised": 1289.61,
@@ -3393,6 +3747,17 @@ Object {
       },
       "name": "Team Soshul Gamers--e85cdb88-3d46-4a96-9ad6-ff8c365e8a7e",
       "url": "/+team-soshul-gamers-e85cdb88-3d46-4a96-9ad6-ff8c365e8a7e",
+    },
+    Object {
+      "amountRaised": 1135,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5011/blob-f0b164f3-02ff-4aef-83a5-cdbd4c504ffc.png",
+        "width": 128,
+      },
+      "name": "Crafter Dark Collective",
+      "url": "/+crafter-dark-collective",
     },
     Object {
       "amountRaised": 1133.66,
@@ -3505,17 +3870,6 @@ Object {
       "url": "/+ff9-speedrunners",
     },
     Object {
-      "amountRaised": 1000,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
-        "width": 128,
-      },
-      "name": "MEAN GREEN STREAM TEAM",
-      "url": "/+mean-green-stream-team",
-    },
-    Object {
       "amountRaised": 939.12,
       "avatar": Object {
         "alt": "",
@@ -3626,15 +3980,26 @@ Object {
       "url": "/+the-stream-team",
     },
     Object {
-      "amountRaised": 820,
+      "amountRaised": 825,
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3732/90239b05-7e38-4f13-ad4f-eba144788e69.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6550/blob-5e407f0b-ce24-4a00-98fb-5402587a4586.png",
         "width": 128,
       },
-      "name": "The Arctic Narwhals",
-      "url": "/+the-arctic-narwhals",
+      "name": "Boosted Friends",
+      "url": "/+boosted-friends",
+    },
+    Object {
+      "amountRaised": 811,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/4792/3081ff48-4e5d-44a3-8ea6-a9d5e52ac4a8.jpeg",
+        "width": 128,
+      },
+      "name": "The Weebquisition",
+      "url": "/+the-weebquisition",
     },
     Object {
       "amountRaised": 810,
@@ -3747,6 +4112,17 @@ Object {
       "url": "/+alavasgiving",
     },
     Object {
+      "amountRaised": 700,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Bean Helpers",
+      "url": "/+bean-helpers",
+    },
+    Object {
       "amountRaised": 696,
       "avatar": Object {
         "alt": "",
@@ -3767,6 +4143,17 @@ Object {
       },
       "name": "Kindred Strong",
       "url": "/+kindred-strong",
+    },
+    Object {
+      "amountRaised": 670,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6534/blob-eb9d91bf-e51a-4222-ac81-eb39bed45eca.png",
+        "width": 128,
+      },
+      "name": "The Wild Alliance",
+      "url": "/+the-wild-alliance",
     },
     Object {
       "amountRaised": 650,
@@ -3835,6 +4222,17 @@ Object {
       "url": "/+international-gamers-ea5900fb-d40a-4f42-95b3-a7763292a596",
     },
     Object {
+      "amountRaised": 581,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/732/e26dd025-c9a7-451f-83ac-6be5cad20d2d.jpeg",
+        "width": 128,
+      },
+      "name": "Magical Gamers",
+      "url": "/+magical-gamers",
+    },
+    Object {
       "amountRaised": 575,
       "avatar": Object {
         "alt": "",
@@ -3861,11 +4259,11 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/732/e26dd025-c9a7-451f-83ac-6be5cad20d2d.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6636/blob-271e414a-ae8a-42e2-a2da-44f5db71762f.jpeg",
         "width": 128,
       },
-      "name": "Magical Gamers",
-      "url": "/+magical-gamers",
+      "name": "Re:Collective",
+      "url": "/+re-collective",
     },
     Object {
       "amountRaised": 555,
@@ -3945,6 +4343,17 @@ Object {
       "url": "/+feruun-s-st-jude-team",
     },
     Object {
+      "amountRaised": 545,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Sagebrush Esports",
+      "url": "/+sagebrush-esports",
+    },
+    Object {
       "amountRaised": 540,
       "avatar": Object {
         "alt": "",
@@ -3987,6 +4396,28 @@ Object {
       },
       "name": "The Arcaders",
       "url": "/+the-arcaders",
+    },
+    Object {
+      "amountRaised": 510,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2750/61fd85d1-1e53-4461-ba7e-2f396e40cc5f.jpeg",
+        "width": 128,
+      },
+      "name": "Wild Ones Unite for Charity",
+      "url": "/+wild-ones-unite-for-charity",
+    },
+    Object {
+      "amountRaised": 504,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6642/blob-d8149185-904d-48a6-b146-2193b9c88637.png",
+        "width": 128,
+      },
+      "name": "USG for Charity",
+      "url": "/+usg-for-charity",
     },
     Object {
       "amountRaised": 500,
@@ -4033,17 +4464,6 @@ Object {
       "url": "/+gamers-for-good",
     },
     Object {
-      "amountRaised": 470,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2750/61fd85d1-1e53-4461-ba7e-2f396e40cc5f.jpeg",
-        "width": 128,
-      },
-      "name": "Wild Ones Unite for Charity",
-      "url": "/+wild-ones-unite-for-charity",
-    },
-    Object {
       "amountRaised": 460,
       "avatar": Object {
         "alt": "",
@@ -4053,6 +4473,17 @@ Object {
       },
       "name": "Blue Esports",
       "url": "/+blue-esports",
+    },
+    Object {
+      "amountRaised": 460,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6339/blob-01984f62-81e9-49e3-94a8-9849e8808e93.png",
+        "width": 128,
+      },
+      "name": "The Hearts Community",
+      "url": "/+the-hearts-community",
     },
     Object {
       "amountRaised": 445,
@@ -4154,6 +4585,17 @@ Object {
       "url": "/+lurk24",
     },
     Object {
+      "amountRaised": 367,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6251/blob-0c57dc51-2981-434b-8982-5f450304e2fa.png",
+        "width": 128,
+      },
+      "name": "Guardian's Against Cancer, Fight For the Cure",
+      "url": "/+guardians-against-cancer-fight-for-the-cure",
+    },
+    Object {
       "amountRaised": 360,
       "avatar": Object {
         "alt": "",
@@ -4185,6 +4627,17 @@ Object {
       },
       "name": "RebornKnights",
       "url": "/+rebornknights",
+    },
+    Object {
+      "amountRaised": 355,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3290/blob-87c32a89-506c-4e16-91f7-b91f7a5df150.png",
+        "width": 128,
+      },
+      "name": "The For All Manakind FAM",
+      "url": "/+the-for-all-manakind-fam",
     },
     Object {
       "amountRaised": 351.58,
@@ -4341,6 +4794,17 @@ Object {
       "url": "/+extraidvaganza",
     },
     Object {
+      "amountRaised": 265,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "The Crew!--a0156630-4929-42d7-aead-dce3ee9e90cf",
+      "url": "/+the-crew-f74717--a0156630-4929-42d7-aead-dce3ee9e90cf",
+    },
+    Object {
       "amountRaised": 258,
       "avatar": Object {
         "alt": "",
@@ -4444,11 +4908,33 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6723/blob-41018668-9004-4640-bdf6-de4f96430cdd.png",
+        "width": 128,
+      },
+      "name": "Gamers 4 Lives",
+      "url": "/+gamers-4-lives",
+    },
+    Object {
+      "amountRaised": 200,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
         "src": "https://assets.tiltify.com/uploads/team/thumbnail/1185/icon2.PNG",
         "width": 128,
       },
       "name": "Gaming Warriors",
       "url": "/+gaming-warriors",
+    },
+    Object {
+      "amountRaised": 190,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6599/blob-ef1bc026-fd2d-4325-89ff-5888179b563d.png",
+        "width": 128,
+      },
+      "name": "ETERNAL LEGACY",
+      "url": "/+eternal-legacy",
     },
     Object {
       "amountRaised": 190,
@@ -4495,6 +4981,17 @@ Object {
       "url": "/+circle-of-friends-creating-hope-for-the-future",
     },
     Object {
+      "amountRaised": 170,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Gamers 4 Good",
+      "url": "/+gamers-4-good",
+    },
+    Object {
       "amountRaised": 165.5,
       "avatar": Object {
         "alt": "",
@@ -4515,6 +5012,28 @@ Object {
       },
       "name": "Video Game Vanguards--08cfe118-b920-47ef-8d6a-87b5c77e8502",
       "url": "/+video-game-vanguards-08cfe118-b920-47ef-8d6a-87b5c77e8502",
+    },
+    Object {
+      "amountRaised": 161,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/2407/blob-5e310965-ede3-42e0-a6d4-b09207642b3a.jpeg",
+        "width": 128,
+      },
+      "name": "KD Gaming - \\"Fighting Cancer One Game at a Time.\\"",
+      "url": "/+kd-gaming-fighting-cancer-one-game-at-a-time",
+    },
+    Object {
+      "amountRaised": 157.13,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5963/blob-3fbea39d-9e7d-4ff5-9bff-ab64301065cd.png",
+        "width": 128,
+      },
+      "name": "Ace Squad",
+      "url": "/+ace-squad",
     },
     Object {
       "amountRaised": 155,
@@ -4693,6 +5212,17 @@ Object {
       "url": "/+wolf-pack-b0606133-7bd9-44fe-8a63-9b9ca0bc9982",
     },
     Object {
+      "amountRaised": 106,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6566/blob-b9628098-368f-4e07-8981-cc17eb3d33be.png",
+        "width": 128,
+      },
+      "name": "TCCGamers",
+      "url": "/+tccgamers",
+    },
+    Object {
       "amountRaised": 105,
       "avatar": Object {
         "alt": "",
@@ -4840,11 +5370,44 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5608/1c7c0ef5-6f31-4745-a19e-1906032476d2.jpeg",
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6427/blob-016211f4-018e-41f0-9fa9-9da76608bea3.jpeg",
         "width": 128,
       },
-      "name": "Squirrel Team 6",
-      "url": "/+squirrel-team-6",
+      "name": "Diamond Beauties",
+      "url": "/+diamond-beauties",
+    },
+    Object {
+      "amountRaised": 85,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "The Crew!!!",
+      "url": "/+the-crew-a6f655",
+    },
+    Object {
+      "amountRaised": 80,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "Witches of the Corridor",
+      "url": "/+witches-of-the-corridor",
+    },
+    Object {
+      "amountRaised": 77,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/5745/blob-eeb2d12e-9950-427e-83c6-c093e7c51fa7.png",
+        "width": 128,
+      },
+      "name": "James Mezenen",
+      "url": "/+james-mezenen",
     },
     Object {
       "amountRaised": 75,
@@ -4876,6 +5439,17 @@ Object {
         "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
         "width": 128,
       },
+      "name": "Lopsided Maniacs",
+      "url": "/+lopsided-maniacs",
+    },
+    Object {
+      "amountRaised": 70,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
       "name": "Sandbox 4 Charity",
       "url": "/+sandbox-4-charity",
     },
@@ -4889,6 +5463,17 @@ Object {
       },
       "name": "Gaming Broadcasters",
       "url": "/+gaming-broadcasters",
+    },
+    Object {
+      "amountRaised": 66,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6668/blob-531d5713-6b42-48a6-a2db-f4b19b8da34d.png",
+        "width": 128,
+      },
+      "name": "Oatmeal warriors",
+      "url": "/+oatmeal-warriors",
     },
     Object {
       "amountRaised": 65,
@@ -4939,17 +5524,6 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
-        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
-        "width": 128,
-      },
-      "name": "Crafter Dark Collective",
-      "url": "/+crafter-dark-collective",
-    },
-    Object {
-      "amountRaised": 55,
-      "avatar": Object {
-        "alt": "",
-        "height": 128,
         "src": "https://assets.tiltify.com/uploads/team/thumbnail/2842/698970e7-8981-4651-980f-eb031bbdec4d.jpeg",
         "width": 128,
       },
@@ -4966,6 +5540,17 @@ Object {
       },
       "name": "The Clan-C",
       "url": "/+the-clan-c",
+    },
+    Object {
+      "amountRaised": 55,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6704/blob-51c10d90-6935-4dba-a56b-3c04ac7b3e4c.jpeg",
+        "width": 128,
+      },
+      "name": "The Clock Tower TTV",
+      "url": "/+the-clock-tower-ttv",
     },
     Object {
       "amountRaised": 50,
@@ -5078,6 +5663,17 @@ Object {
       "url": "/+charity-stream-w-officialwildside-and-tsskarnes",
     },
     Object {
+      "amountRaised": 30,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
+        "width": 128,
+      },
+      "name": "The Giblet House",
+      "url": "/+the-giblet-house",
+    },
+    Object {
       "amountRaised": 26.53,
       "avatar": Object {
         "alt": "",
@@ -5098,6 +5694,17 @@ Object {
       },
       "name": "RedditTryHard",
       "url": "/+reddittryhard",
+    },
+    Object {
+      "amountRaised": 25,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6564/blob-a4fff7f4-5f98-4933-a735-e5012d99bb24.png",
+        "width": 128,
+      },
+      "name": "For the Kids",
+      "url": "/+for-the-kids",
     },
     Object {
       "amountRaised": 25,
@@ -5159,6 +5766,17 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6497/blob-51c23898-6eee-4a7b-89fe-f2d8a14b36fc.png",
+        "width": 128,
+      },
+      "name": "Kingdom For Kids 2021",
+      "url": "/+kingdom-for-kids-2021",
+    },
+    Object {
+      "amountRaised": 20,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
         "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
         "width": 128,
       },
@@ -5175,6 +5793,17 @@ Object {
       },
       "name": "One Of Us Charity Crew",
       "url": "/+one-of-us-charity-crew",
+    },
+    Object {
+      "amountRaised": 20,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/6526/blob-fe6d4fde-d6c6-484e-a4a9-01897baaf30c.jpeg",
+        "width": 128,
+      },
+      "name": "Wiseguy charity team",
+      "url": "/+wiseguy-charity-team",
     },
     Object {
       "amountRaised": 20,
@@ -5357,6 +5986,17 @@ Object {
       "avatar": Object {
         "alt": "",
         "height": 128,
+        "src": "https://assets.tiltify.com/uploads/team/thumbnail/3296/13a7bc9b-2bb8-4d7b-b601-479f99e8b487.jpeg",
+        "width": 128,
+      },
+      "name": "Team Noah",
+      "url": "/+team-noah",
+    },
+    Object {
+      "amountRaised": 5,
+      "avatar": Object {
+        "alt": "",
+        "height": 128,
         "src": "https://assets.tiltify.com/uploads/team/thumbnail/1652/e8433965-b279-46e6-b54f-0e7b86b3286d.jpeg",
         "width": 128,
       },
@@ -5476,12 +6116,12 @@ should worry about is helping their child live.
 from less than 20% when we opened to 80% today. We won't stop until no child
 dies from cancer.",
   "address": Object {
-    "addressLine1": "501 St. Jude Place",
-    "addressLine2": "",
+    "addressLine1": "262 DANNY THOMAS PL MSC 512, MEMPHIS, 38105-3678, US",
+    "addressLine2": null,
     "city": "Memphis",
-    "country": "United States",
+    "country": "US",
     "postalCode": "38105",
-    "region": "Tennessee",
+    "region": "Shelby County",
   },
   "amazonPayConnected": true,
   "avatar": Object {
@@ -5499,7 +6139,7 @@ dies from cancer.",
   "contactEmail": "playlive@stjude.org",
   "edd": true,
   "giftAidConnected": false,
-  "governmentId": null,
+  "governmentId": "35-1044585",
   "id": 35,
   "image": Object {
     "alt": "",
@@ -5515,12 +6155,12 @@ dies from cancer.",
     "width": 100,
   },
   "mailchimpConnected": false,
-  "name": "St. Jude Children's Research Hospital ",
+  "name": "St. Jude Children's Research Hospital",
   "paypalCurrencyCode": "USD",
   "paypalEmail": "playlive@stjude.org",
   "paypalGivingFundConnected": false,
   "paypalMarketplaceConnected": true,
-  "phoneNumber": "",
+  "phoneNumber": "+18662785833",
   "planTier": 4,
   "settings": Object {
     "colors": Object {
@@ -5528,6 +6168,7 @@ dies from cancer.",
       "highlight": "#ce2f40",
     },
     "findOutMoreLink": "https://stjude.org/get-involved/at-play/video-game-charity-event.html#getstarted",
+    "googleAnalyticsTrackingCode": null,
     "headerIntro": "Start a fundraising campaign to help us end childhood cancer.",
     "headerTitle": "St. Jude Children's Research Hospital",
     "minimumDonation": "1.00",
@@ -5540,7 +6181,7 @@ dies from cancer.",
     "snapchat": null,
     "tiktok": null,
     "twitter": "stjudeplaylive",
-    "website": "https://www.stjude.org/playlive",
+    "website": "www.stjude.org",
     "youtube": "stjude",
   },
   "status": "published",
@@ -5574,6 +6215,10 @@ Object {
   "sustainedGiving": null,
   "teamLeaderboard": Object {
     "type": "ALL",
+    "visible": true,
+  },
+  "toolkit": Object {
+    "url": "https://playlive.experience.stjude.org/",
     "visible": true,
   },
 }
