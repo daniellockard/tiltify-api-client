@@ -35,9 +35,10 @@ class Campaign {
    * @constructor
    */
   constructor (self) {
+    this.parent = self.parent
     this._sendRequest = self._sendRequest
     this._doRequest = self._doRequest
-    this.apiKey = self.apiKey
+    this._checkKey = self._checkKey
   }
 
   /**
@@ -47,7 +48,9 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   get (id, callback) {
-    this._sendRequest(`campaigns/${id}`, callback)
+    this._doRequest(`campaigns/${id}`).then(function(response){
+      callback(response.data.data)
+    })
   }
 
   /**
@@ -57,8 +60,9 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getRecentDonations (id, callback) {
-    const data = this._doRequest(`campaigns/${id}/donations`)
-    callback(data)
+    this._doRequest(`campaigns/${id}/donations`).then(function(response){
+      callback(response.data.data)
+    })
   }
 
   /**
@@ -67,7 +71,16 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getDonations (id, callback) {
-    this._sendRequest(`campaigns/${id}/donations?count=500`, callback)
+    this._sendRequest(`campaigns/${id}/donations?limit=100`, callback)
+  }
+
+  /**
+   * returns all donation matching offers from a campaign
+   * @param {string} id The campaign ID that you're looking up
+   * @param {requestCallback} callback A function to call when we're done getting data
+   */
+  getDonationMatches (id, callback) {
+    this._sendRequest(`campaigns/${id}/donation_matches?limit=100`, callback)
   }
 
   /**
@@ -76,7 +89,7 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getRewards (id, callback) {
-    this._sendRequest(`campaigns/${id}/rewards`, callback)
+    this._sendRequest(`campaigns/${id}/rewards?limit=100`, callback)
   }
 
   /**
@@ -85,34 +98,47 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getPolls (id, callback) {
-    this._sendRequest(`campaigns/${id}/polls`, callback)
+    this._sendRequest(`campaigns/${id}/polls?limit=100`, callback)
   }
 
   /**
-   * returns all challenges for a campaign
+   * returns all targets for a campaign
+   * @deprecated replaced with getTargets to match tiltify naming scheme
    * @param {string} id The campaign ID that you're looking up
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getChallenges (id, callback) {
-    this._sendRequest(`campaigns/${id}/challenges`, callback)
+    console.log("WARN: Using deprecated method getChallenges, please use getTarets")
+    this._sendRequest(`campaigns/${id}/targets?limit=100`, callback)
   }
+
+  /**
+   * returns all targets for a campaign
+   * @param {string} id The campaign ID that you're looking up
+   * @param {requestCallback} callback A function to call when we're done getting data
+   */
+  getTargets (id, callback) {
+    this._sendRequest(`campaigns/${id}/targets?limit=100`, callback)
+  }
+
+  /**
+   * returns all polls for a campaign
+   * @param {string} id The campaign ID that you're looking up
+   * @param {requestCallback} callback A function to call when we're done getting data
+   */
+  getMilestones (id, callback) {
+    this._sendRequest(`campaigns/${id}/milestones?limit=100`, callback)
+  }
+
   /**
    * returns the schedule of a campaign
    * @param {string} id The campaign ID that you're looking up
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getSchedule (id, callback) {
-    this._sendRequest(`campaigns/${id}/schedule`, callback)
+    this._sendRequest(`campaigns/${id}/schedules?limit=100`, callback)
   }
 
-  /**
-   * returns all supporting campaigns for a campaign
-   * @param {string} id The campaign ID that you're looking up
-   * @param {requestCallback} callback A function to call when we're done getting data
-   */
-  getSupportingCampaigns (id, callback) {
-    this._sendRequest(`campaigns/${id}/supporting-campaigns`, callback)
-  }
 }
 
 module.exports = Campaign
@@ -126,13 +152,13 @@ module.exports = Campaign
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Campaign.html">Campaign</a></li><li><a href="Cause.html">Cause</a></li><li><a href="FundraisingEvents.html">FundraisingEvents</a></li><li><a href="Team.html">Team</a></li><li><a href="TiltifyClient.html">TiltifyClient</a></li><li><a href="User.html">User</a></li></ul><h3><a href="global.html">Global</a></h3>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Campaign.html">Campaign</a></li><li><a href="Cause.html">Cause</a></li><li><a href="FundraisingEvents.html">FundraisingEvents</a></li><li><a href="Team.html">Team</a></li><li><a href="TeamCampaign.html">TeamCampaign</a></li><li><a href="TiltifyClient.html">TiltifyClient</a></li><li><a href="User.html">User</a></li></ul><h3><a href="global.html">Global</a></h3>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.1</a> on Wed May 08 2019 20:24:55 GMT-0500 (CDT)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Fri Jun 16 2023 18:11:43 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>

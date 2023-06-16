@@ -1,114 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`fundraising event tests - correct Tiltify fundraising event incentives returned 1`] = `
-Array [
-  Object {
-    "createdAt": 155396141600,
-    "description": "The legendary top prize returns. Raise $5,000 for the kids of St. Jude by May 31 and the best seat in the house will be yours.",
-    "fundraisingEventId": 136,
-    "id": 274,
-    "image": Object {
-      "alt": "",
-      "height": 800,
-      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/274/playlive-incentive-1553961414406.jpg",
-      "width": 800,
-    },
-    "title": "St. Jude PLAY LIVE Vertagear Chair",
-  },
-  Object {
-    "createdAt": 155396124800,
-    "description": "New for this year, raise $2,500 by May 31 to stay in clear and comfortable contact with your team in the middle of every match.",
-    "fundraisingEventId": 136,
-    "id": 273,
-    "image": Object {
-      "alt": "",
-      "height": 800,
-      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/273/playlive-incentive-1553961246435.jpg",
-      "width": 800,
-    },
-    "title": "St. Jude PLAY LIVE SteelSeries Arctis Pro",
-  },
-  Object {
-    "createdAt": 155396117600,
-    "description": "Want to show how dedicated you are? Raise $1,000 by May 31 and rock this exclusive St. Jude PLAY LIVE backpack at your next con!",
-    "fundraisingEventId": 136,
-    "id": 272,
-    "image": Object {
-      "alt": "",
-      "height": 800,
-      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/272/playlive-st-jude-play-live-black-backpack-1555612396367.jpg",
-      "width": 800,
-    },
-    "title": "St. Jude PLAY LIVE Black Backpack",
-  },
-  Object {
-    "createdAt": 155396112600,
-    "description": "One of the rarest apparel items in all of gaming can be yours if you raise raise $500 for the kids of St. Jude by May 31!",
-    "fundraisingEventId": 136,
-    "id": 271,
-    "image": Object {
-      "alt": "",
-      "height": 800,
-      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/271/playlive-incentive-1553961124674.jpg",
-      "width": 800,
-    },
-    "title": "St. Jude PLAY LIVE Twitch Purple Hoodie",
-  },
-  Object {
-    "createdAt": 155396106500,
-    "description": "Need something to keep hold your drinks while you're tearing through Fortnite? Raise $300 by May 31 to earn this steel tumbler.",
-    "fundraisingEventId": 136,
-    "id": 270,
-    "image": Object {
-      "alt": "",
-      "height": 800,
-      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/270/playlive-incentive-1553961059555.jpg",
-      "width": 800,
-    },
-    "title": "St. Jude PLAY LIVE Steel Tumbler",
-  },
-  Object {
-    "createdAt": 155396098400,
-    "description": "Never worry about your mouse sliding off the pad again with this massive table mat. Just raise $200 by May 31, and it is yours!",
-    "fundraisingEventId": 136,
-    "id": 269,
-    "image": Object {
-      "alt": "",
-      "height": 800,
-      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/269/playlive-incentive-1553960979213.jpg",
-      "width": 800,
-    },
-    "title": "St. Jude PLAY LIVE XXL Mousepad",
-  },
-  Object {
-    "createdAt": 155396092400,
-    "description": "Updated for 2019, this is an exclusive reward for those that raise at least $100 for the kids of St. Jude!",
-    "fundraisingEventId": 136,
-    "id": 268,
-    "image": Object {
-      "alt": "",
-      "height": 800,
-      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/268/playlive-incentive-1553960921575.jpg",
-      "width": 800,
-    },
-    "title": "St. Jude PLAY LIVE 2019 T-Shirt",
-  },
-  Object {
-    "createdAt": 155396086400,
-    "description": "Need help getting started? Be one of the first 1,000 people to raise $25 and receive a bundle of swag to get your viewers hyped!",
-    "fundraisingEventId": 136,
-    "id": 267,
-    "image": Object {
-      "alt": "",
-      "height": 800,
-      "src": "https://assets.tiltify.com/uploads/fundraising_event_incentive/image/267/playlive-st-jude-play-live-booster-pack-1555612307681.jpg",
-      "width": 800,
-    },
-    "title": "St. Jude PLAY LIVE Booster Pack",
-  },
-]
-`;
-
 exports[`fundraising event tests - correct Tiltify fundraising event leaderboards returned 1`] = `
 Object {
   "individual": Any<Array>,
@@ -258,7 +149,7 @@ Follow @stjudeplaylive for more tips and info!",
   "slug": "st-jude-play-live-2019",
   "startsAt": "2019-04-01",
   "status": "retired",
-  "totalAmountRaised": Any<Number>,
+  "total_amount_raised": Any<Number>,
   "type": "FundraisingEvent",
   "video": "https://www.youtube.com/watch?v=kSqVRLA75co",
 }

@@ -28,7 +28,7 @@
 
 <header>
     
-        <h2><span class="attribs"><span class="type-signature"></span></span>TiltifyClient<span class="signature">(apiKey)</span><span class="type-signature"></span></h2>
+        <h2><span class="attribs"><span class="type-signature"></span></span>TiltifyClient<span class="signature">(client_id, client_secret)</span><span class="type-signature"></span></h2>
         
     
 </header>
@@ -41,7 +41,7 @@
     
 
     
-    <h4 class="name" id="TiltifyClient"><span class="type-signature"></span>new TiltifyClient<span class="signature">(apiKey)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="TiltifyClient"><span class="type-signature"></span>new TiltifyClient<span class="signature">(client_id, client_secret)</span><span class="type-signature"></span></h4>
     
 
     
@@ -85,7 +85,7 @@
 
         <tr>
             
-                <td class="name"><code>apiKey</code></td>
+                <td class="name"><code>client_id</code></td>
             
 
             <td class="type">
@@ -101,7 +101,30 @@
 
             
 
-            <td class="description last">The access token that you got from Tiltify.</td>
+            <td class="description last">The Client ID that you got from Tiltify.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>client_secret</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">The Client Secret that you got from Tiltify.</td>
         </tr>
 
     
@@ -142,7 +165,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line22">line 22</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line31">line 31</a>
     </li></ul></dd>
     
 
@@ -246,7 +269,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line28">line 28</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line38">line 38</a>
     </li></ul></dd>
     
 
@@ -318,7 +341,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line33">line 33</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line48">line 48</a>
     </li></ul></dd>
     
 
@@ -390,7 +413,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line38">line 38</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line53">line 53</a>
     </li></ul></dd>
     
 
@@ -424,6 +447,78 @@
         <li>
             
 <span class="param-type"><a href="Team.html">Team</a></span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line58">line 58</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="TeamCampaigns"><span class="type-signature"></span>TeamCampaigns<span class="type-signature"> :<a href="TeamCampaign.html">TeamCampaign</a></span></h4>
+
+
+
+
+<div class="description">
+    this.TeamCampaign is used to get info about team campaigns
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><a href="TeamCampaign.html">TeamCampaign</a></span>
 
 
         </li>
@@ -534,7 +629,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line48">line 48</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line63">line 63</a>
     </li></ul></dd>
     
 
@@ -667,7 +762,7 @@ the TiltifyClient, and is passed down to each of the types.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line60">line 60</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line108">line 108</a>
     </li></ul></dd>
     
 
@@ -712,7 +807,7 @@ the TiltifyClient, and is passed down to each of the types.
 
 <div class="description">
     _sendRequest is used for all endpoints, but only has a recursive
-effect when called againt an endpoint that contains a `links.prev` string
+effect when called againt an endpoint that contains a `metadata.after` string
 </div>
 
 
@@ -764,7 +859,7 @@ effect when called againt an endpoint that contains a `links.prev` string
 
             
 
-            <td class="description last">The path, without /api/v3/.</td>
+            <td class="description last">The path, without /api/public/</td>
         </tr>
 
     
@@ -828,7 +923,145 @@ effect when called againt an endpoint that contains a `links.prev` string
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line78">line 78</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line132">line 132</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="setKey"><span class="type-signature"></span>setKey<span class="signature">(key)</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    Set the API key manually, this also disables the refresh checker.
+Primarily used for testing
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">API key</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line71">line 71</a>
     </li></ul></dd>
     
 
@@ -874,13 +1107,13 @@ effect when called againt an endpoint that contains a `links.prev` string
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Campaign.html">Campaign</a></li><li><a href="Cause.html">Cause</a></li><li><a href="FundraisingEvents.html">FundraisingEvents</a></li><li><a href="Team.html">Team</a></li><li><a href="TiltifyClient.html">TiltifyClient</a></li><li><a href="User.html">User</a></li></ul><h3><a href="global.html">Global</a></h3>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Campaign.html">Campaign</a></li><li><a href="Cause.html">Cause</a></li><li><a href="FundraisingEvents.html">FundraisingEvents</a></li><li><a href="Team.html">Team</a></li><li><a href="TeamCampaign.html">TeamCampaign</a></li><li><a href="TiltifyClient.html">TiltifyClient</a></li><li><a href="User.html">User</a></li></ul><h3><a href="global.html">Global</a></h3>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.1</a> on Wed May 08 2019 20:24:55 GMT-0500 (CDT)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Fri Jun 16 2023 18:11:43 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>
