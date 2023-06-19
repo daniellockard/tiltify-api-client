@@ -5,7 +5,7 @@
  * @callback requestCallback
  * @param {object} data the data returned from the endpoint
  */
-const { URLSearchParams, URL } = require('url');
+const { URL } = require('url');
 const axios = require('axios')
 const Campaign = require('./lib/campaign')
 const TeamCampaign = require('./lib/teamCampaign')
@@ -83,7 +83,6 @@ class TiltifyClient {
   }
 
   async generateKey () {
-    console.log("Making new key")
     const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#client_id}&client_secret=${this.#client_secret}&grant_type=client_credentials`
     const options = {
       url,
