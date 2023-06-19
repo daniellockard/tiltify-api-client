@@ -5,7 +5,7 @@
  * @callback requestCallback
  * @param {object} data the data returned from the endpoint
  */
-const { URL } = require('url');
+const { URL } = require('url')
 const axios = require('axios')
 const Campaign = require('./lib/campaign')
 const TeamCampaign = require('./lib/teamCampaign')
@@ -15,22 +15,22 @@ const Team = require('./lib/team')
 const User = require('./lib/user')
 
 class TiltifyClient {
-  #client_id
-  #client_secret
+  #clientID
+  #clientSecret
   exp_time = new Date('1/1/1970')
   apiKey
   // Self-referential to split the subclass this and the client this... since it's not an extended class cant use 'super'
   parent = this
-  
+
   /**
    * A TiltifyClient contains all of the sub-types that exist on the Tiltify API
-   * @param {string} client_id The Client ID that you got from Tiltify.
-   * @param {string} client_secret The Client Secret that you got from Tiltify.
+   * @param {string} clientID The Client ID that you got from Tiltify.
+   * @param {string} clientSecret The Client Secret that you got from Tiltify.
    * @constructor
    */
-  constructor (client_id, client_secret) {
-    this.#client_id = client_id
-    this.#client_secret = client_secret
+  constructor (clientID, clientSecret) {
+    this.#clientID = clientID
+    this.#clientSecret = clientSecret
     /**
      * this.Campaigns is used to get info about campaigns
      * @type Campaign
@@ -68,14 +68,14 @@ class TiltifyClient {
    * Primarily used for testing
    * @param {string} key API key
    */
-  setKey(key) {
+  setKey (key) {
     this.apiKey = key
     this.exp_time = new Date('1/1/9999')
   }
 
   async _checkKey () {
     // Check if key is expired
-    if(this.parent.exp_time.getTime() < new Date().getTime()) {
+    if (this.parent.exp_time.getTime() < new Date().getTime()) {
       // Regenerate
       await this.parent.generateKey()
     }
@@ -83,19 +83,20 @@ class TiltifyClient {
   }
 
   async generateKey () {
-    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#client_id}&client_secret=${this.#client_secret}&grant_type=client_credentials`
+    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&grant_type=client_credentials`
     const options = {
       url,
       method: 'POST'
     }
     try {
-      let payload = await axios(options)
+      const payload = await axios(options)
       this.parent.apiKey = payload.data?.access_token
-      this.parent.exp_time = new Date(new Date().getTime() + (payload.data?.expires_in*1000) - 5000) // Date token will have to be regenerated at, based on supplied expired time + 5s buffer
+      this.parent.exp_time = new Date(new Date().getTime() + (payload.data?.expires_in * 1000) - 5000) // Date token will have to be regenerated at, based on supplied expired time + 5s buffer
     } catch (error) {
       return Promise.reject(error)
     }
   }
+
   /**
    * _doRequest does a single request and returns the response.
    * Normally this is wrapped in _sendRequest, but for some
@@ -115,7 +116,7 @@ class TiltifyClient {
       }
     }
     try {
-      let payload = await axios(options)
+      const payload = await axios(options)
       return payload
     } catch (error) {
       return Promise.reject(error)
@@ -132,17 +133,17 @@ class TiltifyClient {
     let results = []
     let keepGoing = true
     while (keepGoing) {
-      let response = (await this.parent._doRequest(path)).data
+      const response = (await this.parent._doRequest(path)).data
       if (
         response.data !== undefined &&
         response.metadata !== undefined &&
-        response.metadata.after !== undefined && 
+        response.metadata.after !== undefined &&
         response.metadata.after !== null
       ) {
-        const url = 'https://temp.com/' + path; // Combine the base URL and path
-        const urlObj = new URL(url); // Create a URL object
-        urlObj.searchParams.set('after', response.metadata.after); // Set the 'after' query parameter
-        const updatedPath = urlObj.pathname.replace('/','') + urlObj.search; // Get the updated path with query parameters. Remove first /
+        const url = 'https://temp.com/' + path // Combine the base URL and path
+        const urlObj = new URL(url) // Create a URL object
+        urlObj.searchParams.set('after', response.metadata.after) // Set the 'after' query parameter
+        const updatedPath = urlObj.pathname.replace('/', '') + urlObj.search // Get the updated path with query parameters. Remove first /
         path = updatedPath
       } else {
         keepGoing = false
