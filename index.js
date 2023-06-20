@@ -75,7 +75,7 @@ class TiltifyClient {
 
   async _checkKey () {
     // Check if key is expired
-    if (this.parent.exp_time.getTime() < new Date().getTime()) {
+    if (this.parent.exp_time.getTime() <= new Date().getTime()) {
       // Regenerate
       await this.parent.generateKey()
     }
@@ -91,7 +91,7 @@ class TiltifyClient {
     try {
       const payload = await axios(options)
       this.parent.apiKey = payload.data?.access_token
-      this.parent.exp_time = new Date(new Date().getTime() + (payload.data?.expires_in * 1000) - 5000) // Date token will have to be regenerated at, based on supplied expired time + 5s buffer
+      this.parent.exp_time = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 1000)) // Date token will have to be regenerated at, based on supplied expired time
     } catch (error) {
       return Promise.reject(error)
     }
