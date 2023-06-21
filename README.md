@@ -8,6 +8,8 @@ Tiltify v5 limits are 100 per request, requests will take longer to process on l
 
 `Campaign.getIncentives` -> `Campaign.getTargets` to match what tiltify calls incentives now. Previous call will continue to work, but with deprecated warnings
 
+You must INITIALIZE the client with async function `initalize()` to generate the access tokens
+
 **Removed APIs. Tiltify does not serve this data anymore:**
 ### User
 * List users

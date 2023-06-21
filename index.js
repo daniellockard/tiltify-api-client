@@ -7,6 +7,8 @@
  */
 const { URL } = require('url')
 const axios = require('axios')
+const schedule = require('node-schedule')
+
 const Campaign = require('./lib/campaign')
 const TeamCampaign = require('./lib/teamCampaign')
 const Cause = require('./lib/cause')
@@ -17,7 +19,7 @@ const User = require('./lib/user')
 class TiltifyClient {
   #clientID
   #clientSecret
-  exp_time = new Date('1/1/1970')
+  #schedule
   apiKey
   // Self-referential to split the subclass this and the client this... since it's not an extended class cant use 'super'
   parent = this
@@ -64,25 +66,27 @@ class TiltifyClient {
   }
 
   /**
+   * Generate access key and fully initalize the client
+   */
+  async initalize () {
+    await this.generateKey()
+  }
+
+  /**
    * Set the API key manually, this also disables the refresh checker.
    * Primarily used for testing
    * @param {string} key API key
    */
   setKey (key) {
     this.apiKey = key
-    this.exp_time = new Date('1/1/9999')
+    this.#schedule.cancel()
   }
 
-  async _checkKey () {
-    // Check if key is expired
-    if (this.parent.exp_time.getTime() <= new Date().getTime()) {
-      // Regenerate
-      await this.parent.generateKey()
-    }
-    return this.parent.apiKey
-  }
-
-  async generateKey () {
+  /**
+   * Generate an access token to call the api, recursively calls itself when regenerating keys
+   * @param {int} attempt Attempt counter, for spacing out retries
+   */
+  async generateKey (attempt = 1) {
     const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&grant_type=client_credentials`
     const options = {
       url,
@@ -90,8 +94,22 @@ class TiltifyClient {
     }
     try {
       const payload = await axios(options)
-      this.parent.apiKey = payload.data?.access_token
-      this.parent.exp_time = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 1000)) // Date token will have to be regenerated at, based on supplied expired time
+      if (payload.status === 200) {
+        this.apiKey = payload.data?.access_token
+        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 1000)) // Date token will have to be regenerated at, based on supplied expired time
+        // Schedule renew job, recursively call this function
+        this.#schedule = schedule.scheduleJob(expDate, function () {
+          this.generateKey()
+        }.bind(this))
+        return this.apiKey
+      } else {
+        // Schedule renew job to try again, recursively call this function
+        const currentDate = new Date()
+        const retryDate = new Date(currentDate.getTime() + (5000 * attempt)) // Add 5000 milliseconds (5 seconds) * attempt count
+        this.#schedule = schedule.scheduleJob(retryDate, function () {
+          this.generateKey(attempt + 1)
+        }.bind(this))
+      }
     } catch (error) {
       return Promise.reject(error)
     }
@@ -106,12 +124,15 @@ class TiltifyClient {
    * @param {string} path The path, without /api/v3/.
    */
   async _doRequest (path) {
-    const key = await this.parent._checkKey()
+    if (!this.parent.apiKey) {
+      console.error('tiltify-api-client ERROR Client has not been initalized or apiKey is missing')
+      return
+    }
     const url = `https://v5api.tiltify.com/api/public/${path}`
     const options = {
       url,
       headers: {
-        Authorization: `Bearer ${key}`,
+        Authorization: `Bearer ${this.parent.apiKey}`,
         'Content-Type': 'application/json'
       }
     }
