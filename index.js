@@ -66,9 +66,9 @@ class TiltifyClient {
   }
 
   /**
-   * Generate access key and fully initalize the client
+   * Generate access key and fully initialize the client
    */
-  async initalize () {
+  async initialize () {
     await this.generateKey()
   }
 
