@@ -35,17 +35,20 @@
  */
 const { URL } = require('url')
 const axios = require('axios')
+const schedule = require('node-schedule')
+
 const Campaign = require('./lib/campaign')
 const TeamCampaign = require('./lib/teamCampaign')
 const Cause = require('./lib/cause')
 const FundraisingEvents = require('./lib/fundraisingEvents')
 const Team = require('./lib/team')
 const User = require('./lib/user')
+const Webhook = require('./lib/webhook')
 
 class TiltifyClient {
   #clientID
   #clientSecret
-  exp_time = new Date('1/1/1970')
+  #schedule
   apiKey
   // Self-referential to split the subclass this and the client this... since it's not an extended class cant use 'super'
   parent = this
@@ -89,6 +92,18 @@ class TiltifyClient {
      * @type User
      */
     this.User = new User(this)
+    /**
+     * this.Webhook is used to get info, subscribe, and manage webhooks
+     * @type User
+     */
+    this.Webhook = new Webhook(this)
+  }
+
+  /**
+   * Generate access key and fully initialize the client
+   */
+  async initialize () {
+    await this.generateKey()
   }
 
   /**
@@ -98,28 +113,37 @@ class TiltifyClient {
    */
   setKey (key) {
     this.apiKey = key
-    this.exp_time = new Date('1/1/9999')
+    this.#schedule.cancel()
   }
 
-  async _checkKey () {
-    // Check if key is expired
-    if (this.parent.exp_time.getTime() &lt; new Date().getTime()) {
-      // Regenerate
-      await this.parent.generateKey()
-    }
-    return this.parent.apiKey
-  }
-
-  async generateKey () {
-    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&amp;client_secret=${this.#clientSecret}&amp;grant_type=client_credentials`
+  /**
+   * Generate an access token to call the api, recursively calls itself when regenerating keys
+   * @param {int} attempt Attempt counter, for spacing out retries
+   */
+  async generateKey (attempt = 1) {
+    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&amp;client_secret=${this.#clientSecret}&amp;grant_type=client_credentials&amp;scope=public webhooks:write`
     const options = {
       url,
       method: 'POST'
     }
     try {
       const payload = await axios(options)
-      this.parent.apiKey = payload.data?.access_token
-      this.parent.exp_time = new Date(new Date().getTime() + (payload.data?.expires_in * 1000) - 5000) // Date token will have to be regenerated at, based on supplied expired time + 5s buffer
+      if (payload.status === 200) {
+        this.apiKey = payload.data?.access_token
+        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 1000)) // Date token will have to be regenerated at, based on supplied expired time
+        // Schedule renew job, recursively call this function
+        this.#schedule = schedule.scheduleJob(expDate, function () {
+          this.generateKey()
+        }.bind(this))
+        return this.apiKey
+      } else {
+        // Schedule renew job to try again, recursively call this function
+        const currentDate = new Date()
+        const retryDate = new Date(currentDate.getTime() + (5000 * attempt)) // Add 5000 milliseconds (5 seconds) * attempt count
+        this.#schedule = schedule.scheduleJob(retryDate, function () {
+          this.generateKey(attempt + 1)
+        }.bind(this))
+      }
     } catch (error) {
       return Promise.reject(error)
     }
@@ -131,17 +155,26 @@ class TiltifyClient {
    * endpoints like Campaigns.getRecentDonations(id) need to send
    * only a single request. This function is not actually called in
    * the TiltifyClient, and is passed down to each of the types.
-   * @param {string} path The path, without /api/v3/.
+   * @param {string} path The path, without /api/.
+   * @param {string} method HTTP method to make calls with, default to GET
+   * @param {Object} payload JSON payload to send
    */
-  async _doRequest (path) {
-    const key = await this.parent._checkKey()
-    const url = `https://v5api.tiltify.com/api/public/${path}`
+  async _doRequest (path, method = 'GET', payload) {
+    if (!this.parent.apiKey) {
+      console.error('tiltify-api-client ERROR Client has not been initalized or apiKey is missing')
+      return
+    }
+    const url = `https://v5api.tiltify.com/api/${path}`
     const options = {
       url,
       headers: {
-        Authorization: `Bearer ${key}`,
+        Authorization: `Bearer ${this.parent.apiKey}`,
         'Content-Type': 'application/json'
-      }
+      },
+      method
+    }
+    if (payload) {
+      options.data = JSON.stringify(payload)
     }
     try {
       const payload = await axios(options)
@@ -195,13 +228,13 @@ module.exports = TiltifyClient
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Campaign.html">Campaign</a></li><li><a href="Cause.html">Cause</a></li><li><a href="FundraisingEvents.html">FundraisingEvents</a></li><li><a href="Team.html">Team</a></li><li><a href="TeamCampaign.html">TeamCampaign</a></li><li><a href="TiltifyClient.html">TiltifyClient</a></li><li><a href="User.html">User</a></li></ul><h3><a href="global.html">Global</a></h3>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Campaign.html">Campaign</a></li><li><a href="Cause.html">Cause</a></li><li><a href="FundraisingEvents.html">FundraisingEvents</a></li><li><a href="Team.html">Team</a></li><li><a href="TeamCampaign.html">TeamCampaign</a></li><li><a href="TiltifyClient.html">TiltifyClient</a></li><li><a href="User.html">User</a></li><li><a href="Webhook.html">Webhook</a></li></ul><h3><a href="global.html">Global</a></h3>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Mon Jun 19 2023 01:07:56 GMT-0400 (Eastern Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Thu Jun 22 2023 03:53:20 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>
