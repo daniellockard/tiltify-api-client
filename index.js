@@ -15,6 +15,7 @@ const Cause = require('./lib/cause')
 const FundraisingEvents = require('./lib/fundraisingEvents')
 const Team = require('./lib/team')
 const User = require('./lib/user')
+const Webhook = require('./lib/webhook')
 
 class TiltifyClient {
   #clientID
@@ -63,6 +64,11 @@ class TiltifyClient {
      * @type User
      */
     this.User = new User(this)
+    /**
+     * this.Webhook is used to get info, subscribe, and manage webhooks
+     * @type User
+     */
+    this.Webhook = new Webhook(this)
   }
 
   /**
@@ -87,7 +93,7 @@ class TiltifyClient {
    * @param {int} attempt Attempt counter, for spacing out retries
    */
   async generateKey (attempt = 1) {
-    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&grant_type=client_credentials`
+    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&grant_type=client_credentials&scope=public webhooks:write`
     const options = {
       url,
       method: 'POST'
@@ -121,20 +127,26 @@ class TiltifyClient {
    * endpoints like Campaigns.getRecentDonations(id) need to send
    * only a single request. This function is not actually called in
    * the TiltifyClient, and is passed down to each of the types.
-   * @param {string} path The path, without /api/v3/.
+   * @param {string} path The path, without /api/.
+   * @param {string} method HTTP method to make calls with, default to GET
+   * @param {Object} payload JSON payload to send
    */
-  async _doRequest (path) {
+  async _doRequest (path, method = 'GET', payload) {
     if (!this.parent.apiKey) {
       console.error('tiltify-api-client ERROR Client has not been initalized or apiKey is missing')
       return
     }
-    const url = `https://v5api.tiltify.com/api/public/${path}`
+    const url = `https://v5api.tiltify.com/api/${path}`
     const options = {
       url,
       headers: {
         Authorization: `Bearer ${this.parent.apiKey}`,
         'Content-Type': 'application/json'
-      }
+      },
+      method
+    }
+    if (payload) {
+      options.data = JSON.stringify(payload)
     }
     try {
       const payload = await axios(options)
