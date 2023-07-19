@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: lib/campaign.js</title>
+    <title>JSDoc: Source: lib/teamCampaign.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: lib/campaign.js</h1>
+    <h1 class="page-title">Source: lib/teamCampaign.js</h1>
 
     
 
@@ -28,7 +28,7 @@
         <article>
             <pre class="prettyprint source linenums"><code>/* jshint esversion: 8 */
 
-class Campaign {
+class TeamCampaign {
   /**
    * A new campaign api object.
    * @param {object} self is `this` from index.js
@@ -48,7 +48,7 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   get (id, callback) {
-    this._doRequest(`public/campaigns/${id}`).then((response) => {
+    this._doRequest(`public/team_campaigns/${id}`).then(function (response) {
       callback(response.data.data)
     })
   }
@@ -60,7 +60,7 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getRecentDonations (id, callback) {
-    this._doRequest(`public/campaigns/${id}/donations`).then((response) => {
+    this._doRequest(`public/team_campaigns/${id}/donations`).then(function (response) {
       callback(response.data.data)
     })
   }
@@ -71,7 +71,7 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getDonations (id, callback) {
-    this._sendRequest(`public/campaigns/${id}/donations?limit=100`, callback)
+    this._sendRequest(`public/team_campaigns/${id}/donations?limit=100`, callback)
   }
 
   /**
@@ -80,7 +80,7 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getDonationMatches (id, callback) {
-    this._sendRequest(`public/campaigns/${id}/donation_matches?limit=100`, callback)
+    this._sendRequest(`public/team_campaigns/${id}/donation_matches?limit=100`, callback)
   }
 
   /**
@@ -89,7 +89,7 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getRewards (id, callback) {
-    this._sendRequest(`public/campaigns/${id}/rewards?limit=100`, callback)
+    this._sendRequest(`public/team_campaigns/${id}/rewards?limit=100`, callback)
   }
 
   /**
@@ -98,7 +98,7 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getPolls (id, callback) {
-    this._sendRequest(`public/campaigns/${id}/polls?limit=100`, callback)
+    this._sendRequest(`public/team_campaigns/${id}/polls?limit=100`, callback)
   }
 
   /**
@@ -109,7 +109,7 @@ class Campaign {
    */
   getChallenges (id, callback) {
     console.log('WARN: Using deprecated method getChallenges, please use getTarets')
-    this._sendRequest(`public/campaigns/${id}/targets?limit=100`, callback)
+    this._sendRequest(`public/team_campaigns/${id}/targets?limit=100`, callback)
   }
 
   /**
@@ -118,7 +118,7 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getTargets (id, callback) {
-    this._sendRequest(`public/campaigns/${id}/targets?limit=100`, callback)
+    this._sendRequest(`public/team_campaigns/${id}/targets?limit=100`, callback)
   }
 
   /**
@@ -127,7 +127,7 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getMilestones (id, callback) {
-    this._sendRequest(`public/campaigns/${id}/milestones?limit=100`, callback)
+    this._sendRequest(`public/team_campaigns/${id}/milestones?limit=100`, callback)
   }
 
   /**
@@ -136,11 +136,30 @@ class Campaign {
    * @param {requestCallback} callback A function to call when we're done getting data
    */
   getSchedule (id, callback) {
-    this._sendRequest(`public/campaigns/${id}/schedules?limit=100`, callback)
+    this._sendRequest(`public/team_campaigns/${id}/schedule?limit=100`, callback)
+  }
+
+  /**
+   * returns leaderboards for a team campaign
+   * @param {string} id team id to look up
+   * @param {string} timeType Time range for leaderboard (daily, weekly, monthly, yearly, ytd, all)
+   * @param {requestCallback} callback a function to call when we're done getting data
+   */
+  getLeaderboards (id, timeType, callback) {
+    this._sendRequest(`public/team_campaigns/${id}/user_leaderboard${timeType ? '?time_type' + timeType : ''}`, callback)
+  }
+
+  /**
+   * returns all supporting campaigns for a campaign
+   * @param {string} id The campaign ID that you're looking up
+   * @param {requestCallback} callback A function to call when we're done getting data
+   */
+  getSupportingCampaigns (id, callback) {
+    this._sendRequest(`public/team_campaigns/${id}/supporting_campaigns`, callback)
   }
 }
 
-module.exports = Campaign
+module.exports = TeamCampaign
 </code></pre>
         </article>
     </section>

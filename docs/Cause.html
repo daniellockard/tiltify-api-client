@@ -322,327 +322,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line19">line 19</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="getCampaigns"><span class="type-signature"></span>getCampaigns<span class="signature">(id, callback)</span><span class="type-signature"></span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    returns campaigns for a cause
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>id</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">cause id to look up</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>callback</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type"><a href="global.html#requestCallback">requestCallback</a></span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">a function to call when we're done getting data</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line27">line 27</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="getDonations"><span class="type-signature"></span>getDonations<span class="signature">(id, callback)</span><span class="type-signature"></span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    returns donations for a cause
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>id</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">cause id to look up</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>callback</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type"><a href="global.html#requestCallback">requestCallback</a></span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">a function to call when we're done getting data</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line35">line 35</a>
+        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line21">line 21</a>
     </li></ul></dd>
     
 
@@ -802,7 +482,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line43">line 43</a>
+        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line52">line 52</a>
     </li></ul></dd>
     
 
@@ -838,7 +518,7 @@
     
 
     
-    <h4 class="name" id="getLeaderboards"><span class="type-signature"></span>getLeaderboards<span class="signature">(id, callback)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="getLeaderboards"><span class="type-signature"></span>getLeaderboards<span class="signature">(id, timeType, callback)</span><span class="type-signature"></span></h4>
     
 
     
@@ -905,6 +585,29 @@
 
         <tr>
             
+                <td class="name"><code>timeType</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Time range for leaderboard (daily, weekly, monthly, yearly, ytd, all)</td>
+        </tr>
+
+    
+
+        <tr>
+            
                 <td class="name"><code>callback</code></td>
             
 
@@ -962,7 +665,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line51">line 51</a>
+        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line62">line 62</a>
     </li></ul></dd>
     
 
@@ -998,7 +701,7 @@
     
 
     
-    <h4 class="name" id="getPermissions"><span class="type-signature"></span>getPermissions<span class="signature">(id, callback)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="getTopDonors"><span class="type-signature"></span>getTopDonors<span class="signature">(id, timeType, callback)</span><span class="type-signature"></span></h4>
     
 
     
@@ -1006,7 +709,7 @@
 
 
 <div class="description">
-    returns permissions for a cause
+    returns top donors for a cause
 </div>
 
 
@@ -1065,6 +768,29 @@
 
         <tr>
             
+                <td class="name"><code>timeType</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Time range for leaderboard (daily, weekly, monthly, yearly, ytd, all)</td>
+        </tr>
+
+    
+
+        <tr>
+            
                 <td class="name"><code>callback</code></td>
             
 
@@ -1122,7 +848,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line67">line 67</a>
+        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line33">line 33</a>
     </li></ul></dd>
     
 
@@ -1158,7 +884,7 @@
     
 
     
-    <h4 class="name" id="getVisibilityOptions"><span class="type-signature"></span>getVisibilityOptions<span class="signature">(id, callback)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="getTopTeams"><span class="type-signature"></span>getTopTeams<span class="signature">(id, timeType, callback)</span><span class="type-signature"></span></h4>
     
 
     
@@ -1166,7 +892,7 @@
 
 
 <div class="description">
-    returns visibility options for a cause
+    returns top donors for a cause
 </div>
 
 
@@ -1225,6 +951,29 @@
 
         <tr>
             
+                <td class="name"><code>timeType</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Time range for leaderboard (daily, weekly, monthly, yearly, ytd, all)</td>
+        </tr>
+
+    
+
+        <tr>
+            
                 <td class="name"><code>callback</code></td>
             
 
@@ -1282,7 +1031,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line59">line 59</a>
+        <a href="lib_cause.js.html">lib/cause.js</a>, <a href="lib_cause.js.html#line43">line 43</a>
     </li></ul></dd>
     
 
@@ -1328,13 +1077,13 @@
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Campaign.html">Campaign</a></li><li><a href="Cause.html">Cause</a></li><li><a href="FundraisingEvents.html">FundraisingEvents</a></li><li><a href="Team.html">Team</a></li><li><a href="TiltifyClient.html">TiltifyClient</a></li><li><a href="User.html">User</a></li></ul><h3><a href="global.html">Global</a></h3>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Campaign.html">Campaign</a></li><li><a href="Cause.html">Cause</a></li><li><a href="FundraisingEvents.html">FundraisingEvents</a></li><li><a href="Team.html">Team</a></li><li><a href="TeamCampaign.html">TeamCampaign</a></li><li><a href="TiltifyClient.html">TiltifyClient</a></li><li><a href="User.html">User</a></li><li><a href="Webhook.html">Webhook</a></li></ul><h3><a href="global.html">Global</a></h3>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.1</a> on Wed May 08 2019 20:24:55 GMT-0500 (CDT)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Thu Jun 22 2023 03:53:20 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>

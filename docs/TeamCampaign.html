@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Class: Campaign</title>
+    <title>JSDoc: Class: TeamCampaign</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Class: Campaign</h1>
+    <h1 class="page-title">Class: TeamCampaign</h1>
 
     
 
@@ -28,7 +28,7 @@
 
 <header>
     
-        <h2><span class="attribs"><span class="type-signature"></span></span>Campaign<span class="signature">(self)</span><span class="type-signature"></span></h2>
+        <h2><span class="attribs"><span class="type-signature"></span></span>TeamCampaign<span class="signature">(self)</span><span class="type-signature"></span></h2>
         
     
 </header>
@@ -41,7 +41,7 @@
     
 
     
-    <h4 class="name" id="Campaign"><span class="type-signature"></span>new Campaign<span class="signature">(self)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="TeamCampaign"><span class="type-signature"></span>new TeamCampaign<span class="signature">(self)</span><span class="type-signature"></span></h4>
     
 
     
@@ -142,7 +142,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line9">line 9</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line9">line 9</a>
     </li></ul></dd>
     
 
@@ -323,7 +323,7 @@ The total raised is in this returned object.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line22">line 22</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line22">line 22</a>
     </li></ul></dd>
     
 
@@ -485,7 +485,7 @@ The total raised is in this returned object.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line82">line 82</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line82">line 82</a>
     </li></ul></dd>
     
 
@@ -645,7 +645,7 @@ The total raised is in this returned object.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line54">line 54</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line54">line 54</a>
     </li></ul></dd>
     
 
@@ -805,7 +805,190 @@ The total raised is in this returned object.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line45">line 45</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line45">line 45</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="getLeaderboards"><span class="type-signature"></span>getLeaderboards<span class="signature">(id, timeType, callback)</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    returns leaderboards for a team campaign
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">team id to look up</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>timeType</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Time range for leaderboard (daily, weekly, monthly, yearly, ytd, all)</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#requestCallback">requestCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">a function to call when we're done getting data</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line120">line 120</a>
     </li></ul></dd>
     
 
@@ -965,7 +1148,7 @@ The total raised is in this returned object.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line101">line 101</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line101">line 101</a>
     </li></ul></dd>
     
 
@@ -1125,7 +1308,7 @@ The total raised is in this returned object.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line72">line 72</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line72">line 72</a>
     </li></ul></dd>
     
 
@@ -1286,7 +1469,7 @@ Use this if polling for new donations.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line34">line 34</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line34">line 34</a>
     </li></ul></dd>
     
 
@@ -1446,7 +1629,7 @@ Use this if polling for new donations.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line63">line 63</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line63">line 63</a>
     </li></ul></dd>
     
 
@@ -1606,7 +1789,167 @@ Use this if polling for new donations.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line110">line 110</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line110">line 110</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="getSupportingCampaigns"><span class="type-signature"></span>getSupportingCampaigns<span class="signature">(id, callback)</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    returns all supporting campaigns for a campaign
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">The campaign ID that you're looking up</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#requestCallback">requestCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">A function to call when we're done getting data</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line129">line 129</a>
     </li></ul></dd>
     
 
@@ -1766,7 +2109,7 @@ Use this if polling for new donations.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_campaign.js.html">lib/campaign.js</a>, <a href="lib_campaign.js.html#line92">line 92</a>
+        <a href="lib_teamCampaign.js.html">lib/teamCampaign.js</a>, <a href="lib_teamCampaign.js.html#line92">line 92</a>
     </li></ul></dd>
     
 

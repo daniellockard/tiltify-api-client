@@ -2,21 +2,13 @@ const TiltifyClient = require('../index')
 
 describe('teams tests -', () => {
   beforeAll(() => {
-    this.client = new TiltifyClient(process.env.TILTIFY_ACCESS_TOKEN)
-  })
-
-  test.skip('correct Tiltify team list returned', done => {
-    function callback (data) {
-      expect(data).toMatchSnapshot()
-      done()
-    }
-    this.client.Team.list(callback)
+    this.client = new TiltifyClient('','').setKey(process.env.TILTIFY_ACCESS_TOKEN)
   })
 
   test('correct Tiltify team returned', done => {
     function callback (data) {
       expect(data).toMatchSnapshot({
-        totalAmountRaised: expect.any(Number)
+        total_amount_raised: expect.any(Object)
       })
       done()
     }
@@ -27,8 +19,8 @@ describe('teams tests -', () => {
     function callback (data) {
       data.forEach(element => {
         expect(element).toMatchSnapshot({
-          totalAmountRaised: expect.any(Number),
-          supportingAmountRaised: expect.any(Number)
+          total_amount_raised: expect.any(Object),
+          supporting_amount_raised: expect.any(Object)
         })
       });
       done()
@@ -36,14 +28,4 @@ describe('teams tests -', () => {
     this.client.Team.getCampaigns('459', callback)
   })
 
-  test('correct Tiltify team campaign returned', done => {
-    function callback (data) {
-      expect(data).toMatchSnapshot({
-        totalAmountRaised: expect.any(Number),
-        supportingAmountRaised: expect.any(Number)
-      })
-      done()
-    }
-    this.client.Team.getCampaign('459', '27490', callback)
-  })
 })
