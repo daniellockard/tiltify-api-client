@@ -122,7 +122,7 @@ class TiltifyClient {
         this.refreshToken = payload.data?.refresh_token
         // console.log("Auth data", payload.data);
         // Only wait a quarter of time, since it expires early and I'm playing it safe
-        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 250) - 100) // Date token will have to be regenerated at, based on supplied expired time
+        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 1000 / 2) - 100) // Date token will have to be regenerated at, based on supplied expired time
         // Schedule renew job, recursively call this function
         this.#schedule = schedule.scheduleJob(expDate, function () {
           this.generateKey()
@@ -166,12 +166,12 @@ class TiltifyClient {
     }
     try {
       const payload = await axios(options).catch((e) => {
-        this.errorParse(e, `Error sending request to ${path}:`)
+        this.parent.errorParse(e, `Error sending request to ${path}:`)
         // return Promise.reject(e);
       })
       return payload
-    } catch (error) {
-      this.errorParse(e, `Error sending request to ${path}:`);
+    } catch (e) {
+      this.parent.errorParse(e, `Error sending request to ${path}:`);
       // return Promise.reject(error)
     }
   }
@@ -225,6 +225,9 @@ class TiltifyClient {
     else if (e.message) console.error(e.message);
     else console.error(e);
     // console.debug(e);
+    this.parent.apiKey = undefined;
+    this.#schedule.cancel();
+    this.parent.scheduleRetry();
   }
 }
 module.exports = TiltifyClient
