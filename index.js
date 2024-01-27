@@ -88,7 +88,7 @@ class TiltifyClient {
    */
   setKey (key) {
     this.apiKey = key
-    this.#schedule?.cancel()
+    this.#schedule.cancel()
   }
 
   scheduleRetry (attempt) {
@@ -105,7 +105,8 @@ class TiltifyClient {
    * Generate an access token to call the api, recursively calls itself when regenerating keys
    * @param {int} attempt Attempt counter, for spacing out retries
    */
-  async generateKey (attempt = 1) {
+  async generateKey(attempt = 1) {
+    // console.log("Gen Key", Boolean(this.refreshToken), new Date(Date.now()));
     console.log("Authenticating Tiltify");
     const tail = this.refreshToken ? `grant_type=refresh_token&refresh_token=${this.refreshToken}` : "grant_type=client_credentials&scope=public webhooks:write"
     const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&${tail}`
@@ -116,7 +117,6 @@ class TiltifyClient {
     try {
       const payload = await axios(options).catch(e => { this.scheduleRetry(); throw e })
       if (payload.status === 200) {
-        console.warn("Tiltify authentication succeeded");
         this.apiKey = payload.data?.access_token
         this.refreshToken = payload.data?.refresh_token
         // console.log("Auth data", payload.data);
@@ -148,7 +148,7 @@ class TiltifyClient {
    */
   async _doRequest (path, method = 'GET', payload) {
     if (!this.parent.apiKey) {
-      console.error('tiltify-api-client ERROR Client has not been initalized or apiKey is missing')
+      // console.error('tiltify-api-client ERROR Client has not been initalized or apiKey is missing')
       return
     }
     const url = `https://v5api.tiltify.com/api/${path}`
@@ -171,6 +171,7 @@ class TiltifyClient {
       return payload
     } catch (e) {
       this.parent.errorParse(e, `Error sending request to ${path}:`);
+      // this.errorParse(e, `Error sending request to ${path}:`);
       // return Promise.reject(error)
     }
   }
@@ -181,32 +182,49 @@ class TiltifyClient {
    * @param {string} path The path, without /api/public/
    * @param {function} callback A function to call when we're done processing.
    */
-  async _sendRequest (path, callback) {
-    let results = []
-    let keepGoing = true
-    while (keepGoing) {
-      const response = (await this.parent._doRequest(path)).data
-      if (
-        response.data !== undefined &&
-        response.data !== null &&
-        response.metadata !== undefined &&
-        response.metadata.after !== undefined &&
-        response.metadata.after !== null
-      ) {
-        const url = 'https://temp.com/' + path // Combine the base URL and path
-        const urlObj = new URL(url) // Create a URL object
-        urlObj.searchParams.set('after', response.metadata.after) // Set the 'after' query parameter
-        const updatedPath = urlObj.pathname.replace('/', '') + urlObj.search // Get the updated path with query parameters. Remove first /
-        path = updatedPath
-      } else {
-        keepGoing = false
-      }
+  async _sendRequest(path, callback) {
+    try {
+      let results = []
+      let keepGoing = true
+      while (keepGoing) {
+        const r = (await this.parent._doRequest(path).catch((e) => { throw e }))
+        if (!r) break;
+        const response = r.data;
+        if (
+          response.data !== undefined &&
+          response.metadata !== undefined &&
+          response.metadata.after !== undefined &&
+          response.metadata.after !== null
+        ) {
+          const url = 'https://temp.com/' + path // Combine the base URL and path
+          const urlObj = new URL(url) // Create a URL object
+          urlObj.searchParams.set('after', response.metadata.after) // Set the 'after' query parameter
+          const updatedPath = urlObj.pathname.replace('/', '') + urlObj.search // Get the updated path with query parameters. Remove first /
+          path = updatedPath
+        } else {
+          keepGoing = false
+        }
         results = results.concat(response.data)
         if (response.data == null || response.data.length === 0 || response.metadata?.after == null) {
           keepGoing = false
           callback(results)
+        }
       }
+    } catch (e) {
+      this.parent.errorParse(e, `Error sending request to ${path}`);
     }
+  }
+
+  errorParse(e, msg = undefined) {
+    if (msg) console.error(msg);
+
+    if (e === undefined) console.error(e);
+    else if (e.response) console.error(e.response.status, e.response.statusText);
+    // else if (e.request) console.error(e.request);
+    else if (e.cause) console.error(e.cause);
+    else if (e.message) console.error(e.message);
+    else console.error(e);
+    // console.debug(e);
   }
 }
 module.exports = TiltifyClient
