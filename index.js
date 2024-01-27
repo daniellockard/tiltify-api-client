@@ -22,6 +22,7 @@ class TiltifyClient {
   #clientSecret
   #schedule
   apiKey
+  refreshToken
   // Self-referential to split the subclass this and the client this... since it's not an extended class cant use 'super'
   parent = this
 
@@ -75,6 +76,7 @@ class TiltifyClient {
    * Generate access key and fully initialize the client
    */
   async initialize() {
+    console.info("tiltify api loaded");
     await this.generateKey()
   }
 
@@ -93,7 +95,10 @@ class TiltifyClient {
    * @param {int} attempt Attempt counter, for spacing out retries
    */
   async generateKey(attempt = 1) {
-    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&grant_type=client_credentials&scope=public webhooks:write`
+    // console.log("Gen Key", Boolean(this.refreshToken), new Date(Date.now()));
+    console.log("Reauthenticating Tiltify");
+    const tail = this.refreshToken ? `grant_type=refresh_token&refresh_token=${this.refreshToken}` : "grant_type=client_credentials&scope=public webhooks:write"
+    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&${tail}`
     const options = {
       url,
       method: 'POST'
@@ -102,7 +107,10 @@ class TiltifyClient {
       const payload = await axios(options)
       if (payload.status === 200) {
         this.apiKey = payload.data?.access_token
-        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 1000)) // Date token will have to be regenerated at, based on supplied expired time
+        this.refreshToken = payload.data?.refresh_token
+        // console.log("Auth data", payload.data);
+        // Only wait a quarter of time, since it expires early and I'm playing it safe
+        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 250) - 100) // Date token will have to be regenerated at, based on supplied expired time
         // Schedule renew job, recursively call this function
         this.#schedule = schedule.scheduleJob(expDate, function () {
           this.generateKey()
@@ -189,7 +197,13 @@ class TiltifyClient {
         }
       }
     } catch (e) {
-      console.error("Error sending request to", path, ":\n", e);
+      console.error("Error sending request to", path, ":");
+      if (axios.isAxiosError(e)) {
+        console.error(e.response.status, e.response.statusText);
+        console.debug(e);
+      } else {
+        console.error(e);
+      }
     }
   }
 }
