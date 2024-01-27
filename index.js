@@ -121,7 +121,7 @@ class TiltifyClient {
         this.refreshToken = payload.data?.refresh_token
         // console.log("Auth data", payload.data);
         // Only wait a quarter of time, since it expires early and I'm playing it safe
-        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 1000 / 2) - 100) // Date token will have to be regenerated at, based on supplied expired time
+        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 250) - 100) // Date token will have to be regenerated at, based on supplied expired time
         // Schedule renew job, recursively call this function
         this.#schedule = schedule.scheduleJob(expDate, function () {
           this.generateKey()
