@@ -76,8 +76,9 @@ class TiltifyClient {
    * Generate access key and fully initialize the client
    */
   async initialize() {
-    console.info("tiltify api loaded");
-    await this.generateKey()
+    await this.generateKey().catch(e => {
+      console.error("Error authenticating with Tiltify");
+    })
   }
 
   /**
@@ -90,13 +91,23 @@ class TiltifyClient {
     this.#schedule.cancel()
   }
 
+  scheduleRetry(attempt) {
+    // Schedule renew job to try again, recursively call this function
+    const currentDate = new Date()
+    const retryDate = new Date(currentDate.getTime() + 5000) // Add 5000 milliseconds (5 seconds) * attempt count
+    this.#schedule = schedule.scheduleJob(retryDate, function () {
+      "Retrying connection"
+      this.generateKey(attempt + 1).catch(() => { })
+    }.bind(this))
+  }
+
   /**
    * Generate an access token to call the api, recursively calls itself when regenerating keys
    * @param {int} attempt Attempt counter, for spacing out retries
    */
   async generateKey(attempt = 1) {
     // console.log("Gen Key", Boolean(this.refreshToken), new Date(Date.now()));
-    console.log("Reauthenticating Tiltify");
+    console.log("Authenticating Tiltify");
     const tail = this.refreshToken ? `grant_type=refresh_token&refresh_token=${this.refreshToken}` : "grant_type=client_credentials&scope=public webhooks:write"
     const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&${tail}`
     const options = {
@@ -104,8 +115,9 @@ class TiltifyClient {
       method: 'POST'
     }
     try {
-      const payload = await axios(options)
+      const payload = await axios(options).catch(e => { this.scheduleRetry(); throw e })
       if (payload.status === 200) {
+        console.warn("Tiltify authentication succeeded");
         this.apiKey = payload.data?.access_token
         this.refreshToken = payload.data?.refresh_token
         // console.log("Auth data", payload.data);
@@ -117,12 +129,8 @@ class TiltifyClient {
         }.bind(this))
         return this.apiKey
       } else {
-        // Schedule renew job to try again, recursively call this function
-        const currentDate = new Date()
-        const retryDate = new Date(currentDate.getTime() + (5000 * attempt)) // Add 5000 milliseconds (5 seconds) * attempt count
-        this.#schedule = schedule.scheduleJob(retryDate, function () {
-          this.generateKey(attempt + 1)
-        }.bind(this))
+        console.warn("Tiltify authentication failed, retrying");
+        this.scheduleRetry(attempt);
       }
     } catch (error) {
       return Promise.reject(error)
@@ -141,7 +149,7 @@ class TiltifyClient {
    */
   async _doRequest(path, method = 'GET', payload) {
     if (!this.parent.apiKey) {
-      console.error('tiltify-api-client ERROR Client has not been initalized or apiKey is missing')
+      // console.error('tiltify-api-client ERROR Client has not been initalized or apiKey is missing')
       return
     }
     const url = `https://v5api.tiltify.com/api/${path}`
@@ -157,10 +165,14 @@ class TiltifyClient {
       options.data = JSON.stringify(payload)
     }
     try {
-      const payload = await axios(options)
+      const payload = await axios(options).catch((e) => {
+        this.errorParse(e, `Error sending request to ${path}:`)
+        // return Promise.reject(e);
+      })
       return payload
     } catch (error) {
-      return Promise.reject(error)
+      this.errorParse(e, `Error sending request to ${path}:`);
+      // return Promise.reject(error)
     }
   }
 
@@ -175,7 +187,9 @@ class TiltifyClient {
       let results = []
       let keepGoing = true
       while (keepGoing) {
-        const response = (await this.parent._doRequest(path)).data
+        const r = (await this.parent._doRequest(path).catch((e) => { throw e }))
+        if (!r) break;
+        const response = r.data;
         if (
           response.data !== undefined &&
           response.metadata !== undefined &&
@@ -197,14 +211,20 @@ class TiltifyClient {
         }
       }
     } catch (e) {
-      console.error("Error sending request to", path, ":");
-      if (axios.isAxiosError(e)) {
-        console.error(e.response.status, e.response.statusText);
-        console.debug(e);
-      } else {
-        console.error(e);
-      }
+      this.parent.errorParse(e, `Error sending request to ${path}`);
     }
+  }
+
+  errorParse(e, msg = undefined) {
+    if (msg) console.error(msg);
+
+    if (e === undefined) console.error(e);
+    else if (e.response) console.error(e.response.status, e.response.statusText);
+    // else if (e.request) console.error(e.request);
+    else if (e.cause) console.error(e.cause);
+    else if (e.message) console.error(e.message);
+    else console.error(e);
+    // console.debug(e);
   }
 }
 module.exports = TiltifyClient
