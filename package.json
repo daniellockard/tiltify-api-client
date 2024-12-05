@@ -28,5 +28,8 @@
     "jest": "^29.7.0",
     "jsdoc": "^4.0.2",
     "standard": "^17.1.0"
+  },
+  "jest": {
+    "maxWorkers": 1
   }
 }
