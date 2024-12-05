@@ -1,7 +1,9 @@
 const TiltifyClient = require('../index')
 describe('cause tests -', () => {
+  const client = new TiltifyClient('','')
+
   beforeAll(() => {
-    this.client = new TiltifyClient('','').setKey(process.env.TILTIFY_ACCESS_TOKEN)
+    client.setKey(process.env.TILTIFY_ACCESS_TOKEN)
   })
 
   test('correct Tiltify cause returned', done => {
@@ -9,7 +11,7 @@ describe('cause tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.Causes.get('35', callback)
+    client.Causes.get('35', callback)
   })
 
   // test.skip('correct Tiltify cause donations returned', done => {
@@ -17,7 +19,7 @@ describe('cause tests -', () => {
   //     expect(data).toMatchSnapshot()
   //     done()
   //   }
-  //   this.client.Causes.getTopDonors('35', callback)
+  //   client.Causes.getTopDonors('35', callback)
   // })
 
   test('correct Tiltify cause fundraising events returned', done => {
@@ -27,7 +29,7 @@ describe('cause tests -', () => {
       })
       done()
     }
-    this.client.Causes.getFundraisingEvents('35', callback)
+    client.Causes.getFundraisingEvents('35', callback)
   })
 
   // TODO: Find a cause with leaderboards
@@ -36,7 +38,7 @@ describe('cause tests -', () => {
   //     expect(data).toMatchSnapshot()
   //     done()
   //   }
-  //   this.client.Causes.getLeaderboards('35', callback)
+  //   client.Causes.getLeaderboards('35', callback)
   // })
 
 })

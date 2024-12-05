@@ -1,7 +1,10 @@
 const TiltifyClient = require('../index')
 describe('fundraising event tests -', () => {
+
+  const client = new TiltifyClient('','')
+
   beforeAll(() => {
-    this.client = new TiltifyClient('','').setKey(process.env.TILTIFY_ACCESS_TOKEN)
+    client.setKey(process.env.TILTIFY_ACCESS_TOKEN)
   })
 
   test('correct Tiltify fundraising event returned', done => {
@@ -11,7 +14,7 @@ describe('fundraising event tests -', () => {
       })
       done()
     }
-    this.client.FundraisingEvents.get('f6d18a9a-239d-4149-9473-a144604a71a6', callback)
+    client.FundraisingEvents.get('f6d18a9a-239d-4149-9473-a144604a71a6', callback)
   })
 
   test.skip('correct Tiltify fundraising event top donors returned', done => {
@@ -19,7 +22,7 @@ describe('fundraising event tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.FundraisingEvents.getTopDonors('f6d18a9a-239d-4149-9473-a144604a71a6', 'all', callback)
+    client.FundraisingEvents.getTopDonors('f6d18a9a-239d-4149-9473-a144604a71a6', 'all', callback)
   })
 
   test.skip('correct Tiltify fundraising event leaderboards returned', done => {
@@ -31,7 +34,7 @@ describe('fundraising event tests -', () => {
       })
       done()
     }
-    this.client.FundraisingEvents.getLeaderboards('f6d18a9a-239d-4149-9473-a144604a71a6', 'all', callback)
+    client.FundraisingEvents.getLeaderboards('f6d18a9a-239d-4149-9473-a144604a71a6', 'all', callback)
   })
 
 })
