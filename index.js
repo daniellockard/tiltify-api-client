@@ -85,7 +85,7 @@ class TiltifyClient {
    */
   setKey (key) {
     this.apiKey = key
-    this.#schedule.cancel()
+    this.#schedule?.cancel()
   }
 
   /**
