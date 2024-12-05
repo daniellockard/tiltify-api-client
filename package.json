@@ -30,6 +30,7 @@
     "standard": "^17.1.0"
   },
   "jest": {
-    "maxWorkers": 1
+    "maxWorkers": 1,
+    "verbose": true
   }
 }
