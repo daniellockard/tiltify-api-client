@@ -75,7 +75,7 @@ class TiltifyClient {
   /**
    * Generate access key and fully initialize the client
    */
-  async initialize() {
+  async initialize () {
     await this.generateKey().catch(e => {
       console.error("Error authenticating with Tiltify");
     })
