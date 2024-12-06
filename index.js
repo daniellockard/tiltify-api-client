@@ -32,7 +32,7 @@ class TiltifyClient {
    * @param {string} clientSecret The Client Secret that you got from Tiltify.
    * @constructor
    */
-  constructor(clientID, clientSecret) {
+  constructor (clientID, clientSecret) {
     this.#clientID = clientID
     this.#clientSecret = clientSecret
     /**
@@ -86,7 +86,7 @@ class TiltifyClient {
    * Primarily used for testing
    * @param {string} key API key
    */
-  setKey(key) {
+  setKey (key) {
     this.apiKey = key
     this.#schedule.cancel()
   }
@@ -105,7 +105,7 @@ class TiltifyClient {
    * Generate an access token to call the api, recursively calls itself when regenerating keys
    * @param {int} attempt Attempt counter, for spacing out retries
    */
-  async generateKey(attempt = 1) {
+  async generateKey (attempt = 1) {
     // console.log("Gen Key", Boolean(this.refreshToken), new Date(Date.now()));
     console.log("Authenticating Tiltify");
     const tail = this.refreshToken ? `grant_type=refresh_token&refresh_token=${this.refreshToken}` : "grant_type=client_credentials&scope=public webhooks:write"
@@ -147,9 +147,9 @@ class TiltifyClient {
    * @param {string} method HTTP method to make calls with, default to GET
    * @param {Object} payload JSON payload to send
    */
-  async _doRequest(path, method = 'GET', payload) {
+  async _doRequest (path, method = 'GET', payload) {
     if (!this.parent.apiKey) {
-      // console.error('tiltify-api-client ERROR Client has not been initalized or apiKey is missing')
+      console.error('tiltify-api-client ERROR Client has not been initalized or apiKey is missing')
       return
     }
     const url = `https://v5api.tiltify.com/api/${path}`
@@ -182,7 +182,7 @@ class TiltifyClient {
    * @param {string} path The path, without /api/public/
    * @param {function} callback A function to call when we're done processing.
    */
-  async _sendRequest(path, callback) {
+  async _sendRequest (path, callback) {
     try {
       let results = []
       let keepGoing = true
