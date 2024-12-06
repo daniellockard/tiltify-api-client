@@ -106,7 +106,6 @@ class TiltifyClient {
    * @param {int} attempt Attempt counter, for spacing out retries
    */
   async generateKey (attempt = 1) {
-    // console.log("Gen Key", Boolean(this.refreshToken), new Date(Date.now()));
     console.log("Authenticating Tiltify");
     const tail = this.refreshToken ? `grant_type=refresh_token&refresh_token=${this.refreshToken}` : "grant_type=client_credentials&scope=public webhooks:write"
     const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&${tail}`
