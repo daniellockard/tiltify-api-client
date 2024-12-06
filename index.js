@@ -91,7 +91,7 @@ class TiltifyClient {
     this.#schedule.cancel()
   }
 
-  scheduleRetry(attempt) {
+  scheduleRetry (attempt) {
     // Schedule renew job to try again, recursively call this function
     const currentDate = new Date()
     const retryDate = new Date(currentDate.getTime() + 5000) // Add 5000 milliseconds (5 seconds) * attempt count
