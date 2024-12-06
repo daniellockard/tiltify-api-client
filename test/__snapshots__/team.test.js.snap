@@ -4,7 +4,7 @@ exports[`teams tests - correct Tiltify team campaigns returned 1`] = `
 {
   "amount_raised": {
     "currency": "USD",
-    "value": "41.00",
+    "value": "42.00",
   },
   "avatar": {
     "alt": "alt",
@@ -66,7 +66,7 @@ We're both HUGE fans of Jacksepticeye and love to support Thankmas.",
     },
     "total_amount_raised": {
       "currency": "USD",
-      "value": "41.00",
+      "value": "42.00",
     },
     "url": "https://tiltify.com/+pandagirl-and-cryo-vision",
   },
