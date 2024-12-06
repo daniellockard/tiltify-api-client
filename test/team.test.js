@@ -1,11 +1,8 @@
 const TiltifyClient = require('../index')
+const client = require("./test_client.js")
+
 
 describe('teams tests -', () => {
-  const client = new TiltifyClient('','')
-
-  beforeAll(() => {
-    client.setKey(process.env.TILTIFY_ACCESS_TOKEN)
-  })
 
   test('correct Tiltify team returned', done => {
     function callback (data) {
@@ -14,7 +11,7 @@ describe('teams tests -', () => {
       })
       done()
     }
-    client.Team.get('459', callback)
+    client.Team.get('1470f78e-f3f3-41ac-b3ee-6e80fc1049fd', callback)
   })
 
   test('correct Tiltify team campaigns returned', done => {
@@ -27,7 +24,7 @@ describe('teams tests -', () => {
       });
       done()
     }
-    client.Team.getCampaigns('459', callback)
+    client.Team.getCampaigns('1470f78e-f3f3-41ac-b3ee-6e80fc1049fd', callback)
   })
 
 })

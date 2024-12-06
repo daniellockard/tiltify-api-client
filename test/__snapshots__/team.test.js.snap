@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`teams tests - correct Tiltify team campaigns returned 1`] = `
-Object {
-  "amount_raised": Object {
+{
+  "amount_raised": {
     "currency": "USD",
     "value": "225.00",
   },
-  "avatar": Object {
+  "avatar": {
     "alt": "alt",
     "height": 64,
     "src": "https://assets.tiltify.com/uploads/team_event/avatar/d37d437c-a9f4-4d54-b064-3715863c00c3/Z.jpg",
@@ -15,8 +15,9 @@ Object {
   "cause_id": "400f5687-6017-4d1a-a4d9-7c9166b984c2",
   "currency_code": "USD",
   "description": "Play video games and create a fundraising campaign to help kids battling cancer.",
+  "donate_url": "https://donate.tiltify.com/+zeldathon-community/zeldathon-community-playlive-2018",
   "fundraising_event_id": "58faabc0-e4e3-4085-b6ed-0180c265ace8",
-  "goal": Object {
+  "goal": {
     "currency": "USD",
     "value": "5000.0",
   },
@@ -24,12 +25,12 @@ Object {
   "id": "d37d437c-a9f4-4d54-b064-3715863c00c3",
   "inserted_at": "2018-04-02T20:34:03Z",
   "legacy_id": 13067,
-  "livestream": Object {
+  "livestream": {
     "channel": "Lizerdoo",
     "type": "twitch",
   },
   "name": "Zeldathon Community PLAYLIVE 2018",
-  "original_goal": Object {
+  "original_goal": {
     "currency": "USD",
     "value": "5000.0",
   },
@@ -39,8 +40,8 @@ Object {
   "status": "retired",
   "supportable": "public",
   "supporting_amount_raised": Any<Object>,
-  "team": Object {
-    "avatar": Object {
+  "team": {
+    "avatar": {
       "alt": "alt",
       "height": 200,
       "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/Z.jpg",
@@ -52,7 +53,7 @@ For the kids!",
     "legacy_id": 459,
     "name": "Zeldathon Community",
     "slug": "zeldathon-community",
-    "social": Object {
+    "social": {
       "discord": null,
       "facebook": "Zeldathon",
       "instagram": null,
@@ -63,7 +64,7 @@ For the kids!",
       "website": "zeldathon.net",
       "youtube": "SuperMCGamer",
     },
-    "total_amount_raised": Object {
+    "total_amount_raised": {
       "currency": "USD",
       "value": "2787.00",
     },
@@ -71,7 +72,7 @@ For the kids!",
   },
   "team_id": "32ddfc95-45a8-47b9-b003-8028224a8ec1",
   "total_amount_raised": Any<Object>,
-  "updated_at": "2022-06-14T17:23:41Z",
+  "updated_at": "2024-07-01T20:31:31Z",
   "url": "https://tiltify.com/+zeldathon-community/zeldathon-community-playlive-2018",
   "user": null,
   "user_id": null,
@@ -79,12 +80,12 @@ For the kids!",
 `;
 
 exports[`teams tests - correct Tiltify team campaigns returned 2`] = `
-Object {
-  "amount_raised": Object {
+{
+  "amount_raised": {
     "currency": "USD",
     "value": "0.00",
   },
-  "avatar": Object {
+  "avatar": {
     "alt": "alt",
     "height": 64,
     "src": "https://assets.tiltify.com/uploads/team_event/avatar/4c356d48-005f-43c1-8b9d-e313c53de354/df382276-0ee0-4687-b09d-ea22ed1939f1.jpeg",
@@ -93,8 +94,9 @@ Object {
   "cause_id": "400f5687-6017-4d1a-a4d9-7c9166b984c2",
   "currency_code": "USD",
   "description": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
+  "donate_url": "https://donate.tiltify.com/+zeldathon-community/zthonplaylive2019",
   "fundraising_event_id": "663d89f6-a7b0-47e6-b9c1-a4eeeb01a615",
-  "goal": Object {
+  "goal": {
     "currency": "USD",
     "value": "5000.0",
   },
@@ -102,12 +104,12 @@ Object {
   "id": "4c356d48-005f-43c1-8b9d-e313c53de354",
   "inserted_at": "2019-04-29T16:48:44Z",
   "legacy_id": 27490,
-  "livestream": Object {
+  "livestream": {
     "channel": "lizerdoo",
     "type": "twitch",
   },
   "name": "ZthonPlayLive2019",
-  "original_goal": Object {
+  "original_goal": {
     "currency": "USD",
     "value": "5000.0",
   },
@@ -117,8 +119,8 @@ Object {
   "status": "retired",
   "supportable": "public",
   "supporting_amount_raised": Any<Object>,
-  "team": Object {
-    "avatar": Object {
+  "team": {
+    "avatar": {
       "alt": "alt",
       "height": 200,
       "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/Z.jpg",
@@ -130,7 +132,7 @@ For the kids!",
     "legacy_id": 459,
     "name": "Zeldathon Community",
     "slug": "zeldathon-community",
-    "social": Object {
+    "social": {
       "discord": null,
       "facebook": "Zeldathon",
       "instagram": null,
@@ -141,7 +143,7 @@ For the kids!",
       "website": "zeldathon.net",
       "youtube": "SuperMCGamer",
     },
-    "total_amount_raised": Object {
+    "total_amount_raised": {
       "currency": "USD",
       "value": "2787.00",
     },
@@ -149,7 +151,7 @@ For the kids!",
   },
   "team_id": "32ddfc95-45a8-47b9-b003-8028224a8ec1",
   "total_amount_raised": Any<Object>,
-  "updated_at": "2022-06-14T17:21:07Z",
+  "updated_at": "2024-07-01T20:31:27Z",
   "url": "https://tiltify.com/+zeldathon-community/zthonplaylive2019",
   "user": null,
   "user_id": null,

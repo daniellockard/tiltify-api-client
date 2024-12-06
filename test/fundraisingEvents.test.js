@@ -1,11 +1,6 @@
-const TiltifyClient = require('../index')
+const client = require("./test_client.js")
+
 describe('fundraising event tests -', () => {
-
-  const client = new TiltifyClient('','')
-
-  beforeAll(() => {
-    client.setKey(process.env.TILTIFY_ACCESS_TOKEN)
-  })
 
   test('correct Tiltify fundraising event returned', done => {
     function callback (data) {
