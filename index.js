@@ -100,7 +100,6 @@ class TiltifyClient {
     }
     try {
       const payload = await axios(options)
-      console.log(payload)
       if (payload.status === 200) {
         this.apiKey = payload.data?.access_token
         const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 1000)) // Date token will have to be regenerated at, based on supplied expired time
@@ -170,6 +169,7 @@ class TiltifyClient {
       const response = (await this.parent._doRequest(path)).data
       if (
         response.data !== undefined &&
+        response.data !== null &&
         response.metadata !== undefined &&
         response.metadata.after !== undefined &&
         response.metadata.after !== null
@@ -182,10 +182,10 @@ class TiltifyClient {
       } else {
         keepGoing = false
       }
-      results = results.concat(response.data)
-      if (response.data.length === 0 || response.metadata?.after == null) {
-        keepGoing = false
-        callback(results)
+        results = results.concat(response.data)
+        if (response.data == null || response.data.length === 0 || response.metadata?.after == null) {
+          keepGoing = false
+          callback(results)
       }
     }
   }

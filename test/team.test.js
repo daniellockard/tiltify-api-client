@@ -1,9 +1,10 @@
-const TiltifyClient = require('../index')
 const client = require("./test_client.js")
 
 
 describe('teams tests -', () => {
-
+  beforeAll (async () => {
+    await client.initialize()
+  })
   test('correct Tiltify team returned', done => {
     function callback (data) {
       expect(data).toMatchSnapshot({
@@ -11,7 +12,7 @@ describe('teams tests -', () => {
       })
       done()
     }
-    client.Team.get('1470f78e-f3f3-41ac-b3ee-6e80fc1049fd', callback)
+    client.Team.get('e646a005-cc58-43c4-96f6-ed4d7fa68343', callback)
   })
 
   test('correct Tiltify team campaigns returned', done => {
@@ -24,7 +25,7 @@ describe('teams tests -', () => {
       });
       done()
     }
-    client.Team.getCampaigns('1470f78e-f3f3-41ac-b3ee-6e80fc1049fd', callback)
+    client.Team.getCampaigns('e646a005-cc58-43c4-96f6-ed4d7fa68343', callback)
   })
 
 })

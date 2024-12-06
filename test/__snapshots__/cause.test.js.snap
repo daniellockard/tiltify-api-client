@@ -1254,48 +1254,50 @@ Unlike other hospitals, the majority of funding for St. Jude comes from generous
 `;
 
 exports[`cause tests - correct Tiltify cause returned 1`] = `
-Array [
-  Object {
-    "avatar": Object {
-      "alt": "alt",
-      "height": 64,
-      "src": "https://assets.tiltify.com/uploads/cause/avatar/35/blob-69ddc696-2034-4d43-b6e0-dc7049f035fe.png",
-      "width": 64,
-    },
-    "contact": Object {
-      "address_line1": "262 DANNY THOMAS PL MSC 512, MEMPHIS, 38105-3678, US",
-      "address_line2": null,
-      "city": "Memphis",
-      "country": "United States",
-      "email": "playlive@stjude.org",
-      "postal_code": "38105",
-      "region": "Tennessee",
-    },
-    "currency_code": "USD",
-    "description": "- St. Jude Children’s Research Hospital is leading the way the world understands, treats and defeats childhood cancer and other life-threatening diseases. Our mission is clear: Finding cures. Saving children.®
-- Families never receive a bill from St. Jude for treatment, travel, housing or food – so they can focus on helping their child live.
-- Treatments invented at St. Jude have helped increase the overall childhood cancer survival rate from 20% to more than 80% since we opened more than 50 years ago. We won’t stop until no child dies from cancer.
-- St. Jude shares the breakthroughs it makes, and every child saved at St. Jude means doctors and scientists worldwide can use that knowledge to save thousands more children.
-- Unlike other hospitals, the majority of funding for St. Jude comes from generous donors.",
-    "government_id": "35-1044585",
-    "id": "400f5687-6017-4d1a-a4d9-7c9166b984c2",
-    "inserted_at": "2015-09-04T00:56:00Z",
-    "legacy_id": 35,
-    "name": "St. Jude Children's Research Hospital",
-    "short_description": "Unite with gamers and content creators for St. Jude PLAY LIVE to help end childhood cancer.",
-    "slug": "st-jude-children-s-research-hospital",
-    "social": Object {
-      "discord": "https://discord.gg/stjudeplaylive",
-      "facebook": "stjude",
-      "instagram": "stjudeplaylive",
-      "snapchat": null,
-      "tiktok": null,
-      "twitch": null,
-      "twitter": "stjudeplaylive",
-      "website": "www.stjude.org",
-      "youtube": "stjude",
-    },
-    "updated_at": "2023-02-07T18:21:52Z",
+{
+  "avatar": {
+    "alt": "alt",
+    "height": 64,
+    "src": "https://assets.tiltify.com/uploads/cause/avatar/35/blob-69ddc696-2034-4d43-b6e0-dc7049f035fe.png",
+    "width": 64,
   },
-]
+  "contact": {
+    "address_line1": "262 DANNY THOMAS PL MSC 512, MEMPHIS, 38105-3678, US",
+    "address_line2": null,
+    "city": "Memphis",
+    "country": "United States",
+    "email": "playlive@stjude.org",
+    "postal_code": "38105",
+    "region": "Tennessee",
+  },
+  "currency_code": "USD",
+  "description": "St. Jude Children’s Research Hospital is leading the way the world understands, treats and defeats childhood cancer and other life-threatening diseases. Our mission is clear: Finding cures. Saving children.®
+
+Families never receive a bill from St. Jude for treatment, travel, housing or food – so they can focus on helping their child live.
+
+Treatments invented at St. Jude have helped increase the overall childhood cancer survival rate from 20% to more than 80% since we opened more than 50 years ago. We won’t stop until no child dies from cancer.
+
+St. Jude shares the breakthroughs it makes, and every child saved at St. Jude means doctors and scientists worldwide can use that knowledge to save thousands more children.
+
+Unlike other hospitals, the majority of funding for St. Jude comes from generous donors.",
+  "government_id": "35-1044585",
+  "id": "400f5687-6017-4d1a-a4d9-7c9166b984c2",
+  "inserted_at": "2015-09-04T00:56:00Z",
+  "legacy_id": 35,
+  "name": "St. Jude Children's Research Hospital",
+  "short_description": "Unite with gamers and content creators for St. Jude PLAY LIVE to help end childhood cancer.",
+  "slug": "st-jude-children-s-research-hospital",
+  "social": {
+    "discord": "discord.gg/stjudeplaylive",
+    "facebook": "stjude",
+    "instagram": "stjudeplaylive",
+    "snapchat": "stjude",
+    "tiktok": "stjude",
+    "twitch": null,
+    "twitter": "stjudeplaylive",
+    "website": "https://www.stjude.org/get-involved/other-ways/video-game-charity-event.html",
+    "youtube": null,
+  },
+  "updated_at": "2024-10-05T21:26:43Z",
+}
 `;
