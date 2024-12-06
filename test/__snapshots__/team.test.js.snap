@@ -1,185 +1,111 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`teams tests - correct Tiltify team campaigns returned 1`] = `
-Object {
-  "amount_raised": Object {
+{
+  "amount_raised": {
     "currency": "USD",
-    "value": "225.00",
+    "value": "41.00",
   },
-  "avatar": Object {
+  "avatar": {
     "alt": "alt",
     "height": 64,
-    "src": "https://assets.tiltify.com/uploads/team_event/avatar/d37d437c-a9f4-4d54-b064-3715863c00c3/Z.jpg",
+    "src": "https://assets.tiltify.com/uploads/team_event/avatar/3ede3704-076a-404d-b001-3ba03ce62b5b/blob-7b5d2340-5940-4377-99ff-883d75fa5f69.png",
     "width": 64,
   },
-  "cause_id": "400f5687-6017-4d1a-a4d9-7c9166b984c2",
+  "cause_id": "e11b36e3-02f7-4280-969f-9069cd2d55f0",
   "currency_code": "USD",
-  "description": "Play video games and create a fundraising campaign to help kids battling cancer.",
-  "fundraising_event_id": "58faabc0-e4e3-4085-b6ed-0180c265ace8",
-  "goal": Object {
-    "currency": "USD",
-    "value": "5000.0",
-  },
-  "has_schedule": false,
-  "id": "d37d437c-a9f4-4d54-b064-3715863c00c3",
-  "inserted_at": "2018-04-02T20:34:03Z",
-  "legacy_id": 13067,
-  "livestream": Object {
-    "channel": "Lizerdoo",
-    "type": "twitch",
-  },
-  "name": "Zeldathon Community PLAYLIVE 2018",
-  "original_goal": Object {
-    "currency": "USD",
-    "value": "5000.0",
-  },
-  "published_at": "2018-05-13T22:52:59Z",
-  "retired_at": "2018-05-13T22:52:59Z",
-  "slug": "zeldathon-community-playlive-2018",
-  "status": "retired",
-  "supportable": "public",
-  "supporting_amount_raised": Any<Object>,
-  "team": Object {
-    "avatar": Object {
-      "alt": "alt",
-      "height": 200,
-      "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/Z.jpg",
-      "width": 200,
-    },
-    "description": "Zeldathon loves St Jude, and has raised over $500,000 with our marathons supporting them so far. Join us as we venture forth!
-For the kids!",
-    "id": "32ddfc95-45a8-47b9-b003-8028224a8ec1",
-    "legacy_id": 459,
-    "name": "Zeldathon Community",
-    "slug": "zeldathon-community",
-    "social": Object {
-      "discord": null,
-      "facebook": "Zeldathon",
-      "instagram": null,
-      "snapchat": null,
-      "tiktok": null,
-      "twitch": "SuperMCGamer",
-      "twitter": "@Zeldathons",
-      "website": "zeldathon.net",
-      "youtube": "SuperMCGamer",
-    },
-    "total_amount_raised": Object {
-      "currency": "USD",
-      "value": "2787.00",
-    },
-    "url": "https://tiltify.com/+zeldathon-community",
-  },
-  "team_id": "32ddfc95-45a8-47b9-b003-8028224a8ec1",
-  "total_amount_raised": Any<Object>,
-  "updated_at": "2022-06-14T17:23:41Z",
-  "url": "https://tiltify.com/+zeldathon-community/zeldathon-community-playlive-2018",
-  "user": null,
-  "user_id": null,
-}
-`;
+  "description": "Two small YouTubers/Streamers that want to make a difference because every bit counts!
 
-exports[`teams tests - correct Tiltify team campaigns returned 2`] = `
-Object {
-  "amount_raised": Object {
+We're both HUGE fans of Jacksepticeye and love to support Thankmas!",
+  "donate_url": "https://donate.tiltify.com/+pandagirl-and-cryo-vision/pandagirl-and-cryovision",
+  "fundraising_event_id": "4ffe1f38-1407-43a8-a44c-d3761a85be09",
+  "goal": {
     "currency": "USD",
-    "value": "0.00",
-  },
-  "avatar": Object {
-    "alt": "alt",
-    "height": 64,
-    "src": "https://assets.tiltify.com/uploads/team_event/avatar/4c356d48-005f-43c1-8b9d-e313c53de354/df382276-0ee0-4687-b09d-ea22ed1939f1.jpeg",
-    "width": 64,
-  },
-  "cause_id": "400f5687-6017-4d1a-a4d9-7c9166b984c2",
-  "currency_code": "USD",
-  "description": "St. Jude PLAY LIVE is where gamers can help the kids of St. Jude Children’s Research Hospital by doing what they love-playing video games. Sign-up, set a goal, earn awesome prizes today!",
-  "fundraising_event_id": "663d89f6-a7b0-47e6-b9c1-a4eeeb01a615",
-  "goal": Object {
-    "currency": "USD",
-    "value": "5000.0",
+    "value": "100",
   },
   "has_schedule": false,
-  "id": "4c356d48-005f-43c1-8b9d-e313c53de354",
-  "inserted_at": "2019-04-29T16:48:44Z",
-  "legacy_id": 27490,
-  "livestream": Object {
-    "channel": "lizerdoo",
-    "type": "twitch",
-  },
-  "name": "ZthonPlayLive2019",
-  "original_goal": Object {
+  "id": "3ede3704-076a-404d-b001-3ba03ce62b5b",
+  "inserted_at": "2024-11-20T07:18:48Z",
+  "legacy_id": 561718,
+  "livestream": null,
+  "name": "PandaGirl and Cryo_Vision",
+  "original_goal": {
     "currency": "USD",
-    "value": "5000.0",
+    "value": "100",
   },
-  "published_at": "2019-04-29T16:56:25Z",
-  "retired_at": "2019-04-29T16:56:25Z",
-  "slug": "zthonplaylive2019",
-  "status": "retired",
-  "supportable": "public",
+  "published_at": "2024-12-04T13:58:55Z",
+  "retired_at": null,
+  "slug": "pandagirl-and-cryovision",
+  "status": "published",
+  "supportable": "private",
   "supporting_amount_raised": Any<Object>,
-  "team": Object {
-    "avatar": Object {
+  "team": {
+    "avatar": {
       "alt": "alt",
       "height": 200,
-      "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/Z.jpg",
+      "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
       "width": 200,
     },
-    "description": "Zeldathon loves St Jude, and has raised over $500,000 with our marathons supporting them so far. Join us as we venture forth!
-For the kids!",
-    "id": "32ddfc95-45a8-47b9-b003-8028224a8ec1",
-    "legacy_id": 459,
-    "name": "Zeldathon Community",
-    "slug": "zeldathon-community",
-    "social": Object {
+    "description": "Two small YouTubers/Streamers trying to make a difference because every bit counts! 
+
+We're both HUGE fans of Jacksepticeye and love to support Thankmas.",
+    "id": "e646a005-cc58-43c4-96f6-ed4d7fa68343",
+    "legacy_id": 14849,
+    "name": "PandaGirl and Cryo_vision",
+    "slug": "pandagirl-and-cryo-vision",
+    "social": {
       "discord": null,
-      "facebook": "Zeldathon",
+      "facebook": null,
       "instagram": null,
       "snapchat": null,
       "tiktok": null,
-      "twitch": "SuperMCGamer",
-      "twitter": "@Zeldathons",
-      "website": "zeldathon.net",
-      "youtube": "SuperMCGamer",
+      "twitch": null,
+      "twitter": null,
+      "website": null,
+      "youtube": null,
     },
-    "total_amount_raised": Object {
+    "total_amount_raised": {
       "currency": "USD",
-      "value": "2787.00",
+      "value": "41.00",
     },
-    "url": "https://tiltify.com/+zeldathon-community",
+    "url": "https://tiltify.com/+pandagirl-and-cryo-vision",
   },
-  "team_id": "32ddfc95-45a8-47b9-b003-8028224a8ec1",
+  "team_id": "e646a005-cc58-43c4-96f6-ed4d7fa68343",
   "total_amount_raised": Any<Object>,
-  "updated_at": "2022-06-14T17:21:07Z",
-  "url": "https://tiltify.com/+zeldathon-community/zthonplaylive2019",
+  "updated_at": "2024-12-05T15:32:11Z",
+  "url": "https://tiltify.com/+pandagirl-and-cryo-vision/pandagirl-and-cryovision",
   "user": null,
   "user_id": null,
 }
 `;
 
 exports[`teams tests - correct Tiltify team returned 1`] = `
-Object {
-  "about": "Zeldathon loves St Jude, and has raised over $500,000 with our marathons supporting them so far. Join us as we venture forth!
-For the kids!",
-  "avatar": Object {
-    "alt": "",
+{
+  "avatar": {
+    "alt": "alt",
     "height": 200,
-    "src": "https://assets.tiltify.com/uploads/team/thumbnail/459/thumb_Z.jpg",
+    "src": "https://assets.tiltify.com/assets/default_team_avatar.png",
     "width": 200,
   },
-  "id": 459,
-  "inviteOnly": false,
-  "name": "Zeldathon Community",
-  "slug": "zeldathon-community",
-  "social": Object {
+  "description": "Two small YouTubers/Streamers trying to make a difference because every bit counts! 
+
+We're both HUGE fans of Jacksepticeye and love to support Thankmas.",
+  "id": "e646a005-cc58-43c4-96f6-ed4d7fa68343",
+  "legacy_id": 14849,
+  "name": "PandaGirl and Cryo_vision",
+  "slug": "pandagirl-and-cryo-vision",
+  "social": {
     "discord": null,
-    "facebook": "Zeldathon",
-    "mixer": null,
-    "twitch": "SuperMCGamer",
-    "twitter": "@Zeldathons",
-    "website": "zeldathon.net",
-    "youtube": "SuperMCGamer",
+    "facebook": null,
+    "instagram": null,
+    "snapchat": null,
+    "tiktok": null,
+    "twitch": null,
+    "twitter": null,
+    "website": null,
+    "youtube": null,
   },
-  "total_amount_raised": Any<Number>,
-  "url": "https://tiltify.com/+zeldathon-community",
+  "total_amount_raised": Any<Object>,
+  "url": "https://tiltify.com/+pandagirl-and-cryo-vision",
 }
 `;

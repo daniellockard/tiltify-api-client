@@ -85,7 +85,7 @@ class TiltifyClient {
    */
   setKey (key) {
     this.apiKey = key
-    this.#schedule.cancel()
+    this.#schedule?.cancel()
   }
 
   /**
@@ -169,6 +169,7 @@ class TiltifyClient {
       const response = (await this.parent._doRequest(path)).data
       if (
         response.data !== undefined &&
+        response.data !== null &&
         response.metadata !== undefined &&
         response.metadata.after !== undefined &&
         response.metadata.after !== null
@@ -181,10 +182,10 @@ class TiltifyClient {
       } else {
         keepGoing = false
       }
-      results = results.concat(response.data)
-      if (response.data.length === 0 || response.metadata?.after == null) {
-        keepGoing = false
-        callback(results)
+        results = results.concat(response.data)
+        if (response.data == null || response.data.length === 0 || response.metadata?.after == null) {
+          keepGoing = false
+          callback(results)
       }
     }
   }

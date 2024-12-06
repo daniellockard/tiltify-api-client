@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`user tests correct Tiltify user campaigns returned 1`] = `
-Array [
-  Object {
-    "amount_raised": Object {
+[
+  {
+    "amount_raised": {
       "currency": "USD",
       "value": "36.00",
     },
-    "avatar": Object {
+    "avatar": {
       "alt": "alt",
       "height": 64,
       "src": "https://assets.tiltify.com/uploads/cause/avatar/65/direct-relief-avatar-1588270117181.png",
@@ -15,8 +15,9 @@ Array [
     },
     "cause_id": "17ab0696-167a-4e13-85b7-4704aed62e30",
     "description": "Hi! I'm Ender3989 and I like to play games. I also would love if you'd donate money to Direct Relief!",
+    "donate_url": "https://donate.tiltify.com/@ender3989/playing-games-for-charity",
     "fundraising_event_id": null,
-    "goal": Object {
+    "goal": {
       "currency": "USD",
       "value": "100.0",
     },
@@ -24,12 +25,12 @@ Array [
     "id": "b827d321-e8b7-4de4-bee8-199abd26165a",
     "inserted_at": "2016-10-18T22:19:42Z",
     "legacy_id": 4814,
-    "livestream": Object {
+    "livestream": {
       "channel": "ender3989",
       "type": "twitch",
     },
     "name": "Playing Games for Charity!",
-    "original_goal": Object {
+    "original_goal": {
       "currency": "USD",
       "value": "100.0",
     },
@@ -38,14 +39,14 @@ Array [
     "slug": "playing-games-for-charity",
     "status": "retired",
     "supporting_type": "private",
-    "total_amount_raised": Object {
+    "total_amount_raised": {
       "currency": "USD",
       "value": "36.00",
     },
     "updated_at": "2022-06-14T17:22:12Z",
     "url": "/@ender3989/playing-games-for-charity",
-    "user": Object {
-      "avatar": Object {
+    "user": {
+      "avatar": {
         "alt": "alt",
         "height": 200,
         "src": "https://assets.tiltify.com/assets/default-avatar.png",
@@ -55,7 +56,7 @@ Array [
       "id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
       "legacy_id": 3935,
       "slug": "ender3989",
-      "social": Object {
+      "social": {
         "discord": null,
         "facebook": null,
         "instagram": null,
@@ -66,7 +67,7 @@ Array [
         "website": null,
         "youtube": null,
       },
-      "total_amount_raised": Object {
+      "total_amount_raised": {
         "currency": "USD",
         "value": "36.00",
       },
@@ -75,12 +76,12 @@ Array [
     },
     "user_id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
   },
-  Object {
-    "amount_raised": Object {
+  {
+    "amount_raised": {
       "currency": "USD",
       "value": "0.00",
     },
-    "avatar": Object {
+    "avatar": {
       "alt": "alt",
       "height": 64,
       "src": "https://assets.tiltify.com/uploads/cause/avatar/65/direct-relief-avatar-1588270117181.png",
@@ -88,8 +89,9 @@ Array [
     },
     "cause_id": "17ab0696-167a-4e13-85b7-4704aed62e30",
     "description": null,
+    "donate_url": "https://donate.tiltify.com/@ender3989/dannys-test-campaign",
     "fundraising_event_id": null,
-    "goal": Object {
+    "goal": {
       "currency": "USD",
       "value": "100.0",
     },
@@ -99,7 +101,7 @@ Array [
     "legacy_id": 19414,
     "livestream": null,
     "name": "Danny's Test Campaign",
-    "original_goal": Object {
+    "original_goal": {
       "currency": "USD",
       "value": "100.0",
     },
@@ -108,14 +110,14 @@ Array [
     "slug": "dannys-test-campaign",
     "status": "retired",
     "supporting_type": "private",
-    "total_amount_raised": Object {
+    "total_amount_raised": {
       "currency": "USD",
       "value": "0.00",
     },
     "updated_at": "2022-06-14T17:22:38Z",
     "url": "/@ender3989/dannys-test-campaign",
-    "user": Object {
-      "avatar": Object {
+    "user": {
+      "avatar": {
         "alt": "alt",
         "height": 200,
         "src": "https://assets.tiltify.com/assets/default-avatar.png",
@@ -125,7 +127,7 @@ Array [
       "id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
       "legacy_id": 3935,
       "slug": "ender3989",
-      "social": Object {
+      "social": {
         "discord": null,
         "facebook": null,
         "instagram": null,
@@ -136,7 +138,7 @@ Array [
         "website": null,
         "youtube": null,
       },
-      "total_amount_raised": Object {
+      "total_amount_raised": {
         "currency": "USD",
         "value": "36.00",
       },
@@ -145,12 +147,12 @@ Array [
     },
     "user_id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
   },
-  Object {
-    "amount_raised": Object {
+  {
+    "amount_raised": {
       "currency": "USD",
       "value": "0.00",
     },
-    "avatar": Object {
+    "avatar": {
       "alt": "alt",
       "height": 64,
       "src": "https://assets.tiltify.com/uploads/cause/avatar/35/blob-69ddc696-2034-4d43-b6e0-dc7049f035fe.png",
@@ -158,8 +160,9 @@ Array [
     },
     "cause_id": "400f5687-6017-4d1a-a4d9-7c9166b984c2",
     "description": "test",
+    "donate_url": "https://donate.tiltify.com/@ender3989/test",
     "fundraising_event_id": null,
-    "goal": Object {
+    "goal": {
       "currency": "USD",
       "value": "100",
     },
@@ -169,7 +172,7 @@ Array [
     "legacy_id": 116627,
     "livestream": null,
     "name": "test",
-    "original_goal": Object {
+    "original_goal": {
       "currency": "USD",
       "value": "100",
     },
@@ -178,14 +181,14 @@ Array [
     "slug": "test",
     "status": "retired",
     "supporting_type": "private",
-    "total_amount_raised": Object {
+    "total_amount_raised": {
       "currency": "USD",
       "value": "0.00",
     },
     "updated_at": "2022-06-14T17:19:25Z",
     "url": "/@ender3989/test",
-    "user": Object {
-      "avatar": Object {
+    "user": {
+      "avatar": {
         "alt": "alt",
         "height": 200,
         "src": "https://assets.tiltify.com/assets/default-avatar.png",
@@ -195,7 +198,7 @@ Array [
       "id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
       "legacy_id": 3935,
       "slug": "ender3989",
-      "social": Object {
+      "social": {
         "discord": null,
         "facebook": null,
         "instagram": null,
@@ -206,7 +209,78 @@ Array [
         "website": null,
         "youtube": null,
       },
-      "total_amount_raised": Object {
+      "total_amount_raised": {
+        "currency": "USD",
+        "value": "36.00",
+      },
+      "url": "/@ender3989",
+      "username": "ender3989",
+    },
+    "user_id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
+  },
+  {
+    "amount_raised": {
+      "currency": "USD",
+      "value": "0.00",
+    },
+    "avatar": {
+      "alt": "alt",
+      "height": 64,
+      "src": "https://assets.tiltify.com/uploads/cause/avatar/178/make-a-wish-avatar-1538422934460.png",
+      "width": 64,
+    },
+    "cause_id": "6be2c018-a20c-4a43-8b8d-0765b0261fb7",
+    "description": "This is a test campaign for tiltify's api",
+    "donate_url": "https://donate.tiltify.com/@ender3989/test-campaign-for-tests",
+    "fundraising_event_id": null,
+    "goal": {
+      "currency": "USD",
+      "value": "100",
+    },
+    "has_schedule": false,
+    "id": "f811abf0-e4c1-42cb-8952-73eebe6a5e58",
+    "inserted_at": "2024-12-06T01:00:05Z",
+    "legacy_id": 564898,
+    "livestream": null,
+    "name": "Test Campaign For Tests",
+    "original_goal": {
+      "currency": "USD",
+      "value": "100",
+    },
+    "published_at": "2024-12-06T01:00:05Z",
+    "retired_at": null,
+    "slug": "test-campaign-for-tests",
+    "status": "published",
+    "supporting_type": "none",
+    "total_amount_raised": {
+      "currency": "USD",
+      "value": "0.00",
+    },
+    "updated_at": "2024-12-06T01:00:05Z",
+    "url": "/@ender3989/test-campaign-for-tests",
+    "user": {
+      "avatar": {
+        "alt": "alt",
+        "height": 200,
+        "src": "https://assets.tiltify.com/assets/default-avatar.png",
+        "width": 200,
+      },
+      "description": "",
+      "id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
+      "legacy_id": 3935,
+      "slug": "ender3989",
+      "social": {
+        "discord": null,
+        "facebook": null,
+        "instagram": null,
+        "snapchat": null,
+        "tiktok": null,
+        "twitch": null,
+        "twitter": null,
+        "website": null,
+        "youtube": null,
+      },
+      "total_amount_raised": {
         "currency": "USD",
         "value": "36.00",
       },
@@ -219,37 +293,41 @@ Array [
 `;
 
 exports[`user tests correct Tiltify user returned 1`] = `
-Array [
-  Object {
-    "avatar": Object {
-      "alt": "alt",
-      "height": 200,
-      "src": "https://assets.tiltify.com/assets/default-avatar.png",
-      "width": 200,
-    },
-    "description": "",
-    "id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
-    "legacy_id": 3935,
-    "slug": "ender3989",
-    "social": Object {
-      "discord": null,
-      "facebook": null,
-      "instagram": null,
-      "snapchat": null,
-      "tiktok": null,
-      "twitch": null,
-      "twitter": null,
-      "website": null,
-      "youtube": null,
-    },
-    "total_amount_raised": Object {
-      "currency": "USD",
-      "value": "36.00",
-    },
-    "url": "/@ender3989",
-    "username": "ender3989",
+{
+  "avatar": {
+    "alt": "alt",
+    "height": 200,
+    "src": "https://assets.tiltify.com/assets/default-avatar.png",
+    "width": 200,
   },
+  "description": "",
+  "id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
+  "legacy_id": 3935,
+  "slug": "ender3989",
+  "social": {
+    "discord": null,
+    "facebook": null,
+    "instagram": null,
+    "snapchat": null,
+    "tiktok": null,
+    "twitch": null,
+    "twitter": null,
+    "website": null,
+    "youtube": null,
+  },
+  "total_amount_raised": {
+    "currency": "USD",
+    "value": "36.00",
+  },
+  "url": "/@ender3989",
+  "username": "ender3989",
+}
+`;
+
+exports[`user tests correct Tiltify user self returned 1`] = `
+[
+  null,
 ]
 `;
 
-exports[`user tests correct Tiltify user teams returned 1`] = `Array []`;
+exports[`user tests correct Tiltify user teams returned 1`] = `[]`;

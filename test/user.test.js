@@ -1,16 +1,16 @@
-const TiltifyClient = require('../index')
+const client = require("./test_client.js")
 
 describe('user tests', () => {
-  beforeAll(() => {
-    this.client = new TiltifyClient('','').setKey(process.env.TILTIFY_ACCESS_TOKEN)
+  beforeAll (async () => {
+    await client.initialize()
   })
 
-  test.skip('correct Tiltify user self returned', done => {
+  test('correct Tiltify user self returned', done => {
     function callback (data) {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.User.self(callback)
+    client.User.self(callback)
   })
 
   test('correct Tiltify user returned', done => {
@@ -18,7 +18,7 @@ describe('user tests', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.User.get('3935', callback)
+    client.User.get('3935', callback)
   })
 
   test('correct Tiltify user campaigns returned', done => {
@@ -26,7 +26,7 @@ describe('user tests', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.User.getSelfCampaigns('3935', callback)
+    client.User.getSelfCampaigns('3935', callback)
   })
 
   test('correct Tiltify user teams returned', done => {
@@ -34,7 +34,7 @@ describe('user tests', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.User.getTeams('3935', callback)
+    client.User.getTeams('3935', callback)
   })
 
 })

@@ -1,15 +1,18 @@
-const TiltifyClient = require('../index')
+const client = require("./test_client.js")
+
+
 describe('campaign tests -', () => {
-  beforeAll(() => {
-    this.client = new TiltifyClient('','').setKey(process.env.TILTIFY_ACCESS_TOKEN)
+
+  beforeAll (async () => {
+    await client.initialize()
   })
 
   test('correct Tiltify campaign returned', done => {
     function callback (data) {
-      expect(data.amount_raised.value).toBe("2000.00")
+      expect(data.amount_raised.value).toBe("220.00")
       done()
     }
-    this.client.Campaigns.get('45523826-ec1c-4e58-8a8b-d7874473f3bd', callback)
+    client.Campaigns.get('7099d7ba-cbce-40a6-8263-a5704d72b324', callback)
   })
 
   test('correct Tiltify campaign recent donations returned', done => {
@@ -17,7 +20,7 @@ describe('campaign tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.Campaigns.getRecentDonations('45523826-ec1c-4e58-8a8b-d7874473f3bd', callback)
+    client.Campaigns.getRecentDonations('7099d7ba-cbce-40a6-8263-a5704d72b324', callback)
   })
 
   test('correct Tiltify campaign donations returned', done => {
@@ -25,7 +28,7 @@ describe('campaign tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.Campaigns.getDonations('45523826-ec1c-4e58-8a8b-d7874473f3bd', callback)
+    client.Campaigns.getDonations('7099d7ba-cbce-40a6-8263-a5704d72b324', callback)
   }, 1000000)
 
   test('correct Tiltify campaign rewards returned', done => {
@@ -33,7 +36,7 @@ describe('campaign tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.Campaigns.getRewards('19414', callback)
+    client.Campaigns.getRewards('7099d7ba-cbce-40a6-8263-a5704d72b324', callback)
   })
 
   test('correct Tiltify campaign polls returned', done => {
@@ -41,7 +44,7 @@ describe('campaign tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.Campaigns.getPolls('19414', callback)
+    client.Campaigns.getPolls('7099d7ba-cbce-40a6-8263-a5704d72b324', callback)
   })
 
   test('correct Tiltify campaign targets returned', done => {
@@ -49,7 +52,7 @@ describe('campaign tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.Campaigns.getTargets('19414', callback)
+    client.Campaigns.getTargets('7099d7ba-cbce-40a6-8263-a5704d72b324', callback)
   })
 
   test('correct Tiltify campaign schedule returned', done => {
@@ -57,7 +60,7 @@ describe('campaign tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.Campaigns.getSchedule('19414', callback)
+    client.Campaigns.getSchedule('7099d7ba-cbce-40a6-8263-a5704d72b324', callback)
   })
 
 })

@@ -1,17 +1,19 @@
-const TiltifyClient = require('../index')
-describe('fundraising event tests -', () => {
-  beforeAll(() => {
-    this.client = new TiltifyClient('','').setKey(process.env.TILTIFY_ACCESS_TOKEN)
-  })
+const client = require("./test_client.js")
 
+describe('fundraising event tests -', () => {
+  beforeAll (async () => {
+    await client.initialize()
+  })
   test('correct Tiltify fundraising event returned', done => {
     function callback (data) {
-      expect(data).toMatchSnapshot({
-        total_amount_raised: expect.any(Object)
-      })
+      expect(data).toMatchSnapshot([{
+        total_amount_raised: {
+          value: expect.any(String)
+        }
+      }])
       done()
     }
-    this.client.FundraisingEvents.get('f6d18a9a-239d-4149-9473-a144604a71a6', callback)
+    client.FundraisingEvents.get('4ffe1f38-1407-43a8-a44c-d3761a85be09', callback)
   })
 
   test.skip('correct Tiltify fundraising event top donors returned', done => {
@@ -19,19 +21,15 @@ describe('fundraising event tests -', () => {
       expect(data).toMatchSnapshot()
       done()
     }
-    this.client.FundraisingEvents.getTopDonors('f6d18a9a-239d-4149-9473-a144604a71a6', 'all', callback)
-  })
+    client.FundraisingEvents.getTopDonors('4ffe1f38-1407-43a8-a44c-d3761a85be09', 'all', callback)
+  },100000)
 
   test.skip('correct Tiltify fundraising event leaderboards returned', done => {
     function callback (data) {
-      expect(data).toMatchSnapshot({
-        individual: expect.any(Array),
-        team: expect.any(Array),
-        weekly: expect.any(Array)
-      })
+      expect(data).toMatchSnapshot()
       done()
     }
-    this.client.FundraisingEvents.getLeaderboards('f6d18a9a-239d-4149-9473-a144604a71a6', 'all', callback)
+    client.FundraisingEvents.getLeaderboards('4ffe1f38-1407-43a8-a44c-d3761a85be09', 'all', callback)
   })
 
 })
