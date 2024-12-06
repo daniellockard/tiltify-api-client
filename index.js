@@ -107,7 +107,6 @@ class TiltifyClient {
    */
   async generateKey (attempt = 1) {
     // console.log("Gen Key", Boolean(this.refreshToken), new Date(Date.now()));
-    console.log("Authenticating Tiltify");
     const tail = this.refreshToken ? `grant_type=refresh_token&refresh_token=${this.refreshToken}` : "grant_type=client_credentials&scope=public webhooks:write"
     const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&${tail}`
     const options = {
@@ -187,6 +186,7 @@ class TiltifyClient {
     let results = []
     let keepGoing = true
     while (keepGoing) {
+      try {
       const response = (await this.parent._doRequest(path)).data
       if (
         response.data !== undefined &&
@@ -210,6 +210,7 @@ class TiltifyClient {
         }
     } catch (e) {
       this.parent.errorParse(e, `Error sending request to ${path}`);
+    }
     }
   }
 
