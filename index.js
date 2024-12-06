@@ -22,6 +22,7 @@ class TiltifyClient {
   #clientSecret
   #schedule
   apiKey
+  refreshToken
   // Self-referential to split the subclass this and the client this... since it's not an extended class cant use 'super'
   parent = this
 
@@ -75,7 +76,9 @@ class TiltifyClient {
    * Generate access key and fully initialize the client
    */
   async initialize () {
-    await this.generateKey()
+    await this.generateKey().catch(e => {
+      console.error("Error authenticating with Tiltify");
+    })
   }
 
   /**
@@ -88,33 +91,45 @@ class TiltifyClient {
     this.#schedule?.cancel()
   }
 
+  scheduleRetry (attempt) {
+    // Schedule renew job to try again, recursively call this function
+    const currentDate = new Date()
+    const retryDate = new Date(currentDate.getTime() + 5000) // Add 5000 milliseconds (5 seconds) * attempt count
+    this.#schedule = schedule.scheduleJob(retryDate, function () {
+      "Retrying connection"
+      this.generateKey(attempt + 1).catch(() => { })
+    }.bind(this))
+  }
+
   /**
    * Generate an access token to call the api, recursively calls itself when regenerating keys
    * @param {int} attempt Attempt counter, for spacing out retries
    */
   async generateKey (attempt = 1) {
-    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&grant_type=client_credentials&scope=public webhooks:write`
+    // console.log("Gen Key", Boolean(this.refreshToken), new Date(Date.now()));
+    console.log("Authenticating Tiltify");
+    const tail = this.refreshToken ? `grant_type=refresh_token&refresh_token=${this.refreshToken}` : "grant_type=client_credentials&scope=public webhooks:write"
+    const url = `https://v5api.tiltify.com/oauth/token?client_id=${this.#clientID}&client_secret=${this.#clientSecret}&${tail}`
     const options = {
       url,
       method: 'POST'
     }
     try {
-      const payload = await axios(options)
+      const payload = await axios(options).catch(e => { this.scheduleRetry(); throw e })
       if (payload.status === 200) {
         this.apiKey = payload.data?.access_token
-        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 1000)) // Date token will have to be regenerated at, based on supplied expired time
+        this.refreshToken = payload.data?.refresh_token
+        // console.log("Auth data", payload.data);
+        // Only wait a quarter of time, since it expires early and I'm playing it safe
+        const expDate = new Date(new Date(payload.data?.created_at).getTime() + (payload.data?.expires_in * 250) - 100) // Date token will have to be regenerated at, based on supplied expired time
         // Schedule renew job, recursively call this function
         this.#schedule = schedule.scheduleJob(expDate, function () {
           this.generateKey()
         }.bind(this))
         return this.apiKey
       } else {
-        // Schedule renew job to try again, recursively call this function
-        const currentDate = new Date()
-        const retryDate = new Date(currentDate.getTime() + (5000 * attempt)) // Add 5000 milliseconds (5 seconds) * attempt count
-        this.#schedule = schedule.scheduleJob(retryDate, function () {
-          this.generateKey(attempt + 1)
-        }.bind(this))
+        console.warn("Tiltify authentication failed, retrying");
+        this.scheduleRetry(attempt);
       }
     } catch (error) {
       return Promise.reject(error)
@@ -149,10 +164,15 @@ class TiltifyClient {
       options.data = JSON.stringify(payload)
     }
     try {
-      const payload = await axios(options)
+      const payload = await axios(options).catch((e) => {
+        this.parent.errorParse(e, `Error sending request to ${path}:`)
+        // return Promise.reject(e);
+      })
       return payload
-    } catch (error) {
-      return Promise.reject(error)
+    } catch (e) {
+      this.parent.errorParse(e, `Error sending request to ${path}:`);
+      // this.errorParse(e, `Error sending request to ${path}:`);
+      // return Promise.reject(error)
     }
   }
 
@@ -163,6 +183,7 @@ class TiltifyClient {
    * @param {function} callback A function to call when we're done processing.
    */
   async _sendRequest (path, callback) {
+
     let results = []
     let keepGoing = true
     while (keepGoing) {
@@ -186,8 +207,22 @@ class TiltifyClient {
         if (response.data == null || response.data.length === 0 || response.metadata?.after == null) {
           keepGoing = false
           callback(results)
-      }
+        }
+    } catch (e) {
+      this.parent.errorParse(e, `Error sending request to ${path}`);
     }
+  }
+
+  errorParse(e, msg = undefined) {
+    if (msg) console.error(msg);
+
+    if (e === undefined) console.error(e);
+    else if (e.response) console.error(e.response.status, e.response.statusText);
+    // else if (e.request) console.error(e.request);
+    else if (e.cause) console.error(e.cause);
+    else if (e.message) console.error(e.message);
+    else console.error(e);
+    // console.debug(e);
   }
 }
 module.exports = TiltifyClient
