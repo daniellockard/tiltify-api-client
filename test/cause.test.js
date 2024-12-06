@@ -1,17 +1,19 @@
-const TiltifyClient = require('../index')
+
+const client = require("./test_client.js")
+
 describe('cause tests -', () => {
-  const client = new TiltifyClient('04c94777937dd4ccdaa36615125da8fcf0e7a04b49c26670fe47e8cb59c5015d','2bbdd1a3a739bb402e4f4942693cd88a343ea56e5d79fcccdaa455e0b36012a1')
-  beforeAll( () => {
-    client.initialize()
-  });
+  
+  beforeAll (async () => {
+    await client.initialize()
+  })
 
   test('correct Tiltify cause returned', done => {
     function callback (data) {
       expect(data).toMatchSnapshot()
       done()
     }
-    client.Causes.get('35', callback)
-  })
+    client.Causes.get('400f5687-6017-4d1a-a4d9-7c9166b984c2', callback)
+  }, 10000)
 
   // test.skip('correct Tiltify cause donations returned', done => {
   //   function callback (data) {
@@ -28,8 +30,8 @@ describe('cause tests -', () => {
       })
       done()
     }
-    client.Causes.getFundraisingEvents('35', callback)
-  })
+    client.Causes.getFundraisingEvents('400f5687-6017-4d1a-a4d9-7c9166b984c2', callback)
+  }, 10000)
 
   // TODO: Find a cause with leaderboards
   // test('correct Tiltify cause leaderboards returned', done => {

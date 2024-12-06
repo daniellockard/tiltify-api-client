@@ -182,51 +182,31 @@ class TiltifyClient {
    * @param {function} callback A function to call when we're done processing.
    */
   async _sendRequest (path, callback) {
-    try {
-      let results = []
-      let keepGoing = true
-      while (keepGoing) {
-        const r = (await this.parent._doRequest(path).catch((e) => { throw e }))
-        if (!r) break;
-        const response = r.data;
-        if (
-          response.data !== undefined &&
-          response.metadata !== undefined &&
-          response.metadata.after !== undefined &&
-          response.metadata.after !== null
-        ) {
-          const url = 'https://temp.com/' + path // Combine the base URL and path
-          const urlObj = new URL(url) // Create a URL object
-          urlObj.searchParams.set('after', response.metadata.after) // Set the 'after' query parameter
-          const updatedPath = urlObj.pathname.replace('/', '') + urlObj.search // Get the updated path with query parameters. Remove first /
-          path = updatedPath
-        } else {
-          keepGoing = false
-        }
+    let results = []
+    let keepGoing = true
+    while (keepGoing) {
+      const response = (await this.parent._doRequest(path)).data
+      if (
+        response.data !== undefined &&
+        response.data !== null &&
+        response.metadata !== undefined &&
+        response.metadata.after !== undefined &&
+        response.metadata.after !== null
+      ) {
+        const url = 'https://temp.com/' + path // Combine the base URL and path
+        const urlObj = new URL(url) // Create a URL object
+        urlObj.searchParams.set('after', response.metadata.after) // Set the 'after' query parameter
+        const updatedPath = urlObj.pathname.replace('/', '') + urlObj.search // Get the updated path with query parameters. Remove first /
+        path = updatedPath
+      } else {
+        keepGoing = false
+      }
         results = results.concat(response.data)
-        if (response.data.length === 0 || response.metadata?.after == null) {
+        if (response.data == null || response.data.length === 0 || response.metadata?.after == null) {
           keepGoing = false
           callback(results)
-        }
       }
-    } catch (e) {
-      this.parent.errorParse(e, `Error sending request to ${path}`);
     }
-  }
-
-  errorParse(e, msg = undefined) {
-    if (msg) console.error(msg);
-
-    if (e === undefined) console.error(e);
-    else if (e.response) console.error(e.response.status, e.response.statusText);
-    // else if (e.request) console.error(e.request);
-    else if (e.cause) console.error(e.cause);
-    else if (e.message) console.error(e.message);
-    else console.error(e);
-    // console.debug(e);
-    this.parent.apiKey = undefined;
-    this.#schedule.cancel();
-    this.parent.scheduleRetry();
   }
 }
 module.exports = TiltifyClient

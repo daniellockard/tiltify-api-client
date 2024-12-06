@@ -293,36 +293,40 @@ exports[`user tests correct Tiltify user campaigns returned 1`] = `
 `;
 
 exports[`user tests correct Tiltify user returned 1`] = `
-Array [
-  Object {
-    "avatar": Object {
-      "alt": "alt",
-      "height": 200,
-      "src": "https://assets.tiltify.com/assets/default-avatar.png",
-      "width": 200,
-    },
-    "description": "",
-    "id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
-    "legacy_id": 3935,
-    "slug": "ender3989",
-    "social": Object {
-      "discord": null,
-      "facebook": null,
-      "instagram": null,
-      "snapchat": null,
-      "tiktok": null,
-      "twitch": null,
-      "twitter": null,
-      "website": null,
-      "youtube": null,
-    },
-    "total_amount_raised": Object {
-      "currency": "USD",
-      "value": "36.00",
-    },
-    "url": "/@ender3989",
-    "username": "ender3989",
+{
+  "avatar": {
+    "alt": "alt",
+    "height": 200,
+    "src": "https://assets.tiltify.com/assets/default-avatar.png",
+    "width": 200,
   },
+  "description": "",
+  "id": "565494e9-378d-46e2-a24d-afbfe3e63c8d",
+  "legacy_id": 3935,
+  "slug": "ender3989",
+  "social": {
+    "discord": null,
+    "facebook": null,
+    "instagram": null,
+    "snapchat": null,
+    "tiktok": null,
+    "twitch": null,
+    "twitter": null,
+    "website": null,
+    "youtube": null,
+  },
+  "total_amount_raised": {
+    "currency": "USD",
+    "value": "36.00",
+  },
+  "url": "/@ender3989",
+  "username": "ender3989",
+}
+`;
+
+exports[`user tests correct Tiltify user self returned 1`] = `
+[
+  null,
 ]
 `;
 
