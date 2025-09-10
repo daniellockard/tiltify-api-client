@@ -43,16 +43,20 @@ You must INITIALIZE the client with async function `initialize()` to generate th
 You can use this library like this:
 
 ```javascript
-const TiltifyClient = require("tiltify-api-client")
+import TiltifyClient from 'tiltify-api-client';
 
-client = new TiltifyClient(process.env.TILTIFY_ACCESS_TOKEN)
+const client = new TiltifyClient(process.env.TILTIFY_CLIENT_ID, process.env.TILTIFY_CLIENT_SECRET);
 
-client.Campaigns.get("882b8fa6-2115-4480-93dd-e901a053bc17", function (data) {
-    console.log(data)
-})
+async function getCampaign() {
+  await client.initialize();
+  const campaign = await client.Campaigns.get("882b8fa6-2115-4480-93dd-e901a053bc17");
+  console.log(campaign);
+}
+
+getCampaign();
 ```
 
-Functions are passed a callback to be called when the data is returned.
+All functions return a promise.
 
 The above example will print the data about Campaign with ID 882b8fa6-2115-4480-93dd-e901a053bc17. Legacy IDs are also supported
 
