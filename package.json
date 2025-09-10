@@ -1,10 +1,11 @@
 {
   "name": "tiltify-api-client",
-  "version": "2.2.1",
+  "version": "3.0.0",
   "description": "A client for getting data from Tiltify",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "lint": "standard index.js lib/*.js",
     "docs": "jsdoc index.js lib/*.js README.md -d ./docs/"
   },

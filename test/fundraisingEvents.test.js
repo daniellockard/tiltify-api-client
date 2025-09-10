@@ -1,19 +1,16 @@
-const client = require("./test_client.js")
+import client from "./test_client.js"
 
 describe('fundraising event tests -', () => {
   beforeAll (async () => {
     await client.initialize()
   })
-  test('correct Tiltify fundraising event returned', done => {
-    function callback (data) {
-      expect(data).toMatchSnapshot([{
-        total_amount_raised: {
-          value: expect.any(String)
-        }
-      }])
-      done()
-    }
-    client.FundraisingEvents.get('4ffe1f38-1407-43a8-a44c-d3761a85be09', callback)
+  test('correct Tiltify fundraising event returned', async () => {
+    const data = await client.FundraisingEvents.get('4ffe1f38-1407-43a8-a44c-d3761a85be09')
+    expect(data).toMatchSnapshot([{
+      total_amount_raised: {
+        value: expect.any(String)
+      }
+    }])
   })
 
   test.skip('correct Tiltify fundraising event top donors returned', done => {

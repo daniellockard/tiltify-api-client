@@ -1,21 +1,14 @@
-/* jshint esversion: 8 */
-/**
- * This callback type is called `requestCallback` and is displayed as a global symbol.
- *
- * @callback requestCallback
- * @param {object} data the data returned from the endpoint
- */
-const { URL } = require('url')
-const axios = require('axios')
-const schedule = require('node-schedule')
+import { URL } from 'url'
+import axios from 'axios'
+import schedule from 'node-schedule'
 
-const Campaign = require('./lib/campaign')
-const TeamCampaign = require('./lib/teamCampaign')
-const Cause = require('./lib/cause')
-const FundraisingEvents = require('./lib/fundraisingEvents')
-const Team = require('./lib/team')
-const User = require('./lib/user')
-const Webhook = require('./lib/webhook')
+import Campaign from './lib/campaign.js'
+import TeamCampaign from './lib/teamCampaign.js'
+import Cause from './lib/cause.js'
+import FundraisingEvents from './lib/fundraisingEvents.js'
+import Team from './lib/team.js'
+import User from './lib/user.js'
+import Webhook from './lib/webhook.js'
 
 class TiltifyClient {
   #clientID
@@ -226,4 +219,4 @@ class TiltifyClient {
     // console.debug(e);
   }
 }
-module.exports = TiltifyClient
+export default TiltifyClient
